@@ -1804,7 +1804,8 @@
         "type": "about-section-1",
         "settings": {
           "banner_image": "shopify:\/\/shop_images\/About_us_banner.png",
-          "sub-heading-text": "Industry Solutions - Your hub for buying, selling, and renting equipment."
+          "sub-heading-text": "Industry Solutions - Your hub for buying, selling, and renting equipment.",
+          "heading_color": "#ffffff"
         }
       }
     },
