@@ -1,0 +1,38 @@
+<style>
+  .section-{{ section.id }} {
+
+  }
+</style>
+
+<div class="section-{{ section.id }}">
+  <div class="container">
+    <div class="flex">
+      <div class="col col-left">
+        {{ section.settings.about_description }}
+      </div>
+      <div class="col col-right">
+        <img src="{{ section.settings.banner_image | img_url: 'master' }}" alt="">
+      </div>
+    </div>
+
+
+  
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Banner",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "about_description"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "Banner Image"
+    }
+  ]
+}
+{% endschema %}
