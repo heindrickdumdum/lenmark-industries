@@ -1,1 +1,2529 @@
-{"current":{"heading_color":"#494949","text_color":"#494949","accent_color":"#494949","link_color":"#8a9297","border_color":"#e1e3e4","background":"#f3f4f6","secondary_background":"#ffffff","error_color":"#e3651a","success_color":"#4caa66","primary_button_background":"#494949","primary_button_text_color":"#ffffff","secondary_button_background":"#ffbd00","secondary_button_text_color":"#ffffff","header_background":"#3a3a3a","header_text_color":"#ffffff","header_light_text_color":"#ffffff","header_accent_color":"#ffbd00","header_link_hover_color":"#ffbd00","header_link_hover_alternate_color":"#e1e3e4","product_on_sale_accent":"#e3651a","product_in_stock_color":"#4caa66","product_low_stock_color":"#e3651a","product_sold_out_color":"#8a9297","product_label_1_background":"#ffbd00","product_label_2_background":"#4caa66","product_star_color":"#ffbd00","base_text_font_size":14,"heading_font":"itc_avant_garde_gothic_n5","text_font":"basic_commercial_n4","underline_links":true,"nav_items_font":"basic_commercial_n4","nav_items_font_size":15,"animation_image_zoom":false,"search_mode":"product,article","show_vendor":true,"show_secondary_image":true,"show_discount":true,"discount_mode":"saving","product_price_position":"after_title","product_image_size":"short","show_color_swatch":false,"show_inventory_quantity":true,"low_inventory_threshold":0,"show_reviews_badge":false,"cart_type":"drawer","cart_empty_button_link":"https:\/\/www.lenmark.com","cart_show_free_shipping_threshold":false,"cart_free_shipping_threshold":"5000000","social_facebook":"https:\/\/www.facebook.com\/LenmarkIndustriesLtd\/","social_twitter":"https:\/\/twitter.com\/Lenmark","social_pinterest":"","social_instagram":"https:\/\/www.instagram.com\/lenmarkindustries\/","social_vimeo":"","social_tumblr":"","social_youtube":"https:\/\/www.youtube.com\/channel\/UC4IODAOPkXDmVNktRkhcw8Q","social_linkedin":"","social_snapchat":"","social_fancy":"","favicon":"shopify:\/\/shop_images\/Lenmark_Favicon_OneColour.png","checkout_header_image":"","checkout_logo_image":"shopify:\/\/shop_images\/Lenmark_Logo_Unofficial_Positive_V3.png","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#fff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_body_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_accent_color":"#f4a619","checkout_button_color":"#3a3a3a","checkout_error_color":"#e3651a","share_image":"","social_google_plus":"","sections":{"header":{"type":"header","blocks":{"1598462222123":{"type":"mega_menu","settings":{"menu_item":"","image_1_heading":"Your image","image_1_text":"Tell your story","image_1_link":"","image_2_heading":"Your image","image_2_text":"Tell your story","image_2_link":""}}},"block_order":["1598462222123"],"settings":{"enable_sticky_header":true,"logo":"shopify:\/\/shop_images\/Lenmark_Logo_-_Website_header.png","logo_max_width":220,"mobile_logo_max_width":135,"show_locale_selector":true,"show_currency_selector":true,"navigation_menu":"main-menu-1","desktop_navigation_layout":"inline","desktop_navigation_open_trigger":"hover","show_navigation_social_media":false,"mobile_secondary_menu":"warehouse-footer-menu","navigation_phone_number":"Call us 604-449-1880","navigation_email":"sales@lenmark.com","show_condensed_search":false,"show_search_filter":true,"search_menu":"","show_search_menu_title":true}},"footer":{"type":"footer","blocks":{"1598306956763":{"type":"links","settings":{"menu":"warehouse-footer-menu"}},"footer-0":{"type":"text","settings":{"title":"INDUSTRIAL SOLUTIONS","content":"<p>Lenmark makes it easier than ever to find the equipment you need. Our online inventory is updated daily and features thousands of new and used products across a huge range of industrial applications including fabrication, woodworking, oil &amp; gas, welding, electrical and more.<\/p>"}},"footer-2":{"type":"newsletter","settings":{"title":"JOIN OUR VIP LIST","subheading":"<p>Subscribe to receive exclusive offers, special pricing and inventory alerts<\/p>"}}},"block_order":["1598306956763","footer-0","footer-2"],"settings":{"show_social_media":true,"show_payment_icons":true,"show_locale_selector":true,"show_currency_selector":true,"show_cookie_bar":false,"text":"<p>Use this bar to show information about your cookie policy.<\/p>","accept_button":"Accept"}},"slideshow":{"type":"slideshow","blocks":{"slide-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/AdobeStock_319539009.jpg","show_overlay":true,"overlay_opacity":75,"text_color":"#ffffff","title":"A NEW WAY TO BUY USED","content":"New and used solutions for any business, any industry","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"Button","link":""}},"3fc50dc4-e6e9-45af-bb9e-20438c556211":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Homepage_Banner_Forklifts_c0ccff4a-e5cf-4f21-b4fd-77f4b3e1180d.jpg","show_overlay":true,"overlay_opacity":0,"text_color":"#ffffff","title":"we are expanding!","content":"Check out our new lines and industries that we now service","content_position":"middle_center","button_background":"#e1e3e4","button_text_color":"#494949","button_text":"Link Coming Soon!","link":"https:\/\/www.lenmark.com"}},"c8b5040e-78c0-472b-af10-a3ddeb24a5e0":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/industrial-worker-assembles-agricultural-equipment-3V47MHJ.jpg","show_overlay":true,"overlay_opacity":84,"text_color":"#ffffff","title":"Trying To Reach Us?","content":"Our phone lines are currently down. \nPlease call us at 778-386-8884","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"Button","link":""}},"4f21ea98-4ad9-426e-8942-ff90a50642c3":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Homepage_Banner_SellYourEquipment_625e6a58-88f6-474e-858e-ab01af65e721.jpg","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"Please Call Us At 778-386-8884","content":"Our Phone Network Was Hacked","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"Button","link":""}},"0162a1aa-2a8b-4fc2-9281-04c7143eede3":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/About_us_header_3.png","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"Call Us at 604-638-9743","content":"Contact us for any request through our new line","content_position":"middle_center","button_background":"#ffffff","button_text_color":"#000000","button_text":"","link":""}}},"block_order":["slide-0","3fc50dc4-e6e9-45af-bb9e-20438c556211","c8b5040e-78c0-472b-af10-a3ddeb24a5e0","4f21ea98-4ad9-426e-8942-ff90a50642c3","0162a1aa-2a8b-4fc2-9281-04c7143eede3"],"settings":{"edge_to_edge":true,"section_size":"small","carousel_effect":"slide","autoplay":true,"cycle_speed":5}},"featured-product":{"type":"featured-product","settings":{"product":"vf-0-vertical-machining-center","title":"DEAL OF THE WEEK","link_title":"View Product","link_url":"","show_vendor":true,"show_sku":true,"show_share_buttons":true,"show_description":true,"description_below_add_to_cart":false,"selector_mode":"dropdown","color_mode":"color","show_quantity_selector":false,"show_reviews_badge":false,"show_payment_button":true,"image_size":"small","enable_image_zoom":true,"enable_video_looping":false,"zoom_effect":"outside","carousel_effect":"fade","show_inventory_quantity":false,"low_inventory_threshold":0}},"collection-template":{"type":"collection-template","settings":{"show_collection_image":false,"collapse_collection_description":false,"collection_image_size":"medium","products_per_row":"4","default_products_per_page":24,"default_view_layout":"grid","show_sku":true,"show_quick_buy":"list_grid","show_quick_view":"list_grid","quick_links":"","quick_links_show_products_count":true,"show_filters":false,"show_filter_color_swatch":false,"filter_type":"group","open_group_filters_mode":"first_open","filter_group_order":""}},"collection-new-template":{"type":"collection-new-template","settings":{"show_collection_image":false,"collapse_collection_description":false,"collection_image_size":"medium","products_per_row":"4","default_products_per_page":24,"default_view_layout":"grid","show_quick_buy":"list_grid","show_quick_view":"list_grid","quick_links":"","quick_links_show_products_count":true,"show_filters":true,"show_filter_color_swatch":true,"filter_type":"group","open_group_filters_mode":"all_closed","filter_group_order":"Category,"}},"recently-viewed-products":{"type":"recently-viewed-products","settings":{"title":"Recently viewed","show_quick_buy":false}},"product-template":{"type":"product-template","settings":{"show_vendor":true,"show_sku":true,"show_share_buttons":false,"show_taxes_included":true,"selector_mode":"dropdown","color_mode":"color","show_quantity_selector":true,"show_payment_button":true,"image_size":"large","enable_image_zoom":true,"enable_video_looping":false,"zoom_effect":"outside","carousel_effect":"fade","show_inventory_quantity":true,"low_inventory_threshold":1,"content_display_mode":"show_all_and_expand_description","tab_page_1_handle":"","tab_page_2_handle":"","tab_page_3_handle":"","enable_reviews":false,"show_reviews_badge":false,"trust_title":"Payment & Security","show_payment_icons":true,"show_shipping_estimator":true,"shipping_estimator_default_country":"Canada","show_refunds_policy":true}},"product-recommendations":{"type":"product-recommendations","settings":{"show_product_recommendations":true,"heading":"You may also like","show_quick_buy":false}},"announcement-bar":{"type":"announcement-bar","settings":{"show_announcement":false,"background":"#febe20","text_color":"#494949","text":"Save Time & Money When You Sell Your Equipment With Lenmark","text_position":"center","link":"shopify:\/\/pages\/sell-your-equipment","show_newsletter":false,"newsletter_button":"Subscribe & Save","newsletter_title":"Newsletter","newsletter_content":"<p>Join our mailing list and receive 15% off your next online purchase<\/p>"}},"secondary-navigation-bar":{"type":"secondary-navigation-bar","settings":{"show_secondary-navigation-bar":true,"background":"#febe20","text_color":"#494949","secondary_menu":"","text_position":"center"}},"1542984811767":{"type":"featured-collection","disabled":true,"settings":{"collection":"new-inventory","title":"NEW INVENTORY","products_count":29,"layout":"vertical","stack_desktop":true,"show_sku":true,"show_quick_buy":false,"link_title":"","link_url":""}},"1542984842027":{"type":"newsletter","settings":{"title":"Subscribe","content":"<p>Join our mailing list and receive 15% off your next online purchase<\/p>"}},"1542984882560":{"type":"blog-posts","disabled":true,"settings":{"blog":"","title":"Blog posts","link_title":"View all","show_category":true,"show_author":true,"show_date":true,"show_excerpt":false,"stack_mobile":false}},"popups":{"type":"popups","blocks":{"1598288067125":{"type":"exit","settings":{"show_only_for_visitors":true,"show_only_once":true,"title":"Subscribe","subheading":"for Exclusive Weekly Offers","show_newsletter":true,"button_text":"Sign Me Up","success_message":"Thanks! Check your email shortly to claim your discount code.","close_message":"No thanks"}}},"block_order":["1598288067125"],"settings":{}},"text-with-icons":{"type":"text-with-icons","blocks":{"text-with-icons-0":{"type":"item","settings":{"icon":"bi-shop","title":"Online Marketplace","content":"<p>Shop from anywhere, anytime<\/p>"}},"text-with-icons-1":{"type":"item","settings":{"icon":"bi-customer-support","title":"Industry Experts","content":"<p>Top-notch support, ready to help<\/p>"}},"text-with-icons-2":{"type":"item","settings":{"icon":"bi-shield","title":"Shop with Confidence","content":"<p>Transparent pricing + warranty<\/p>"}},"text-with-icons-3":{"type":"item","settings":{"icon":"bi-fast-delivery","title":"Quick Quotes","content":"<p>Same-day freight quotes<\/p>"}}},"block_order":["text-with-icons-0","text-with-icons-1","text-with-icons-2","text-with-icons-3"],"settings":{"show_section":true,"stack_mobile":true}},"static-promotion-list":{"type":"static-promotion-list","settings":{"expand_items":true,"section_size":"small","stack_mobile":true}},"static-recently-viewed-products":{"type":"static-recently-viewed-products","settings":{"show_section":true,"title":"Recently viewed","show_quick_buy":false}},"cart-template":{"type":"cart-template","settings":{"enable_order_notes":true,"show_payment_icons":true,"gift_wrap_product":"","gift_wrap_text":"Do you want a gift wrap?","gift_wrap_button":"Add a gift wrap","show_shipping_estimator":true,"shipping_estimator_default_country":"Canada","trust_heading":"","upsell_heading":"Complete your cart","upsell_collection":"","upsell_products_count":4}},"page-contact-template":{"type":"page-contact-template","settings":{"form_heading":"Leave your message","show_location1":true,"location1_heading":"Langley","location1_info":"<p>27576 51a Ave<br\/>Langley, British Columbia<br\/>604-638-9743<\/p><p>Monday - Friday: 8AM - 5PM<br\/>Saturday - Sunday: By appointment<br\/><br\/><\/p>","show_location2":true,"location2_heading":"Leduc","location2_info":"<p>6226 41 St<br\/>Leduc, Alberta<br\/>780-980-1968<\/p><p>Monday - Friday: 8AM - 5PM<br\/>Saturday - Sunday: By appointment<br\/><br\/><\/p>","show_location3":true,"location3_heading":"Vernon","location3_info":"<p>4401 25 Ave<br\/>Vernon, British Columbia<br\/>250-309-3337<\/p><p>Monday - Friday: 8AM - 5PM<br\/>Saturday - Sunday: By appointment<\/p>"}},"static-newsletter":{"type":"static-newsletter","settings":{"show_section":false,"title":"Subscribe to our newsletter","content":"<p>A short sentence describing what someone will receive by subscribing<\/p>","subtext":"100% free, Unsubscribe any time!","background":"#1e2d7d","text":"#ffffff"}},"search-template":{"type":"search-template","settings":{"products_per_row":"4","default_view_layout":"grid","show_sku":true,"show_quick_view":"list_grid","show_quick_buy":"list_grid","quick_links":"warehouse-footer-menu","show_filters":true,"show_filter_color_swatch":false,"filter_type":"group","open_group_filters_mode":"first_open","filter_group_order":""}},"1598295863852":{"type":"collection-list","blocks":{"1598295863852-4":{"type":"collection","settings":{"collection":"forklifts","image":"shopify:\/\/shop_images\/2_b1048559-6083-4bde-b77a-8fec3c34593a.jpg"}},"1598295863852-0":{"type":"collection","settings":{"collection":"metalworking","image":"shopify:\/\/shop_images\/3_227c616d-bc43-472b-8134-21480d88a930.jpg"}},"1598295863852-1":{"type":"collection","settings":{"collection":"woodworking","image":"shopify:\/\/shop_images\/1.jpg"}},"1598295863852-2":{"type":"collection","settings":{"collection":"shipping-containers","image":"shopify:\/\/shop_images\/4_1859ce65-fbc0-4cc8-a9c5-154f53a432f7.jpg"}},"1598295863852-3":{"type":"collection","settings":{"collection":"bearings","image":"shopify:\/\/shop_images\/5_2f663d1b-0e25-4bd3-b606-67ca472c6648.jpg"}},"1598296670846":{"type":"collection","settings":{"collection":"electrical","image":"shopify:\/\/shop_images\/6_e1e75133-4ff4-43f9-9ccc-6a8c8c1b5bbb.jpg"}}},"block_order":["1598295863852-4","1598295863852-0","1598295863852-1","1598295863852-2","1598295863852-3","1598296670846"],"settings":{"title":"POPULAR CATEGORIES","link_title":"View All Categories","link":"shopify:\/\/collections","round_images":false,"show_collection_title":false}},"1598296006630":{"type":"mosaic","blocks":{"1598296006630-2":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/pexels-karolina-grabowska-4968653.jpg","show_overlay":true,"overlay_opacity":92,"background":"#f3f4f4","text_color":"#ffffff","title":"SELL YOUR EQUIPMENT","content":"List or sell your equipment direct through our proprietary platform; it's easy cash and no hassle!","content_position":"middle_left","button_background":"#ffffff","button_text_color":"#494949","button_text":"See How","link":"shopify:\/\/pages\/sell-your-equipment"}},"1598296006630-0":{"type":"item","settings":{"image":"shopify:\/\/shop_images\/AdobeStock_197917405.jpg","show_overlay":true,"overlay_opacity":86,"background":"#f3f4f4","text_color":"#ffffff","title":"Shop New","content":"We distribute new equipment! Shop for everything from forklifts to electrical.","content_position":"middle_left","button_background":"#ffffff","button_text_color":"#494949","button_text":"Link Coming Soon!","link":"https:\/\/www.lenmark.com\/"}}},"block_order":["1598296006630-2","1598296006630-0"],"settings":{"section_size":"small"}},"1598296364416":{"type":"recently-viewed-products","settings":{"title":"Recently viewed","show_quick_buy":false}},"1598296390959":{"type":"image-with-text","disabled":true,"settings":{"image_position":"left","image_width":50,"title":"Your title","content":"<p>Use this text to share information about your brand with your customers.<br\/>Describe a product, share announcements, or welcome customers to your store.<\/p>","button_text":"Our products","button_link":"shopify:\/\/collections\/all"}},"1598296417391":{"type":"logo-list","blocks":{"1598296417391-1":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/King-Canada.png","link":"shopify:\/\/collections\/king-canada"}},"1598296417391-0":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/Edwards.png","link":"http:\/\/www.edwardsironworkers.com\/"}},"1598301222329":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/rex-power-magnetics.png","link":"https:\/\/beaverelectrical.com\/"}},"1598301206083":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/HACO.png","link":"https:\/\/www.haco.com\/en"}},"1598296417391-2":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/Multicam.png","link":"https:\/\/www.multicam.com\/"}},"1598296417391-3":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/Powermatic.png","link":"http:\/\/www.powermatic.com\/us\/en\/home\/"}}},"block_order":["1598296417391-1","1598296417391-0","1598301222329","1598301206083","1598296417391-2","1598296417391-3"],"settings":{"title":"Proud Distributor of:","link_title":"","link":""}},"1598296461292":{"type":"map","blocks":{"1598296461292-0":{"type":"store","settings":{"title":"Langley, BC (Main Office)","address":"<p>27576 51A ave<br\/>Langley, British Columbia, V4W 4A9<br\/>604-449-1880<\/p>","hours":"<p>Monday - Friday: 8 AM - 5 PM<br\/>Saturday - Sunday: By Appointment<\/p>","map_address":"27576 51A ave, Langley BC"}},"1598296461292-1":{"type":"store","settings":{"title":"Leduc, AB","address":"<p>6226 41 St<br\/>Leduc, Alberta, T9E 0V7<br\/>780-980-1968<\/p>","hours":"<p>Monday - Friday: 8 AM - 5 PM<br\/>Saturday - Sunday: By Appointment<\/p>","map_address":"6226 41 St Leduc, AB"}},"1598296524622":{"type":"store","settings":{"title":"Vernon, BC","address":"<p>4401 25 Ave<br\/>Vernon, British Columbia, V1T 1P5<br\/>250-309-3337<\/p>","hours":"<p>Monday - Friday: 8 AM - 5 PM<br\/>Saturday - Sunday: By Appointment<\/p>","map_address":"4401 25 Ave Vernon, BC"}}},"block_order":["1598296461292-0","1598296461292-1","1598296524622"],"settings":{"title":"Our Locations","map_link_label":"Get directions","api_key":"AIzaSyCB2FdYKidkS3Hppwcq-Fw5oVnqQvgCHpo","zoom":14,"draggable_map":true,"show_map_controls":true,"map_style":"standard"}},"list-collections-template":{"type":"list-collections-template","settings":{"collections_to_show":"all","show_collection_title":true,"show_collection_overlay":true,"collection_overlay_opacity":20}},"page-faq-template":{"type":"page-faq-template","blocks":{"page-faq-template-0":{"type":"separator","settings":{"title":"Shipping"}},"page-faq-template-2":{"type":"question","settings":{"title":"How long will it take to get my order?","answer":"<p>It depends on where you are. Most orders will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"}},"page-faq-template-3":{"type":"question","settings":{"title":"What shipping carriers do you use?","answer":"<p>We use almost all major national and international carriers including Canada Post, FedEx, UPS, DHL and Purolator. We also partner with logistics companies such as C&D Logistics, Lantrax and <a href=\"http:\/\/elementfreight.com\/\" target=\"_blank\" title=\"http:\/\/elementfreight.com\/\">Element Freight<\/a> for larger shipments. We can also use your account if you have one.<\/p>"}},"page-faq-template-1":{"type":"question","settings":{"title":"Do you ship overseas?","answer":"<p>Yes, we ship all over the world! Smaller items will ship via Canada Post or DHL, but most overseas orders will require a freight quote. Feel free to click the &quot;make an offer&quot; button on any product page and send us your shipping address. Alternatively, you can <a href=\"mailto:ecommerce@lenmark.com\" title=\"mailto:ecommerce@lenmark.com\">email us<\/a> directly with your address and the SKU(s) of the item(s) you are interested in.<\/p>"}},"page-faq-template-4":{"type":"separator","settings":{"title":"Returns & Warranty"}},"page-faq-template-5":{"type":"question","settings":{"title":"Can I return my product?","answer":"<p>We always aim to make sure our customers are satisfied with their purchase. If you need to return an item, we’re happy to help - just <a href=\"mailto:ecommerce@lenmark.com\" title=\"mailto:ecommerce@lenmark.com\">email us<\/a> directly and we’ll take you through the process.<\/p>"}},"page-faq-template-6":{"type":"question","settings":{"title":"What kind of warranty do you offer?","answer":"<p>Due to the nature of our inventory, we offer three different levels of warranty ranging from 0 to 30 to 45 days. For more information, please visit our warranty page (coming soon).<\/p>"}},"page-faq-template-7":{"type":"separator","settings":{"title":"Other"}},"page-faq-template-8":{"type":"question","settings":{"title":"Any questions?","answer":"<p>Feel free to <a href=\"https:\/\/www.lenmark.com\/pages\/contact-us\" title=\"https:\/\/www.lenmark.com\/pages\/contact-us\">send us a message<\/a> and we will be happy to assist you!<\/p>"}}},"block_order":["page-faq-template-0","page-faq-template-2","page-faq-template-3","page-faq-template-1","page-faq-template-4","page-faq-template-5","page-faq-template-6","page-faq-template-7","page-faq-template-8"],"settings":{"show_contact_info":false,"contact_info_heading":"Any question?","contact_info_text":"<p>If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.<\/p>","contact_1_icon":"bi-phone","contact_1_heading":"Customer support","contact_1_text":"<p>Enter your text here<\/p>","contact_2_icon":"bi-email","contact_2_heading":"Send a message","contact_2_text":"<p>Enter your text here<\/p>"}},"page-sell-equipment-faq-template":{"type":"page-sell-equipment-faq-template","settings":{}},"image-with-text-appraisal":{"type":"image-with-text-appraisal","settings":{"image":"shopify:\/\/shop_images\/AdobeStock_329800634.jpg","image_position":"left","image_width":35,"title":"APPRAISAL","content":"<p>We’ll leverage our experience to accurately assess the value of your equipment, and develop a customized marketing plan<\/p>","button_text":"","button_link":"shopify:\/\/collections\/all"}},"image-with-text-merchandising":{"type":"image-with-text-merchandising","settings":{"image":"shopify:\/\/shop_images\/AdobeStock_82079591.jpg","image_position":"right","image_width":35,"title":"TRANSPORTATION","content":"<p>If your strategy requires relocation or storage at our facility, this can be coordinated for you by our dedicated logistics team<\/p>","button_text":"","button_link":"shopify:\/\/collections\/all"}},"image-with-text-marketing":{"type":"image-with-text-marketing","settings":{"image":"shopify:\/\/shop_images\/pexels-negative-space-97080.jpg","image_position":"left","image_width":35,"title":"MARKETING","content":"<p>We have developed proprietary software to create extensive listings for your equipment on various sales platforms in order to maximize market exposure<\/p>","button_text":"","button_link":"shopify:\/\/collections\/all"}},"image-with-text-support":{"type":"image-with-text-support","settings":{"image":"shopify:\/\/shop_images\/AdobeStock_289288324.jpg","image_position":"right","image_width":35,"title":"NEGOTIATION","content":"<p>You set your terms and pricing and we represent your interests from start to finish - HASSLE FREE!  We manage the entire sales process starting from lead generation to ultimately closing the deal as well as the logistics of the sale<\/p>","button_text":"","button_link":"shopify:\/\/collections\/all"}},"image-with-text-negotiation":{"type":"image-with-text-negotiation","settings":{"image":"shopify:\/\/shop_images\/pexels-pixabay-48195.jpg","image_position":"left","image_width":35,"title":"PAYMENT","content":"<p>We finalize the sale and secure payment, then you get paid!<\/p>","button_text":"","button_link":"shopify:\/\/collections\/all"}},"image-with-text-transportation":{"type":"image-with-text-transportation","settings":{"image_position":"right","image_width":35,"title":"","content":"","button_text":""}},"static-consultation-form":{"type":"static-consultation-form","settings":{"show_section":true,"title":"REQUEST A FREE CONSULTATION","content":"","subtext":"","background":"#3a3a3a","text":"#ffbd00"}},"slideshow-sell-equipment":{"type":"slideshow-sell-equipment","blocks":{"1600104242750":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/banner.png","show_overlay":true,"overlay_opacity":51,"text_color":"#ffffff","title":"SOLUTIONS FOR YOUR EQUIPMENT","content":"Lenmark will sell your equipment, <br>giving you the highest value with no hassle. \n\n<button onclick=\"scrollToId('why-lenmark')\" class=\"case-study-link sell-btn\">Case Study<\/button>","content_position":"middle_center","button1_background":"#ffffff","button1_text_color":"#000000","button1_text":"","link1":"","button2_background":"#ffffff","button2_text_color":"#000000","button2_text":"","link2":""}},"2ad48817-0647-4781-8034-fb67ad1832d3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/forklift_banner.jpg","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"LIST WITH LENMARK","content":"<span class=\"text-yellow\">✓<\/span> Maximized value for your equipment<br>\n<span class=\"text-yellow\">✓<\/span> Access to our 10+ marketing channels<br>\n<span class=\"text-yellow\">✓<\/span> Avoid uncertainties from auction selling prices.\n<br><br> \n\n<button class=\"sell-options-link product-form__add-button button button--primary btn-list\" data-action=\"open-modal\" aria-controls=\"sell-forms-modal\" onclick=\"$('.modal__form-slide').slick('slickGoTo', 0);\">List with Lenmark<\/button>\n\n<button class=\"sell-options-link product-form__add-button button button--primary btn-sell\" data-action=\"open-modal\" aria-controls=\"sell-forms-modal\" onclick=\"$('.modal__form-slide').slick('slickGoTo', 1);\">Sell to Lenmark<\/button>","content_position":"middle_left","button1_background":"#ffffff","button1_text_color":"#000000","button1_text":"Button","link1":"","button2_background":"#ffffff","button2_text_color":"#000000","button2_text":"Button","link2":""}}},"block_order":["1600104242750","2ad48817-0647-4781-8034-fb67ad1832d3"],"settings":{"edge_to_edge":true,"section_size":"small","carousel_effect":"slide","autoplay":true,"cycle_speed":5}},"team-sell-equipment":{"type":"team-sell-equipment","blocks":{"team-sell-equipment-0":{"type":"separator","settings":{"title":"Maximum Profit. Minimum Risk."}},"team-sell-equipment-1":{"type":"member","settings":{"image":"shopify:\/\/shop_images\/noun_optimization_823952.png","title":"EXPERTISE","subheading":"Our sales and buying teams are uniquely qualified to appraise, list, show and negotiate the sale of your equipment.","link_title":""}},"team-sell-equipment-2":{"type":"member","settings":{"image":"shopify:\/\/shop_images\/noun_team_823940.png","title":"NETWORK","subheading":"Gain access to our extensive marketing network, including a wealth of direct industry contacts and an online sales platform with international viewership.","link_title":""}},"1600286813775":{"type":"member","settings":{"image":"shopify:\/\/shop_images\/noun_growth_823947.png","title":"REACH","subheading":"Our marketing program spans all major online sales channels – so no matter where potential buyers are searching, your equipment is visible to them.","link_title":""}},"team-sell-equipment-3":{"type":"promotion","settings":{"title":"BUY-OUT PROGRAM","content":"<p>Get cash for your equipment, now! In most cases, we can get cash in your hand same-day.<\/p>","button_text":"Learn More","background":"#ffffff","text":"#424242"}},"e18a41ad-94ad-4041-a35b-257bfe737490":{"type":"separator","settings":{"title":"How it works:"}}},"block_order":["team-sell-equipment-0","team-sell-equipment-1","team-sell-equipment-2","1600286813775","team-sell-equipment-3","e18a41ad-94ad-4041-a35b-257bfe737490"],"settings":{"image_edge_to_edge":false,"show_image_overlay":false,"color":"#ffffff","round_image":true}},"map-contact-us":{"type":"map-contact-us","settings":{"title":"Our Locations","map_link_label":"Get directions","api_key":"AIzaSyCB2FdYKidkS3Hppwcq-Fw5oVnqQvgCHpo","zoom":15,"draggable_map":true,"show_map_controls":true,"map_style":"silver","image":""}},"rentals-featured-collection-1":{"type":"rentals-featured-collection-1","settings":{"collection":"telescopic-boom-lift-rentals","title":"Telescopic Boom Lifts","products_count":4,"layout":"vertical","stack_desktop":false,"show_quick_buy":false,"link_title":"","link_url":""}},"rentals-featured-collection-2":{"type":"rentals-featured-collection-2","settings":{"collection":"articulating-boom-lift-rentals","title":"Articulating Boom Lifts","products_count":4,"layout":"vertical","stack_desktop":false,"show_quick_buy":false,"link_title":"","link_url":""}},"rentals-featured-collection-3":{"type":"rentals-featured-collection-3","settings":{"collection":"forklift-rentals","title":"Forklifts","products_count":4,"layout":"vertical","stack_desktop":false,"show_quick_buy":false,"link_title":"","link_url":""}},"rentals-featured-collection-4":{"type":"rentals-featured-collection-4","settings":{"collection":"material-handling-rentals","title":"Telehandlers","products_count":4,"layout":"vertical","stack_desktop":false,"show_quick_buy":false,"link_title":"","link_url":""}},"collection-rentals-template":{"type":"collection-rentals-template","settings":{"show_collection_image":true,"collapse_collection_description":false,"collection_image_size":"small","products_per_row":"4","default_products_per_page":24,"default_view_layout":"grid","show_quick_buy":"list","show_quick_view":"list","quick_links":"","quick_links_show_products_count":true,"show_filters":true,"show_filter_color_swatch":true,"filter_type":"tag","open_group_filters_mode":"all_closed","filter_group_order":""}},"map":{"type":"map","blocks":{"1602198629195":{"type":"store","settings":{"title":"Langley, BC","address":"<p>27576 51A ave<br\/>Langley, British Columbia, V4W 4A9<\/p>","hours":"","map_address":"27576 51A ave, Langley BC"}},"1602198697627":{"type":"store","settings":{"title":"Leduc, AB","address":"<p>6226 41 St<br\/>Leduc, Alberta, T9E 0V7<\/p>","hours":"","map_address":"6226 41 St Leduc, AB"}},"1602198736059":{"type":"store","settings":{"title":"Vernon, BC","address":"<p>4401 25 Ave<br\/>Vernon, British Columbia, V1T 1P5<\/p>","hours":"","map_address":"4401 25 Ave Vernon, BC"}}},"block_order":["1602198629195","1602198697627","1602198736059"],"settings":{"title":"Get Directions","map_link_label":"Get directions","api_key":"AIzaSyCB2FdYKidkS3Hppwcq-Fw5oVnqQvgCHpo","zoom":14,"draggable_map":false,"show_map_controls":true,"map_style":"standard"}},"secondary-nav-bar":{"type":"secondary-nav-bar","settings":{"show_announcement":true,"background":"#3a3a3a","text_color":"#ffffff","navigation_menu":"warehouse-footer-menu"}},"product-template-rental":{"type":"product-template-rental","settings":{"show_vendor":true,"show_sku":false,"show_share_buttons":false,"show_taxes_included":false,"selector_mode":"block","color_mode":"color","show_quantity_selector":true,"show_payment_button":false,"image_size":"medium","enable_image_zoom":true,"enable_video_looping":false,"zoom_effect":"inside","carousel_effect":"fade","show_inventory_quantity":false,"low_inventory_threshold":0,"content_display_mode":"show_all_and_expand_description","tab_page_1_handle":"","tab_page_2_handle":"","tab_page_3_handle":"","enable_reviews":false,"show_reviews_badge":false,"trust_title":"Payment & Security","show_payment_icons":true,"show_shipping_estimator":false,"shipping_estimator_default_country":"United States","show_refunds_policy":true}},"team-locations":{"type":"team-locations","blocks":{"team-locations-0":{"type":"separator","settings":{"title":"Our Locations"}},"team-locations-3":{"type":"promotion","settings":{"title":"Langley, BC","content":"<p>604-449-1880<\/p><p>27576 51A ave<br\/>Langley, BC, V4W 4A9<\/p><p>Monday - Friday: 8 AM - 5 PM<br\/>Weekends: by appointment<\/p>","button_text":"","background":"#ffffff","text":"#494949"}},"4bd28fac-b129-464a-9835-452b036cd109":{"type":"promotion","settings":{"title":"Leduc, AB","content":"<p>780-980-1968<\/p><p>6226 41 st<br\/>Leduc, AB T9E 0V7<\/p><p>Monday - Friday: 8 AM - 5 PM<br\/>Weekends: by appointment<\/p>","button_text":"","background":"#ffffff","text":"#494949"}},"3edd0aff-8a58-4edf-9be6-6da5a9b7edf6":{"type":"promotion","settings":{"title":"Vernon, BC","content":"<p>250-309-3337<\/p><p>4401 25 ave<br\/>Vernon, BC V1T 1P5<\/p><p>Monday - Friday: 8 AM - 5 PM<br\/>Weekends: by appointment<\/p>","button_text":"","background":"#ffffff","text":"#494949"}}},"block_order":["team-locations-0","team-locations-3","4bd28fac-b129-464a-9835-452b036cd109","3edd0aff-8a58-4edf-9be6-6da5a9b7edf6"],"settings":{"image_edge_to_edge":false,"show_image_overlay":false,"color":"#ffffff","round_image":true}},"page-team-template":{"type":"page-team-template","blocks":{"page-team-template-0":{"type":"separator","settings":{"title":"Our team"}},"page-team-template-1":{"type":"member","settings":{"title":"John D.","subheading":"CEO","link":"mailto:john@test.com","link_title":"Your link"}},"page-team-template-2":{"type":"member","settings":{"title":"Emily H.","subheading":"CTO","link":"mailto:emily@test.com","link_title":"Your link"}},"page-team-template-3":{"type":"promotion","settings":{"title":"Join our team","content":"<p>A short sentence describing your job offer<\/p>","button_text":"","background":"#1e2d7d","text":"#ffffff"}}},"block_order":["page-team-template-0","page-team-template-1","page-team-template-2","page-team-template-3"],"settings":{"image_edge_to_edge":false,"show_image_overlay":false,"color":"#ffffff","round_image":true}},"sell-equipment-partners-logo":{"type":"sell-equipment-partners-logo","blocks":{"c76a2254-f1de-47a4-a6df-e2676a17985a":{"type":"block","disabled":true,"settings":{"partner_logo":"shopify:\/\/shop_images\/CNCRL.png","partner_logo_link":"https:\/\/www.cnrl.com\/"}},"492d638e-6d7a-42a0-ad91-dbfc0aa53b3c":{"type":"block","disabled":true,"settings":{"partner_logo":"shopify:\/\/shop_images\/Clearview_Demolition.png","partner_logo_link":"https:\/\/clearviewdemo.ca\/"}},"9df42afa-db66-4246-bdd7-be316255d2ed":{"type":"block","disabled":true,"settings":{"partner_logo":"shopify:\/\/shop_images\/DynamicAttractions_757961f8-8874-49f4-8ee9-836a3021e1d4.png","partner_logo_link":"http:\/\/dynamicattractions.com\/"}},"fb779793-65a3-49db-8581-f7e8a2f592ad":{"type":"block","disabled":true,"settings":{"partner_logo":"shopify:\/\/shop_images\/Flexiforce_ed9bf69b-a890-44fe-a76c-185e57ec764c.png","partner_logo_link":"https:\/\/www.flexiforce.com\/us-en\/"}},"591ff846-2583-4401-9a5a-274a7e501c83":{"type":"block","disabled":true,"settings":{"partner_logo":"shopify:\/\/shop_images\/Clearly.jpg","partner_logo_link":"https:\/\/www.clearly.ca\/"}},"28c39e78-28ec-4dee-8075-77936be98b3c":{"type":"block","disabled":true,"settings":{"partner_logo":"shopify:\/\/shop_images\/Grizzly3.jpg","partner_logo_link":"https:\/\/www.grizzly.com\/"}},"76e53c91-bd22-45ea-a4bb-ab3c5e5b8de7":{"type":"block","disabled":true,"settings":{"partner_logo":"shopify:\/\/shop_images\/oldcastle-logo.png","partner_logo_link":"https:\/\/obe.com\/"}},"036dafb2-8419-4eea-a85f-06106df74f19":{"type":"block","disabled":true,"settings":{"partner_logo":"shopify:\/\/shop_images\/Advantec_logo.png","partner_logo_link":"https:\/\/www.advantecglobal.com\/"}},"7a92c533-9492-40a6-b671-15b50659bdc1":{"type":"block","disabled":true,"settings":{"partner_logo":"shopify:\/\/shop_images\/Dynamic_Art.png","partner_logo_link":"https:\/\/www.dynamicwindows.com\/"}},"16a8b744-b6a2-4e3b-81fd-07a20c6c3ba2":{"type":"block","disabled":true,"settings":{"partner_logo":"shopify:\/\/shop_images\/Metric_Modular.png","partner_logo_link":"https:\/\/metricmodular.com\/"}},"4d8c526f-ed39-4b9b-a797-386a9ee2e916":{"type":"block","disabled":true,"settings":{"partner_logo":"shopify:\/\/shop_images\/Assertive_Demo_100h.png","partner_logo_link":"https:\/\/www.assertivedemo.com\/"}},"026d1721-4044-42a7-99d0-4bc23760295c":{"type":"block","disabled":true,"settings":{"partner_logo":"shopify:\/\/shop_images\/Columbia_cabinets2.png","partner_logo_link":"https:\/\/www.columbiacabinets.com\/"}}},"block_order":["c76a2254-f1de-47a4-a6df-e2676a17985a","492d638e-6d7a-42a0-ad91-dbfc0aa53b3c","9df42afa-db66-4246-bdd7-be316255d2ed","fb779793-65a3-49db-8581-f7e8a2f592ad","591ff846-2583-4401-9a5a-274a7e501c83","28c39e78-28ec-4dee-8075-77936be98b3c","76e53c91-bd22-45ea-a4bb-ab3c5e5b8de7","036dafb2-8419-4eea-a85f-06106df74f19","7a92c533-9492-40a6-b671-15b50659bdc1","16a8b744-b6a2-4e3b-81fd-07a20c6c3ba2","4d8c526f-ed39-4b9b-a797-386a9ee2e916","026d1721-4044-42a7-99d0-4bc23760295c"],"settings":{}},"sell-equipment-process-terms":{"type":"sell-equipment-process-terms","blocks":{"7894696f-853f-46b3-9aab-4a67ddd0ffd7":{"type":"Block","settings":{"process-banner":"shopify:\/\/shop_images\/appraisal_medium_1c9c5be8-4639-495e-855e-2e1afa0385ba.png","process-terms-heading":"APPRAISAL","process-terms-content":"<b>• TAILORED APPRAISAL<\/b><br>\n<span>Every asset is unique, which is why we do a tailored appraisal to determine the value of your specific equipment.<\/span>\n\n<b>• FAIR EQUIPMENT VALUE<\/b><br>\n<span>We have dedicated staff ensuring the value of your equipment is brought to market fairly.<\/span>\n\n<b>• MARKET RESEARCH<\/b><br>\n<span>Industry-leading market research and comparables of similar equipment.<\/span>\n\n<b>• YOU SET THE PRICE<\/b><br>\n<span>Pricing happens with YOU in control.<\/span>","content-right":false}},"9911d691-0e31-4912-bd8b-4f5e232d3f8f":{"type":"Block","settings":{"process-banner":"shopify:\/\/shop_images\/transport_medium_07b885f4-f708-4d19-9c16-9c8423ead15d.png","process-terms-heading":"TRANSPORT & STORE","process-terms-content":"<b>• DEDICATED LOGISTICS TEAM<\/b><br>\n<span>We move large assets every day with a dedicated in-house team, removing the headache of you having to plan yourself.<\/span>\n\n<b>• PARTNERED WITH FREIGHT COMPANIES<\/b><br>\n<span>We partner with freight companies who are experts with heavy equipment, allowing you to move with confidence!<\/span>\n\n<b>• WE CAN STORE YOUR EQUIPMENT<\/b><br>\n<span>If you need the floor space, we can purchase your assets and store them at our facility<\/span>","content-right":true}},"43b24ac1-0151-4f4c-bd96-65f6568da4d8":{"type":"Block","settings":{"process-banner":"shopify:\/\/shop_images\/marketing_medium_abb046f5-e3ee-442c-998c-ab691e93e2cb.png","process-terms-heading":"MARKETING","process-terms-content":"<b>• WORLDWIDE EXPOSURE<\/b><br>\n<span>Our proprietary platform gives your equipment worldwide exposure.<\/span>\n\n<b>• GOES TO MARKET QUICKLY<\/b><br>\n<span>In-house subject matter experts make sure that your equipment is represented accurately and posted quickly.<\/span>\n\n<b>• MARKETING EFFORTS<\/b><br>\n<span>We invest thousands into digital marketing every month, ensuring your equipment is at the top of every search result.<\/span>","content-right":false}},"ad01a60c-aa57-4114-9991-c6503c482c8e":{"type":"Block","settings":{"process-banner":"shopify:\/\/shop_images\/negotiation_medium_5118db2c-8e51-4dd8-8336-64226ca9a7eb.png","process-terms-heading":"NEGOTIATION","process-terms-content":"<b>• HIGHEST EQUIPMENT VALUE<\/b><br>\n<span>We have a dedicated sales team to represent your equipment, ensuring top value for you.<\/span>\n\n<b>• WE HANDLE THE SALE<\/b><br>\n<span>We handle the negotiation, pricing, logistics &amp; questions on your behalf.<\/span>\n\n<b>• YOU DECIDE ON THE PRICE<\/b><br>\n<span>You set your bottom line. We negotiate to bring you the top line.<\/span>","content-right":true}},"c1ca8ce6-37d3-437c-92a5-47a547fafc14":{"type":"Block","settings":{"process-banner":"shopify:\/\/shop_images\/payment_medium_aa744988-e9d7-4cf5-821e-0699b2803e04.png","process-terms-heading":"PAYMENT","process-terms-content":"<b>• WE HANDLE THE PAYMENT<\/b><br>\n<span>We take care of ensuring the payment is made and that there is no “funny business”.<\/span>\n\n<b>• WE CAN PROCESS ANY TRANSACTION<\/b><br>\n<span>Local sales, national sales, or worldwide sales, we have the capacity and experience to complete all parts of the transaction – even if it is cross-border.<\/span>","content-right":false}}},"block_order":["7894696f-853f-46b3-9aab-4a67ddd0ffd7","9911d691-0e31-4912-bd8b-4f5e232d3f8f","43b24ac1-0151-4f4c-bd96-65f6568da4d8","ad01a60c-aa57-4114-9991-c6503c482c8e","c1ca8ce6-37d3-437c-92a5-47a547fafc14"],"settings":{}},"sell-equipment-advantage":{"type":"sell-equipment-advantage","settings":{}},"sell-equipment-why-lenmark-form":{"type":"sell-equipment-why-lenmark-form","settings":{}},"sell-equipment-popup-form":{"type":"sell-equipment-popup-form","settings":{}},"16255020013f747346":{"type":"collection-list","blocks":{"16255020013f747346-0":{"type":"collection","settings":{"collection":"transformers","image":"shopify:\/\/shop_images\/7_a9b80d24-736a-404b-bc22-c7f37f8e5e4d.jpg"}},"16255020013f747346-1":{"type":"collection","settings":{"collection":"steel","image":"shopify:\/\/shop_images\/Add_a_heading_1080_x_1080_px_1.jpg"}},"16255020013f747346-2":{"type":"collection","settings":{"collection":"compressors","image":"shopify:\/\/shop_images\/9_0b45113a-5d79-48ab-bd32-49bd0138e9ca.jpg"}},"16255020013f747346-3":{"type":"collection","settings":{"collection":"oil-gas","image":"shopify:\/\/shop_images\/10_17a469cc-7155-40c1-96a1-8a8f7b786c3a.jpg"}},"16255020013f747346-4":{"type":"collection","settings":{"collection":"breakers","image":"shopify:\/\/shop_images\/11_cea96ae1-f8b8-4fd5-91bd-c649a7ab2124.jpg"}},"e4a52649-80e5-463a-a232-32a5c987d0b1":{"type":"collection","settings":{"collection":"miscellaneous-mro","image":"shopify:\/\/shop_images\/12_8c06a96b-931a-4b81-b470-6a2bd43a3fed.jpg"}}},"block_order":["16255020013f747346-0","16255020013f747346-1","16255020013f747346-2","16255020013f747346-3","16255020013f747346-4","e4a52649-80e5-463a-a232-32a5c987d0b1"],"settings":{"title":"","link_title":"","link":"shopify:\/\/collections","round_images":false,"show_collection_title":false}},"finance-banner":{"type":"finance-banner","blocks":{"ed6e2dbd-688e-46ec-ad29-8741c207aeb3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Slider.jpg","mobile_image":"shopify:\/\/shop_images\/Slider_sp.jpg","show_overlay":false,"overlay_opacity":30,"text_color":"#ffffff","title":"Finance equipment on your terms","content":"Lenmark Finance offers hassle-free payment plans \nto let you start using your equipment right away and pay later\n\n<button onclick=\"location.href='contact-us.html'\" class=\"button button--primary\">Contact Us <\/button>","content_position":"middle_left","button1_background":"#ffffff","button1_text_color":"#000000","button1_text":"Button","link1":"","button2_background":"#ffffff","button2_text_color":"#000000","button2_text":"Button","link2":""}}},"block_order":["ed6e2dbd-688e-46ec-ad29-8741c207aeb3"],"settings":{"edge_to_edge":true,"section_size":"large","carousel_effect":"slide","autoplay":true,"cycle_speed":5}},"finance-section-2":{"type":"finance-section-2","blocks":{"0a0633cf-3392-49e4-9224-6fd69349e4f5":{"type":"text","settings":{"image":"shopify:\/\/shop_images\/working-desk-with-project-gantt-chart-U4HZGY8_5f026b99-aad3-412b-9f07-f7e1d74c16c1.jpg","title":"Long-term Financing","description":"Secure long-term financing for your equipment and  get to work right away"}},"a053ff5a-2a90-428d-813d-974d638de7b3":{"type":"text","settings":{"image":"shopify:\/\/shop_images\/handshake-PEDHUTN.jpg","title":"Skip The Hassle","description":"Borrowing from lenders can be frustrating and  time-consuming. At Lenmark, financing service is fast"}},"33a7c039-83c2-4d30-8da0-36075e232a6a":{"type":"text","settings":{"image":"shopify:\/\/shop_images\/real-estate-agency-young-couple-signing-financing--EJH3W6Q.jpg","title":"Solutions For Every Business","description":"Large or small, Lenmark Finance has a solution  for your company"}}},"block_order":["0a0633cf-3392-49e4-9224-6fd69349e4f5","a053ff5a-2a90-428d-813d-974d638de7b3","33a7c039-83c2-4d30-8da0-36075e232a6a"],"settings":{"section_heading":"FINANCIAL SOLUTIONS FOR EVERY BUSINESS","section_sub_heading":"<p>Lenmark Finance offers an easy way to get personalized financing<\/p><p>backed by our team of Certified Commercial Finance Managers.<\/p>"}},"finance-section-3":{"type":"finance-section-3","settings":{"banner_image":"shopify:\/\/shop_images\/Facts.jpg"}},"finance-section-4":{"type":"finance-section-4","settings":{"section_image":"shopify:\/\/shop_images\/personal-advice.jpg","section_heading":"Professional Advice","description":"<p>At Lenmark, we take customer service seriously. And that includes<br\/>helping you get the financing you need. That’s why we have Certified<br\/>Commercial Finance Mangers to give you the best advice on what<br\/>solution is right for your business.<\/p>","button_text":"CONTACT US TODAY","button_link":"shopify:\/\/pages\/contact-us"}},"finance-section-5":{"type":"finance-section-5","blocks":{"b18933ff-f91a-4e25-838a-86d6a8379ffc":{"type":"text","settings":{"title":"FINANCING FOR ALL<br>TYPES OF EQUIPMENT","svg_icon":"<svg id=\"Outline\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 48 48\">\n  <title>bank-capital-building<\/title>\n  <g id=\"bank-capital-building\">\n    <g>\n      <polygon points=\"5 14 24 7 43 14 43 18 5 18 5 14\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/polygon>\n      <circle cx=\"24\" cy=\"13\" r=\"2\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/circle>\n      <rect x=\"9\" y=\"18\" width=\"4\" height=\"15\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/rect>\n      <rect x=\"22\" y=\"18\" width=\"4\" height=\"15\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/rect>\n      <rect x=\"35\" y=\"18\" width=\"4\" height=\"15\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/rect>\n      <rect x=\"7\" y=\"33\" width=\"34\" height=\"4\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/rect>\n      <rect x=\"5\" y=\"37\" width=\"38\" height=\"4\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/rect>\n    <\/g>\n  <\/g>\n<\/svg>"}},"0b23cece-3831-46b6-ab68-368046c997d0":{"type":"text","settings":{"title":"Flexible rates","svg_icon":"<svg id=\"Outline\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 48 48\">\n  <title>house-mortgage-pen-signature-lease<\/title>\n  <g id=\"house-mortgage-pen-signature-lease\">\n    <g>\n      <line x1=\"26\" y1=\"17\" x2=\"18\" y2=\"17\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <line x1=\"26\" y1=\"21\" x2=\"18\" y2=\"21\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <line x1=\"30\" y1=\"25\" x2=\"22\" y2=\"25\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <line x1=\"18\" y1=\"13\" x2=\"26\" y2=\"13\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <path d=\"M13,17V8a2,2,0,0,1,2-2H25\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M24,33c3,0,3,4,3,4s1-4,3-4,3,4,3,4a4.37,4.37,0,0,1,3-4\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M33,6H31a2,2,0,0,0-2,2V19l1,1\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M36,4a3,3,0,0,0-3,3V27h6V7A3,3,0,0,0,36,4Z\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <polygon points=\"33 27 36 33 39 27 33 27\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/polygon>\n      <line x1=\"33\" y1=\"17\" x2=\"39\" y2=\"17\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <rect x=\"11\" y=\"33\" width=\"4\" height=\"6\" stroke-width=\"2\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/rect>\n      <path d=\"M15,29a2,2,0,0,0-4,0\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <polygon points=\"6 28 13 21 20 28 20 39 6 39 6 28\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/polygon>\n      <path d=\"M43,8V42a2,2,0,0,1-2,2H14a1,1,0,0,1-1-1V42\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <\/g>\n  <\/g>\n<\/svg>"}},"512160f4-b3b1-4276-b534-ee2ab4029151":{"type":"text","settings":{"title":"simple process","svg_icon":"<svg id=\"Outline\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 48 48\">\n  <title>hand-cash-money-payment-donate-gift-give-minority<\/title>\n  <g id=\"hand-cash-money-payment-donate-gift-give-minority\">\n    <g>\n      <g>\n        <path d=\"M19,33H30.43L38,29.2c1.69-.85,4.24-1.42,6,.23L30.43,38.71,19.71,43H5\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n        <path d=\"M37.21,29.43,39,25.86h0a7.4,7.4,0,0,0-5.8,2.79L29.71,33\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n        <path d=\"M5,33l7-5H27a5,5,0,0,1-5,5H19\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <\/g>\n      <rect x=\"10\" y=\"5\" width=\"28\" height=\"18\" rx=\"2\" stroke-width=\"2\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/rect>\n      <ellipse cx=\"24\" cy=\"14\" rx=\"5\" ry=\"6\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/ellipse>\n      <path d=\"M20,17a5,5,0,0,1,8,0\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M15,8a2,2,0,0,1-2,2\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M33,8a2,2,0,0,0,2,2\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M15,20a2,2,0,0,0-2-2\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M33,20a2,2,0,0,1,2-2\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M25.5,13.5a1.5,1.5,0,0,1-3,0v-1a1.5,1.5,0,0,1,3,0Z\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <\/g>\n  <\/g>\n<\/svg>"}},"37c5d7e6-df35-4225-9df7-1b508cd9e812":{"type":"text","settings":{"title":"Financial Consulting","svg_icon":"<svg id=\"Outline\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 48 48\">\n  <title>people-group-chat-money-finances<\/title>\n  <g id=\"people-group-chat-money-finances\">\n    <g>\n      <path d=\"M34.5,27a6.5,6.5,0,0,1,5,0\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M41,28V26.5c0-1.5,0-3-4-3s-4,1.5-4,3V28\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M32.5,30h0a1.63,1.63,0,0,0,1,1.5V32c0,1.66,1.84,3,3.5,3h0c1.66,0,3.5-1.34,3.5-3v-.5a1.63,1.63,0,0,0,1-1.5h0\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M44,41h0a3,3,0,0,0-3-3H33a3,3,0,0,0-3,3h0\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M19,41h0a3,3,0,0,0-3-3H8a3,3,0,0,0-3,3H5\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M32,44h0a3,3,0,0,0-3-3H21a3,3,0,0,0-3,3h0\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M12,7V19a2,2,0,0,0,2,2h5v5l5-5h6a2,2,0,0,0,2-2V7a2,2,0,0,0-2-2H14A2,2,0,0,0,12,7Z\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M16.85,37.68a4.72,4.72,0,0,0,1.63-1.86,2.17,2.17,0,0,1-1-2v-3a5.5,5.5,0,0,0-5.5-5.5h0a5.5,5.5,0,0,0-5.5,5.5v3a2.17,2.17,0,0,1-1,2,4.74,4.74,0,0,0,1.64,1.86\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M15,33.32a3,3,0,0,1-6,0v-1.5a2.92,2.92,0,0,1,.5-2,9.7,9.7,0,0,0,5.5,1.5Z\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M29,31.23v-1.5c0-1.5-1.5-3-4-3s-4,1.5-4,3v1.5\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M22.45,31.23l.5-1.5a6.57,6.57,0,0,0,4.5,1.5\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M20.45,33.23h0a1.63,1.63,0,0,0,1,1.5v.5c0,1.65,1.85,3,3.5,3h0c1.66,0,3.5-1.35,3.5-3v-.5a1.61,1.61,0,0,0,1-1.5h0\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <\/g>\n    <line x1=\"22\" y1=\"8\" x2=\"22\" y2=\"18\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n    <path d=\"M25,10c-1.44-1.49-6.17-1.68-6,1,.19,2.88,7,.91,7,4,0,2.12-4.45,3.1-7,1\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n  <\/g>\n<\/svg>"}},"41017651-22bc-45b6-8557-35204732cc04":{"type":"text","settings":{"title":"extensive industry  experience","svg_icon":"<svg id=\"Outline\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 48 48\">\n  <title>agreement-contract-handshake-approval<\/title>\n  <g id=\"agreement-contract-handshake-approval\">\n    <path d=\"M24,4a6,6,0,1,0,6,6A6,6,0,0,0,24,4Z\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <polyline points=\"21 9 23 11 26 8\" fill=\"none\" stroke=\"#333\" stroke-miterlimit=\"10\" stroke-width=\"2\"><\/polyline>\n    <line x1=\"36.24\" y1=\"32.54\" x2=\"37.23\" y2=\"28.96\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n    <polygon points=\"38.46 31.09 31.84 19.66 36 17.26 42.62 28.71 38.46 31.09\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/polygon>\n    <path d=\"M24.59,26l12.59,7.29a1.8,1.8,0,0,1,.66,2.46h0a1.79,1.79,0,0,1-2.46.66L28.24,32\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <path d=\"M25.78,35l7.4,4.32a1.81,1.81,0,0,0,2.46-.66h0A1.8,1.8,0,0,0,35,36.18L28.24,32\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <path d=\"M24,38.1l6.32,3.69a1.8,1.8,0,0,0,2.46-.66h0a1.8,1.8,0,0,0-.66-2.46L25.78,35\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <polyline points=\"11.22 33.17 10.67 31.12 9.12 30.22\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/polyline>\n    <path d=\"M24,38.1l4.53,2.5a1.8,1.8,0,0,1,.66,2.46h0a1.8,1.8,0,0,1-2.46.66l-3.22-1.65\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <polygon points=\"8.75 30.84 15.37 19.4 11.21 17 4.59 28.46 8.75 30.84\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/polygon>\n    <path d=\"M12.12,32.57l-1.85,1.11a1.88,1.88,0,0,0-.79,2.37,1.8,1.8,0,0,0,2.56.77L14,35.65a1.8,1.8,0,0,0,.61-2.47h0A1.8,1.8,0,0,0,12.12,32.57Z\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <path d=\"M15,35.06,12,36.84a1.87,1.87,0,0,0-.79,2.36,1.8,1.8,0,0,0,2.56.77l3-1.82a1.81,1.81,0,0,0,.61-2.48h0A1.81,1.81,0,0,0,15,35.06Z\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <path d=\"M17.35,37.82l-1.83,1.11a1.87,1.87,0,0,0-.79,2.36,1.8,1.8,0,0,0,2.56.77l1.92-1.16a1.8,1.8,0,0,0,.62-2.47h0A1.82,1.82,0,0,0,17.35,37.82Z\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <path d=\"M20,40.29a1.88,1.88,0,0,0-.79,2.4,1.8,1.8,0,0,0,2.55.75l.45-.28a1.8,1.8,0,0,0,.64-2.38h0a1.8,1.8,0,0,0-2.5-.7Z\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <path d=\"M21.86,24.24l-.27,1a4,4,0,0,1-4.89,3l1.75-6.56,4-1.55,7.12,1.47\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n  <\/g>\n<\/svg>"}},"86966f3a-fd74-4ce3-8cfe-70b01dd45d37":{"type":"text","settings":{"title":"Quick turnaround","svg_icon":"<svg id=\"Outline\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 48 48\">\n  <title>time-money-clock-cash<\/title>\n  <g id=\"time-money-clock-cash\">\n    <g>\n      <path d=\"M17,20.5A7.26,7.26,0,0,1,24,13a7.26,7.26,0,0,1,7,7.5\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.88\"><\/path>\n      <path d=\"M37,36h4a2,2,0,0,0,2-2V7a2,2,0,0,0-2-2H7A2,2,0,0,0,5,7V34a2,2,0,0,0,2,2h4\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M11.83,29.18A4,4,0,0,0,9,28V13a4,4,0,0,0,4-4H35a4,4,0,0,0,4,4V28a4,4,0,0,0-2.82,1.17\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <circle cx=\"24\" cy=\"33\" r=\"9\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/circle>\n      <line x1=\"24\" y1=\"24\" x2=\"24\" y2=\"21\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <line x1=\"22\" y1=\"21\" x2=\"26\" y2=\"21\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <line x1=\"30.36\" y1=\"26.64\" x2=\"32.49\" y2=\"24.51\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <line x1=\"31.07\" y1=\"23.1\" x2=\"33.9\" y2=\"25.93\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <line x1=\"24\" y1=\"33\" x2=\"28\" y2=\"29\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <circle cx=\"24\" cy=\"27\" r=\"1\" fill=\"#333\"><\/circle>\n      <circle cx=\"19.76\" cy=\"28.76\" r=\"1\" fill=\"#333\"><\/circle>\n      <circle cx=\"18\" cy=\"33\" r=\"1\" fill=\"#333\"><\/circle>\n      <circle cx=\"19.76\" cy=\"37.24\" r=\"1\" fill=\"#333\"><\/circle>\n      <circle cx=\"24\" cy=\"39\" r=\"1\" fill=\"#333\"><\/circle>\n      <circle cx=\"28.24\" cy=\"37.24\" r=\"1\" fill=\"#333\"><\/circle>\n      <circle cx=\"30\" cy=\"33\" r=\"1\" fill=\"#333\"><\/circle>\n    <\/g>\n  <\/g>\n<\/svg>"}}},"block_order":["b18933ff-f91a-4e25-838a-86d6a8379ffc","0b23cece-3831-46b6-ab68-368046c997d0","512160f4-b3b1-4276-b534-ee2ab4029151","37c5d7e6-df35-4225-9df7-1b508cd9e812","41017651-22bc-45b6-8557-35204732cc04","86966f3a-fd74-4ce3-8cfe-70b01dd45d37"],"settings":{"heading":"WHY CHOOSE LENMARK FINANCE?"}},"finance-section-6":{"type":"finance-section-6","settings":{"section_image":"shopify:\/\/shop_images\/industrial-worker-assembles-agricultural-equipment-3V47MHJ.jpg","section_heading":"Request For a Call Back","description":"<p>Please complete this form, our expert advisor will be in touch with you.<br\/><\/p>","button_text":"","button_link":""}}},"content_for_index":["slideshow","1598295863852","16255020013f747346","1598296006630","1542984811767","featured-product","1542984882560","1598296364416","1598296390959","1598296417391","1542984842027","1598296461292"]},"presets":{"Metal":{"heading_color":"#1e2d7d","text_color":"#677279","accent_color":"#00badb","link_color":"#00badb","border_color":"#e1e3e4","background":"#f3f5f6","secondary_background":"#ffffff","error_color":"#ff0000","success_color":"#00aa00","primary_button_background":"#00badb","primary_button_text_color":"#ffffff","secondary_button_background":"#1e2d7d","secondary_button_text_color":"#ffffff","header_background":"#1e2d7d","header_text_color":"#ffffff","header_light_text_color":"#a3afef","header_accent_color":"#00badb","product_on_sale_accent":"#ee0000","product_in_stock_color":"#008a00","product_low_stock_color":"#ee0000","product_sold_out_color":"#8a9297","product_label_1_background":"#008a00","product_label_2_background":"#00a500","product_star_color":"#ffbd00","base_text_font_size":16,"heading_font":"din_next_n5","text_font":"din_next_n4","underline_links":true,"animation_image_zoom":true,"search_mode":"product,article","show_vendor":true,"show_secondary_image":true,"product_price_position":"after_title","product_image_size":"natural","show_discount":true,"discount_mode":"saving","show_color_swatch":false,"show_inventory_quantity":false,"low_inventory_threshold":0,"show_reviews_badge":false,"cart_type":"drawer","cart_empty_button_link":"shopify:\/\/collections\/all","cart_show_free_shipping_threshold":false,"cart_free_shipping_threshold":"50","share_image":"","social_facebook":"","social_twitter":"","social_google_plus":"","social_pinterest":"","social_instagram":"","social_vimeo":"","social_tumblr":"","social_youtube":"","social_linkedin":"","social_snapchat":"","social_fancy":"","favicon":"","checkout_header_image":"","checkout_logo_image":"","checkout_logo_position":"left","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#fff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#fafafa","checkout_heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_body_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_accent_color":"#00badb","checkout_button_color":"#00badb","checkout_error_color":"#ff0000","sections":{"header":{"type":"header","settings":{"logo":"","logo_max_width":140,"mobile_logo_max_width":100,"navigation_menu":"main-menu","desktop_navigation_layout":"inline","desktop_navigation_open_trigger":"hover","navigation_phone_number":"Call us 000-000-0000","navigation_email":"info@yourwebsite.com","search_menu":""}},"footer":{"type":"footer","blocks":{"footer-0":{"type":"text","settings":{"title":"About the shop","content":"<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"}},"footer-1":{"type":"links","settings":{"menu":"footer"}},"footer-2":{"type":"newsletter","settings":{"title":"Newsletter","subheading":"<p>A short sentence describing what someone will receive by subscribing<\/p>"}}},"block_order":["footer-0","footer-1","footer-2"],"settings":{"show_social_media":true,"show_payment_icons":true}},"slideshow":{"type":"slideshow","blocks":{"slide-0":{"type":"image","settings":{"image":"","mobile_image":"","text_color":"#ffffff","title":"Tell your story","content":"Tell your story","content_position":"bottomLeft","button_background":"#ffffff","button_text_color":"#000000","button_text":"Button","link":""}},"slide-1":{"type":"image","settings":{"image":"","mobile_image":"","text_color":"#ffffff","title":"Tell your story","content":"Tell your story","content_position":"bottomLeft","button_background":"#ffffff","button_text_color":"#000000","button_text":"Button","link":""}}},"block_order":["slide-0","slide-1"],"settings":{"edge_to_edge":true,"section_size":"preserve_ratio","cycle_speed":5}},"collection-list":{"type":"collection-list","blocks":{"collection-0":{"type":"collection","settings":{"collection":"","image":""}},"collection-1":{"type":"collection","settings":{"collection":"","image":""}},"collection-2":{"type":"collection","settings":{"collection":"","image":""}},"collection-3":{"type":"collection","settings":{"collection":"","image":""}},"collection-4":{"type":"collection","settings":{"collection":"","image":""}},"collection-5":{"type":"collection","settings":{"collection":"","image":""}}},"block_order":["collection-0","collection-1","collection-2","collection-3","collection-4","collection-5"],"settings":{"title":"Our collections","link_title":"View all","link":"shopify:\/\/collections"}},"featured-product":{"type":"featured-product","settings":{"product":"","title":"Featured product","selector_mode":"block","color_mode":"color","zoom_effect":"outside","carousel_effect":"fade","low_inventory_threshold":0}},"collection-template":{"type":"collection-template","settings":{"collection_image_size":"small","default_view_layout":"grid","show_quick_buy":"list","show_quick_view":"list","quick_links":"","filter_type":"tag"}},"recently-viewed-products":{"type":"recently-viewed-products","settings":{"title":"Recently viewed"}},"product-template":{"type":"product-template","settings":{"selector_mode":"block","color_mode":"color","zoom_effect":"outside","carousel_effect":"fade","low_inventory_threshold":0,"tab_page_1_handle":"","tab_page_2_handle":"","tab_page_3_handle":"","custom_security_badge":""}},"product-recommendations":{"type":"product-recommendations","settings":{}},"announcement-bar":{"type":"announcement-bar","settings":{"background":"#1e2d7d","text_color":"#ffffff","text":"Announce something here","link":"","newsletter_button":"Subscribe & Save","newsletter_title":"Newsletter","newsletter_content":"<p>A short sentence describing what someone will receive by subscribing<\/p>"}},"secondary-navigation-bar":{"type":"secondary-navigation-bar","settings":{"background":"#1e2d7d","text_color":"#ffffff"}},"1542984811767":{"type":"featured-collection","settings":{"collection":"","title":"Featured collection","products_count":12,"layout":"vertical","link_title":"View all"}},"1542984842027":{"type":"newsletter","settings":{"title":"Newsletter","content":"<p>A short sentence describing what someone will receive by subscribing<\/p>"}},"1542984882560":{"type":"blog-posts","settings":{"blog":"news","title":"Blog posts"}}},"content_for_index":["slideshow","1542984811767","collection-list","1542984842027","featured-product","1542984882560"]},"Wood":{"heading_color":"#3a2a2f","text_color":"#3a2a2f","accent_color":"#ff6128","link_color":"#ff6128","border_color":"#e7e2de","background":"#f7f4f2","secondary_background":"#ffffff","error_color":"#f71b1b","success_color":"#48b448","primary_button_background":"#ff6128","primary_button_text_color":"#ffffff","secondary_button_background":"#3a2a2f","secondary_button_text_color":"#ffffff","header_background":"#3a2a2f","header_text_color":"#ffffff","header_light_text_color":"#e9e2dd","header_accent_color":"#ff6128","product_on_sale_accent":"#ee0000","product_in_stock_color":"#008a00","product_low_stock_color":"#ee0000","product_sold_out_color":"#d1d1d4","product_label_1_background":"#ff6128","product_label_2_background":"#a95ebe","product_star_color":"#ffb647","base_text_font_size":15,"heading_font":"itc_avant_garde_gothic_n5","text_font":"basic_commercial_n4","underline_links":true,"animation_image_zoom":true,"search_mode":"product,article,page","show_vendor":true,"show_secondary_image":true,"show_discount":true,"discount_mode":"percentage","product_price_position":"after_title","product_image_size":"square","show_color_swatch":false,"show_inventory_quantity":true,"low_inventory_threshold":1,"show_reviews_badge":false,"cart_type":"drawer","cart_empty_button_link":"shopify:\/\/collections\/all","cart_show_free_shipping_threshold":true,"cart_free_shipping_threshold":"50","checkout_logo_position":"center","checkout_logo_size":"medium","checkout_body_background_image":"","checkout_body_background_color":"#fff","checkout_input_background_color_mode":"white","checkout_sidebar_background_image":"","checkout_sidebar_background_color":"#f7f4f2","checkout_heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_body_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'","checkout_accent_color":"#ff6128","checkout_button_color":"#ff6128","checkout_error_color":"#f71b1b","sections":{"header":{"type":"header","settings":{"logo":"","logo_max_width":140,"mobile_logo_max_width":100,"navigation_menu":"main-menu","desktop_navigation_layout":"inline","desktop_navigation_open_trigger":"hover","navigation_phone_number":"Call us 000-000-0000","navigation_email":"info@yourwebsite.com","search_menu":""}},"footer":{"type":"footer","blocks":{"footer-0":{"type":"text","settings":{"title":"About the shop","content":"<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"}},"footer-1":{"type":"links","settings":{"menu":"footer"}},"footer-2":{"type":"newsletter","settings":{"title":"Newsletter","subheading":"<p>A short sentence describing what someone will receive by subscribing<\/p>"}}},"block_order":["footer-0","footer-1","footer-2"],"settings":{"show_social_media":true,"show_payment_icons":true}},"slideshow":{"type":"slideshow","blocks":{"slide-0":{"type":"image","settings":{"image":"","mobile_image":"","text_color":"#ffffff","title":"Tell your story","content":"Tell your story","content_position":"bottomLeft","button_background":"#ffffff","button_text_color":"#000000","button_text":"Button","link":""}},"slide-1":{"type":"image","settings":{"image":"","mobile_image":"","text_color":"#ffffff","title":"Tell your story","content":"Tell your story","content_position":"bottomLeft","button_background":"#ffffff","button_text_color":"#000000","button_text":"Button","link":""}}},"block_order":["slide-0","slide-1"],"settings":{"edge_to_edge":true,"section_size":"preserve_ratio","cycle_speed":5}},"collection-list":{"type":"collection-list","blocks":{"collection-0":{"type":"collection","settings":{"collection":"","image":""}},"collection-1":{"type":"collection","settings":{"collection":"","image":""}},"collection-2":{"type":"collection","settings":{"collection":"","image":""}},"collection-3":{"type":"collection","settings":{"collection":"","image":""}},"collection-4":{"type":"collection","settings":{"collection":"","image":""}},"collection-5":{"type":"collection","settings":{"collection":"","image":""}}},"block_order":["collection-0","collection-1","collection-2","collection-3","collection-4","collection-5"],"settings":{"title":"Our collections","link_title":"View all","link":"shopify:\/\/collections"}},"collection-template":{"type":"collection-template","settings":{"collection_image_size":"small","default_view_layout":"grid","show_quick_view":"list","show_quick_buy":"list","quick_links":"","filter_type":"tag"}},"collection-new-template":{"type":"collection-new-template","settings":{"collection_image_size":"small","default_view_layout":"grid","show_quick_view":"list","show_quick_buy":"list","quick_links":"","filter_type":"tag"}},"recently-viewed-products":{"type":"recently-viewed-products","settings":{"title":"Recently viewed"}},"product-template":{"type":"product-template","settings":{"selector_mode":"block","color_mode":"color","low_inventory_threshold":0,"zoom_effect":"outside","carousel_effect":"fade","tab_page_1_handle":"","tab_page_2_handle":"","tab_page_3_handle":"","custom_security_badge":""}},"product-recommendations":{"type":"product-recommendations","settings":{}},"announcement-bar":{"type":"announcement-bar","settings":{"background":"#3a2a2f","text_color":"#ffffff","text":"Announce something here","link":"","newsletter_button":"Subscribe & Save","newsletter_title":"Newsletter","newsletter_content":"<p>A short sentence describing what someone will receive by subscribing<\/p>"}},"1542984811767":{"type":"featured-collection","settings":{"collection":"","title":"Featured collection","products_count":12,"layout":"vertical","link_title":"View all"}},"1550833441117":{"type":"collection-with-image","settings":{"collection":"","products_count":12,"image":"","background":"#3a2a2f","text_color":"#ffffff","title":"Our best sellers","content":"Shop our most popular products for this season.","button_background":"#e95d2b","button_text_color":"#ffffff","button_text":"Learn more","button_link":""}},"1555314133560":{"type":"promotion-list","blocks":{"1555314133560-0":{"type":"item","settings":{"image":"","show_overlay":false,"stretch_image":false,"background":"#6f42ef","text_color":"#ffffff","title":"Your heading","content":"Tell more about your product, collection...","button_background":"#ffffff","button_text_color":"#6f42ef","button_text":"Learn more","button_link":""}},"1555314133560-1":{"type":"item","settings":{"image":"","show_overlay":false,"stretch_image":false,"background":"#fc2a68","text_color":"#ffffff","title":"Your heading","content":"Tell more about your product, collection...","button_background":"#ffffff","button_text_color":"#fc2a68","button_text":"Learn more","button_link":""}},"1555314133560-2":{"type":"item","settings":{"image":"","show_overlay":false,"stretch_image":false,"background":"#26c1ce","text_color":"#ffffff","title":"Your heading","content":"Tell more about your product, collection...","button_background":"#ffffff","button_text_color":"#26c1ce","button_text":"Learn more","button_link":""}}},"block_order":["1555314133560-0","1555314133560-1","1555314133560-2"],"settings":{"expand_items":false,"section_size":"medium","stack_mobile":false}},"1542984882560":{"type":"blog-posts","settings":{"blog":"news","title":"Blog posts"}}},"content_for_index":["slideshow","1542984811767","1555314133560","collection-list","1550833441117","1542984882560"]}}}
+{
+  "current": {
+    "heading_color": "#494949",
+    "text_color": "#494949",
+    "accent_color": "#494949",
+    "link_color": "#8a9297",
+    "border_color": "#e1e3e4",
+    "background": "#f3f4f6",
+    "secondary_background": "#ffffff",
+    "error_color": "#e3651a",
+    "success_color": "#4caa66",
+    "primary_button_background": "#494949",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#ffbd00",
+    "secondary_button_text_color": "#ffffff",
+    "header_background": "#3a3a3a",
+    "header_text_color": "#ffffff",
+    "header_light_text_color": "#ffffff",
+    "header_accent_color": "#ffbd00",
+    "header_link_hover_color": "#ffbd00",
+    "header_link_hover_alternate_color": "#e1e3e4",
+    "product_on_sale_accent": "#e3651a",
+    "product_in_stock_color": "#4caa66",
+    "product_low_stock_color": "#e3651a",
+    "product_sold_out_color": "#8a9297",
+    "product_label_1_background": "#ffbd00",
+    "product_label_2_background": "#4caa66",
+    "product_star_color": "#ffbd00",
+    "base_text_font_size": 14,
+    "heading_font": "itc_avant_garde_gothic_n5",
+    "text_font": "basic_commercial_n4",
+    "underline_links": true,
+    "nav_items_font": "basic_commercial_n4",
+    "nav_items_font_size": 15,
+    "animation_image_zoom": false,
+    "search_mode": "product,article",
+    "show_vendor": true,
+    "show_secondary_image": true,
+    "show_discount": true,
+    "discount_mode": "saving",
+    "product_price_position": "after_title",
+    "product_image_size": "short",
+    "show_color_swatch": false,
+    "show_inventory_quantity": true,
+    "low_inventory_threshold": 0,
+    "show_reviews_badge": false,
+    "cart_type": "drawer",
+    "cart_empty_button_link": "https:\/\/www.lenmark.com",
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "5000000",
+    "social_facebook": "https:\/\/www.facebook.com\/LenmarkIndustriesLtd\/",
+    "social_twitter": "https:\/\/twitter.com\/Lenmark",
+    "social_pinterest": "",
+    "social_instagram": "https:\/\/www.instagram.com\/lenmarkindustries\/",
+    "social_vimeo": "",
+    "social_tumblr": "",
+    "social_youtube": "https:\/\/www.youtube.com\/channel\/UC4IODAOPkXDmVNktRkhcw8Q",
+    "social_linkedin": "",
+    "social_snapchat": "",
+    "social_fancy": "",
+    "favicon": "shopify:\/\/shop_images\/Lenmark_Favicon_OneColour.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Lenmark_Logo_Unofficial_Positive_V3.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#f4a619",
+    "checkout_button_color": "#3a3a3a",
+    "checkout_error_color": "#e3651a",
+    "share_image": "",
+    "social_google_plus": "",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "1598462222123": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "",
+              "image_1_heading": "Your image",
+              "image_1_text": "Tell your story",
+              "image_1_link": "",
+              "image_2_heading": "Your image",
+              "image_2_text": "Tell your story",
+              "image_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1598462222123"
+        ],
+        "settings": {
+          "enable_sticky_header": true,
+          "logo_max_width": 220,
+          "mobile_logo_max_width": 135,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "navigation_menu": "",
+          "desktop_navigation_layout": "inline",
+          "desktop_navigation_open_trigger": "hover",
+          "show_navigation_social_media": false,
+          "mobile_secondary_menu": "",
+          "navigation_phone_number": "Call us 604-449-1880",
+          "navigation_email": "sales@lenmark.com",
+          "show_condensed_search": false,
+          "show_search_filter": true,
+          "search_menu": "",
+          "show_search_menu_title": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1598306956763": {
+            "type": "links",
+            "settings": {
+              "menu": ""
+            }
+          },
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "INDUSTRIAL SOLUTIONS",
+              "content": "<p>Lenmark makes it easier than ever to find the equipment you need. Our online inventory is updated daily and features thousands of new and used products across a huge range of industrial applications including fabrication, woodworking, oil &amp; gas, welding, electrical and more.<\/p>"
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "title": "JOIN OUR VIP LIST",
+              "subheading": "<p>Subscribe to receive exclusive offers, special pricing and inventory alerts<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1598306956763",
+          "footer-0",
+          "footer-2"
+        ],
+        "settings": {
+          "show_social_media": true,
+          "show_payment_icons": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "show_cookie_bar": false,
+          "text": "<p>Use this bar to show information about your cookie policy.<\/p>",
+          "accept_button": "Accept"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slide-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/AdobeStock_319539009.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 75,
+              "text_color": "#ffffff",
+              "title": "A NEW WAY TO BUY USED",
+              "content": "New and used solutions for any business, any industry",
+              "content_position": "middle_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Button",
+              "link": ""
+            }
+          },
+          "3fc50dc4-e6e9-45af-bb9e-20438c556211": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Homepage_Banner_Forklifts_c0ccff4a-e5cf-4f21-b4fd-77f4b3e1180d.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 0,
+              "text_color": "#ffffff",
+              "title": "we are expanding!",
+              "content": "Check out our new lines and industries that we now service",
+              "content_position": "middle_center",
+              "button_background": "#e1e3e4",
+              "button_text_color": "#494949",
+              "button_text": "Link Coming Soon!",
+              "link": "https:\/\/www.lenmark.com"
+            }
+          },
+          "c8b5040e-78c0-472b-af10-a3ddeb24a5e0": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/industrial-worker-assembles-agricultural-equipment-3V47MHJ.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 84,
+              "text_color": "#ffffff",
+              "title": "Trying To Reach Us?",
+              "content": "Our phone lines are currently down. \nPlease call us at 778-386-8884",
+              "content_position": "middle_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Button",
+              "link": ""
+            }
+          },
+          "4f21ea98-4ad9-426e-8942-ff90a50642c3": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Homepage_Banner_SellYourEquipment_625e6a58-88f6-474e-858e-ab01af65e721.jpg",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "Please Call Us At 778-386-8884",
+              "content": "Our Phone Network Was Hacked",
+              "content_position": "middle_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Button",
+              "link": ""
+            }
+          },
+          "0162a1aa-2a8b-4fc2-9281-04c7143eede3": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/About_us_header_3.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "Call Us at 604-638-9743",
+              "content": "Contact us for any request through our new line",
+              "content_position": "middle_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slide-0",
+          "3fc50dc4-e6e9-45af-bb9e-20438c556211",
+          "c8b5040e-78c0-472b-af10-a3ddeb24a5e0",
+          "4f21ea98-4ad9-426e-8942-ff90a50642c3",
+          "0162a1aa-2a8b-4fc2-9281-04c7143eede3"
+        ],
+        "settings": {
+          "edge_to_edge": true,
+          "section_size": "small",
+          "carousel_effect": "slide",
+          "autoplay": true,
+          "cycle_speed": 5
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "settings": {
+          "product": "vf-0-vertical-machining-center",
+          "title": "DEAL OF THE WEEK",
+          "link_title": "View Product",
+          "link_url": "",
+          "show_vendor": true,
+          "show_sku": true,
+          "show_share_buttons": true,
+          "show_description": true,
+          "description_below_add_to_cart": false,
+          "selector_mode": "dropdown",
+          "color_mode": "color",
+          "show_quantity_selector": false,
+          "show_reviews_badge": false,
+          "show_payment_button": true,
+          "image_size": "small",
+          "enable_image_zoom": true,
+          "enable_video_looping": false,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 0
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_image": false,
+          "collapse_collection_description": false,
+          "collection_image_size": "medium",
+          "products_per_row": "4",
+          "default_products_per_page": 24,
+          "default_view_layout": "grid",
+          "show_sku": true,
+          "show_quick_buy": "list_grid",
+          "show_quick_view": "list_grid",
+          "quick_links": "",
+          "quick_links_show_products_count": true,
+          "show_filters": false,
+          "show_filter_color_swatch": false,
+          "filter_type": "group",
+          "open_group_filters_mode": "first_open",
+          "filter_group_order": ""
+        }
+      },
+      "collection-new-template": {
+        "type": "collection-new-template",
+        "settings": {
+          "show_collection_image": false,
+          "collapse_collection_description": false,
+          "collection_image_size": "medium",
+          "products_per_row": "4",
+          "default_products_per_page": 24,
+          "default_view_layout": "grid",
+          "show_quick_buy": "list_grid",
+          "show_quick_view": "list_grid",
+          "quick_links": "",
+          "quick_links_show_products_count": true,
+          "show_filters": true,
+          "show_filter_color_swatch": true,
+          "filter_type": "group",
+          "open_group_filters_mode": "all_closed",
+          "filter_group_order": "Category,"
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "title": "Recently viewed",
+          "show_quick_buy": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_vendor": true,
+          "show_sku": true,
+          "show_share_buttons": false,
+          "show_taxes_included": true,
+          "selector_mode": "dropdown",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_payment_button": true,
+          "image_size": "large",
+          "enable_image_zoom": true,
+          "enable_video_looping": false,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": true,
+          "low_inventory_threshold": 1,
+          "content_display_mode": "show_all_and_expand_description",
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "tab_page_3_handle": "",
+          "enable_reviews": false,
+          "show_reviews_badge": false,
+          "trust_title": "Payment & Security",
+          "show_payment_icons": true,
+          "show_shipping_estimator": true,
+          "shipping_estimator_default_country": "Canada",
+          "show_refunds_policy": true
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_quick_buy": false
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "show_announcement": false,
+          "background": "#febe20",
+          "text_color": "#494949",
+          "text": "Save Time & Money When You Sell Your Equipment With Lenmark",
+          "text_position": "center",
+          "link": "shopify:\/\/pages\/sell-your-equipment",
+          "show_newsletter": false,
+          "newsletter_button": "Subscribe & Save",
+          "newsletter_title": "Newsletter",
+          "newsletter_content": "<p>Join our mailing list and receive 15% off your next online purchase<\/p>"
+        }
+      },
+      "secondary-navigation-bar": {
+        "type": "secondary-navigation-bar",
+        "settings": {
+          "show_secondary-navigation-bar": true,
+          "background": "#febe20",
+          "text_color": "#494949",
+          "secondary_menu": "",
+          "text_position": "center"
+        }
+      },
+      "1542984811767": {
+        "type": "featured-collection",
+        "disabled": true,
+        "settings": {
+          "collection": "new-inventory",
+          "title": "NEW INVENTORY",
+          "products_count": 29,
+          "layout": "vertical",
+          "stack_desktop": true,
+          "show_sku": true,
+          "show_quick_buy": false,
+          "link_title": "",
+          "link_url": ""
+        }
+      },
+      "1542984842027": {
+        "type": "newsletter",
+        "settings": {
+          "title": "Subscribe",
+          "content": "<p>Join our mailing list and receive 15% off your next online purchase<\/p>"
+        }
+      },
+      "1542984882560": {
+        "type": "blog-posts",
+        "disabled": true,
+        "settings": {
+          "blog": "",
+          "title": "Blog posts",
+          "link_title": "View all",
+          "show_category": true,
+          "show_author": true,
+          "show_date": true,
+          "show_excerpt": false,
+          "stack_mobile": false
+        }
+      },
+      "popups": {
+        "type": "popups",
+        "blocks": {
+          "1598288067125": {
+            "type": "exit",
+            "settings": {
+              "show_only_for_visitors": true,
+              "show_only_once": true,
+              "title": "Subscribe",
+              "subheading": "for Exclusive Weekly Offers",
+              "show_newsletter": true,
+              "button_text": "Sign Me Up",
+              "success_message": "Thanks! Check your email shortly to claim your discount code.",
+              "close_message": "No thanks"
+            }
+          }
+        },
+        "block_order": [
+          "1598288067125"
+        ],
+        "settings": {
+        }
+      },
+      "text-with-icons": {
+        "type": "text-with-icons",
+        "blocks": {
+          "text-with-icons-0": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-shop",
+              "title": "Online Marketplace",
+              "content": "<p>Shop from anywhere, anytime<\/p>"
+            }
+          },
+          "text-with-icons-1": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-customer-support",
+              "title": "Industry Experts",
+              "content": "<p>Top-notch support, ready to help<\/p>"
+            }
+          },
+          "text-with-icons-2": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-shield",
+              "title": "Shop with Confidence",
+              "content": "<p>Transparent pricing + warranty<\/p>"
+            }
+          },
+          "text-with-icons-3": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-fast-delivery",
+              "title": "Quick Quotes",
+              "content": "<p>Same-day freight quotes<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "text-with-icons-0",
+          "text-with-icons-1",
+          "text-with-icons-2",
+          "text-with-icons-3"
+        ],
+        "settings": {
+          "show_section": true,
+          "stack_mobile": true
+        }
+      },
+      "static-promotion-list": {
+        "type": "static-promotion-list",
+        "settings": {
+          "expand_items": true,
+          "section_size": "small",
+          "stack_mobile": true
+        }
+      },
+      "static-recently-viewed-products": {
+        "type": "static-recently-viewed-products",
+        "settings": {
+          "show_section": true,
+          "title": "Recently viewed",
+          "show_quick_buy": false
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "enable_order_notes": true,
+          "show_payment_icons": true,
+          "gift_wrap_product": "",
+          "gift_wrap_text": "Do you want a gift wrap?",
+          "gift_wrap_button": "Add a gift wrap",
+          "show_shipping_estimator": true,
+          "shipping_estimator_default_country": "Canada",
+          "trust_heading": "",
+          "upsell_heading": "Complete your cart",
+          "upsell_collection": "",
+          "upsell_products_count": 4
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "settings": {
+          "form_heading": "Leave your message",
+          "show_location1": true,
+          "location1_heading": "Langley",
+          "location1_info": "<p>27576 51a Ave<br\/>Langley, British Columbia<br\/>604-638-9743<\/p><p>Monday - Friday: 8AM - 5PM<br\/>Saturday - Sunday: By appointment<br\/><br\/><\/p>",
+          "show_location2": true,
+          "location2_heading": "Leduc",
+          "location2_info": "<p>6226 41 St<br\/>Leduc, Alberta<br\/>780-980-1968<\/p><p>Monday - Friday: 8AM - 5PM<br\/>Saturday - Sunday: By appointment<br\/><br\/><\/p>",
+          "show_location3": true,
+          "location3_heading": "Vernon",
+          "location3_info": "<p>4401 25 Ave<br\/>Vernon, British Columbia<br\/>250-309-3337<\/p><p>Monday - Friday: 8AM - 5PM<br\/>Saturday - Sunday: By appointment<\/p>"
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "show_section": false,
+          "title": "Subscribe to our newsletter",
+          "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+          "subtext": "100% free, Unsubscribe any time!",
+          "background": "#1e2d7d",
+          "text": "#ffffff"
+        }
+      },
+      "search-template": {
+        "type": "search-template",
+        "settings": {
+          "products_per_row": "4",
+          "default_view_layout": "grid",
+          "show_sku": true,
+          "show_quick_view": "list_grid",
+          "show_quick_buy": "list_grid",
+          "quick_links": "warehouse-footer-menu",
+          "show_filters": true,
+          "show_filter_color_swatch": false,
+          "filter_type": "group",
+          "open_group_filters_mode": "first_open",
+          "filter_group_order": ""
+        }
+      },
+      "1598295863852": {
+        "type": "collection-list",
+        "blocks": {
+          "1598295863852-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "forklifts",
+              "image": "shopify:\/\/shop_images\/2_b1048559-6083-4bde-b77a-8fec3c34593a.jpg"
+            }
+          },
+          "1598295863852-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "metalworking",
+              "image": "shopify:\/\/shop_images\/3_227c616d-bc43-472b-8134-21480d88a930.jpg"
+            }
+          },
+          "1598295863852-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "woodworking",
+              "image": "shopify:\/\/shop_images\/1.jpg"
+            }
+          },
+          "1598295863852-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "shipping-containers",
+              "image": "shopify:\/\/shop_images\/4_1859ce65-fbc0-4cc8-a9c5-154f53a432f7.jpg"
+            }
+          },
+          "1598295863852-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "bearings",
+              "image": "shopify:\/\/shop_images\/5_2f663d1b-0e25-4bd3-b606-67ca472c6648.jpg"
+            }
+          },
+          "1598296670846": {
+            "type": "collection",
+            "settings": {
+              "collection": "electrical",
+              "image": "shopify:\/\/shop_images\/6_e1e75133-4ff4-43f9-9ccc-6a8c8c1b5bbb.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1598295863852-4",
+          "1598295863852-0",
+          "1598295863852-1",
+          "1598295863852-2",
+          "1598295863852-3",
+          "1598296670846"
+        ],
+        "settings": {
+          "title": "POPULAR CATEGORIES",
+          "link_title": "View All Categories",
+          "link": "shopify:\/\/collections",
+          "round_images": false,
+          "show_collection_title": false
+        }
+      },
+      "1598296006630": {
+        "type": "mosaic",
+        "blocks": {
+          "1598296006630-2": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/pexels-karolina-grabowska-4968653.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 92,
+              "background": "#f3f4f4",
+              "text_color": "#ffffff",
+              "title": "SELL YOUR EQUIPMENT",
+              "content": "List or sell your equipment direct through our proprietary platform; it's easy cash and no hassle!",
+              "content_position": "middle_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#494949",
+              "button_text": "See How",
+              "link": "shopify:\/\/pages\/sell-your-equipment"
+            }
+          },
+          "1598296006630-0": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/AdobeStock_197917405.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 86,
+              "background": "#f3f4f4",
+              "text_color": "#ffffff",
+              "title": "Shop New",
+              "content": "We distribute new equipment! Shop for everything from forklifts to electrical.",
+              "content_position": "middle_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#494949",
+              "button_text": "Link Coming Soon!",
+              "link": "https:\/\/www.lenmark.com\/"
+            }
+          }
+        },
+        "block_order": [
+          "1598296006630-2",
+          "1598296006630-0"
+        ],
+        "settings": {
+          "section_size": "small"
+        }
+      },
+      "1598296364416": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "title": "Recently viewed",
+          "show_quick_buy": false
+        }
+      },
+      "1598296390959": {
+        "type": "image-with-text",
+        "disabled": true,
+        "settings": {
+          "image_position": "left",
+          "image_width": 50,
+          "title": "Your title",
+          "content": "<p>Use this text to share information about your brand with your customers.<br\/>Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "button_text": "Our products",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "1598296417391": {
+        "type": "logo-list",
+        "blocks": {
+          "1598296417391-1": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/King-Canada.png",
+              "link": "shopify:\/\/collections\/king-canada"
+            }
+          },
+          "1598296417391-0": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Edwards.png",
+              "link": "http:\/\/www.edwardsironworkers.com\/"
+            }
+          },
+          "1598301222329": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/rex-power-magnetics.png",
+              "link": "https:\/\/beaverelectrical.com\/"
+            }
+          },
+          "1598301206083": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/HACO.png",
+              "link": "https:\/\/www.haco.com\/en"
+            }
+          },
+          "1598296417391-2": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Multicam.png",
+              "link": "https:\/\/www.multicam.com\/"
+            }
+          },
+          "1598296417391-3": {
+            "type": "logo",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Powermatic.png",
+              "link": "http:\/\/www.powermatic.com\/us\/en\/home\/"
+            }
+          }
+        },
+        "block_order": [
+          "1598296417391-1",
+          "1598296417391-0",
+          "1598301222329",
+          "1598301206083",
+          "1598296417391-2",
+          "1598296417391-3"
+        ],
+        "settings": {
+          "title": "Proud Distributor of:",
+          "link_title": "",
+          "link": ""
+        }
+      },
+      "1598296461292": {
+        "type": "map",
+        "blocks": {
+          "1598296461292-0": {
+            "type": "store",
+            "settings": {
+              "title": "Langley, BC (Main Office)",
+              "address": "<p>27576 51A ave<br\/>Langley, British Columbia, V4W 4A9<br\/>604-449-1880<\/p>",
+              "hours": "<p>Monday - Friday: 8 AM - 5 PM<br\/>Saturday - Sunday: By Appointment<\/p>",
+              "map_address": "27576 51A ave, Langley BC"
+            }
+          },
+          "1598296461292-1": {
+            "type": "store",
+            "settings": {
+              "title": "Leduc, AB",
+              "address": "<p>6226 41 St<br\/>Leduc, Alberta, T9E 0V7<br\/>780-980-1968<\/p>",
+              "hours": "<p>Monday - Friday: 8 AM - 5 PM<br\/>Saturday - Sunday: By Appointment<\/p>",
+              "map_address": "6226 41 St Leduc, AB"
+            }
+          },
+          "1598296524622": {
+            "type": "store",
+            "settings": {
+              "title": "Vernon, BC",
+              "address": "<p>4401 25 Ave<br\/>Vernon, British Columbia, V1T 1P5<br\/>250-309-3337<\/p>",
+              "hours": "<p>Monday - Friday: 8 AM - 5 PM<br\/>Saturday - Sunday: By Appointment<\/p>",
+              "map_address": "4401 25 Ave Vernon, BC"
+            }
+          }
+        },
+        "block_order": [
+          "1598296461292-0",
+          "1598296461292-1",
+          "1598296524622"
+        ],
+        "settings": {
+          "title": "Our Locations",
+          "map_link_label": "Get directions",
+          "api_key": "AIzaSyCB2FdYKidkS3Hppwcq-Fw5oVnqQvgCHpo",
+          "zoom": 14,
+          "draggable_map": true,
+          "show_map_controls": true,
+          "map_style": "standard"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "collections_to_show": "all",
+          "show_collection_title": true,
+          "show_collection_overlay": true,
+          "collection_overlay_opacity": 20
+        }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-0": {
+            "type": "separator",
+            "settings": {
+              "title": "Shipping"
+            }
+          },
+          "page-faq-template-2": {
+            "type": "question",
+            "settings": {
+              "title": "How long will it take to get my order?",
+              "answer": "<p>It depends on where you are. Most orders will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "question",
+            "settings": {
+              "title": "What shipping carriers do you use?",
+              "answer": "<p>We use almost all major national and international carriers including Canada Post, FedEx, UPS, DHL and Purolator. We also partner with logistics companies such as C&D Logistics, Lantrax and <a href=\"http:\/\/elementfreight.com\/\" target=\"_blank\" title=\"http:\/\/elementfreight.com\/\">Element Freight<\/a> for larger shipments. We can also use your account if you have one.<\/p>"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "question",
+            "settings": {
+              "title": "Do you ship overseas?",
+              "answer": "<p>Yes, we ship all over the world! Smaller items will ship via Canada Post or DHL, but most overseas orders will require a freight quote. Feel free to click the &quot;make an offer&quot; button on any product page and send us your shipping address. Alternatively, you can <a href=\"mailto:ecommerce@lenmark.com\" title=\"mailto:ecommerce@lenmark.com\">email us<\/a> directly with your address and the SKU(s) of the item(s) you are interested in.<\/p>"
+            }
+          },
+          "page-faq-template-4": {
+            "type": "separator",
+            "settings": {
+              "title": "Returns & Warranty"
+            }
+          },
+          "page-faq-template-5": {
+            "type": "question",
+            "settings": {
+              "title": "Can I return my product?",
+              "answer": "<p>We always aim to make sure our customers are satisfied with their purchase. If you need to return an item, we’re happy to help - just <a href=\"mailto:ecommerce@lenmark.com\" title=\"mailto:ecommerce@lenmark.com\">email us<\/a> directly and we’ll take you through the process.<\/p>"
+            }
+          },
+          "page-faq-template-6": {
+            "type": "question",
+            "settings": {
+              "title": "What kind of warranty do you offer?",
+              "answer": "<p>Due to the nature of our inventory, we offer three different levels of warranty ranging from 0 to 30 to 45 days. For more information, please visit our warranty page (coming soon).<\/p>"
+            }
+          },
+          "page-faq-template-7": {
+            "type": "separator",
+            "settings": {
+              "title": "Other"
+            }
+          },
+          "page-faq-template-8": {
+            "type": "question",
+            "settings": {
+              "title": "Any questions?",
+              "answer": "<p>Feel free to <a href=\"https:\/\/www.lenmark.com\/pages\/contact-us\" title=\"https:\/\/www.lenmark.com\/pages\/contact-us\">send us a message<\/a> and we will be happy to assist you!<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-0",
+          "page-faq-template-2",
+          "page-faq-template-3",
+          "page-faq-template-1",
+          "page-faq-template-4",
+          "page-faq-template-5",
+          "page-faq-template-6",
+          "page-faq-template-7",
+          "page-faq-template-8"
+        ],
+        "settings": {
+          "show_contact_info": false,
+          "contact_info_heading": "Any question?",
+          "contact_info_text": "<p>If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.<\/p>",
+          "contact_1_icon": "bi-phone",
+          "contact_1_heading": "Customer support",
+          "contact_1_text": "<p>Enter your text here<\/p>",
+          "contact_2_icon": "bi-email",
+          "contact_2_heading": "Send a message",
+          "contact_2_text": "<p>Enter your text here<\/p>"
+        }
+      },
+      "page-sell-equipment-faq-template": {
+        "type": "page-sell-equipment-faq-template",
+        "settings": {
+        }
+      },
+      "image-with-text-appraisal": {
+        "type": "image-with-text-appraisal",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/AdobeStock_329800634.jpg",
+          "image_position": "left",
+          "image_width": 35,
+          "title": "APPRAISAL",
+          "content": "<p>We’ll leverage our experience to accurately assess the value of your equipment, and develop a customized marketing plan<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "image-with-text-merchandising": {
+        "type": "image-with-text-merchandising",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/AdobeStock_82079591.jpg",
+          "image_position": "right",
+          "image_width": 35,
+          "title": "TRANSPORTATION",
+          "content": "<p>If your strategy requires relocation or storage at our facility, this can be coordinated for you by our dedicated logistics team<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "image-with-text-marketing": {
+        "type": "image-with-text-marketing",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/pexels-negative-space-97080.jpg",
+          "image_position": "left",
+          "image_width": 35,
+          "title": "MARKETING",
+          "content": "<p>We have developed proprietary software to create extensive listings for your equipment on various sales platforms in order to maximize market exposure<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "image-with-text-support": {
+        "type": "image-with-text-support",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/AdobeStock_289288324.jpg",
+          "image_position": "right",
+          "image_width": 35,
+          "title": "NEGOTIATION",
+          "content": "<p>You set your terms and pricing and we represent your interests from start to finish - HASSLE FREE!  We manage the entire sales process starting from lead generation to ultimately closing the deal as well as the logistics of the sale<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "image-with-text-negotiation": {
+        "type": "image-with-text-negotiation",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/pexels-pixabay-48195.jpg",
+          "image_position": "left",
+          "image_width": 35,
+          "title": "PAYMENT",
+          "content": "<p>We finalize the sale and secure payment, then you get paid!<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "image-with-text-transportation": {
+        "type": "image-with-text-transportation",
+        "settings": {
+          "image_position": "right",
+          "image_width": 35,
+          "title": "",
+          "content": "",
+          "button_text": ""
+        }
+      },
+      "static-consultation-form": {
+        "type": "static-consultation-form",
+        "settings": {
+          "show_section": true,
+          "title": "REQUEST A FREE CONSULTATION",
+          "content": "",
+          "subtext": "",
+          "background": "#3a3a3a",
+          "text": "#ffbd00"
+        }
+      },
+      "slideshow-sell-equipment": {
+        "type": "slideshow-sell-equipment",
+        "blocks": {
+          "1600104242750": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/banner.png",
+              "show_overlay": true,
+              "overlay_opacity": 51,
+              "text_color": "#ffffff",
+              "title": "SOLUTIONS FOR YOUR EQUIPMENT",
+              "content": "Lenmark will sell your equipment, <br>giving you the highest value with no hassle. \n\n<button onclick=\"scrollToId('why-lenmark')\" class=\"case-study-link sell-btn\">Case Study<\/button>",
+              "content_position": "middle_center",
+              "button1_background": "#ffffff",
+              "button1_text_color": "#000000",
+              "button1_text": "",
+              "link1": "",
+              "button2_background": "#ffffff",
+              "button2_text_color": "#000000",
+              "button2_text": "",
+              "link2": ""
+            }
+          },
+          "2ad48817-0647-4781-8034-fb67ad1832d3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/forklift_banner.jpg",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "LIST WITH LENMARK",
+              "content": "<span class=\"text-yellow\">✓<\/span> Maximized value for your equipment<br>\n<span class=\"text-yellow\">✓<\/span> Access to our 10+ marketing channels<br>\n<span class=\"text-yellow\">✓<\/span> Avoid uncertainties from auction selling prices.\n<br><br> \n\n<button class=\"sell-options-link product-form__add-button button button--primary btn-list\" data-action=\"open-modal\" aria-controls=\"sell-forms-modal\" onclick=\"$('.modal__form-slide').slick('slickGoTo', 0);\">List with Lenmark<\/button>\n\n<button class=\"sell-options-link product-form__add-button button button--primary btn-sell\" data-action=\"open-modal\" aria-controls=\"sell-forms-modal\" onclick=\"$('.modal__form-slide').slick('slickGoTo', 1);\">Sell to Lenmark<\/button>",
+              "content_position": "middle_left",
+              "button1_background": "#ffffff",
+              "button1_text_color": "#000000",
+              "button1_text": "Button",
+              "link1": "",
+              "button2_background": "#ffffff",
+              "button2_text_color": "#000000",
+              "button2_text": "Button",
+              "link2": ""
+            }
+          }
+        },
+        "block_order": [
+          "1600104242750",
+          "2ad48817-0647-4781-8034-fb67ad1832d3"
+        ],
+        "settings": {
+          "edge_to_edge": true,
+          "section_size": "small",
+          "carousel_effect": "slide",
+          "autoplay": true,
+          "cycle_speed": 5
+        }
+      },
+      "team-sell-equipment": {
+        "type": "team-sell-equipment",
+        "blocks": {
+          "team-sell-equipment-0": {
+            "type": "separator",
+            "settings": {
+              "title": "Maximum Profit. Minimum Risk."
+            }
+          },
+          "team-sell-equipment-1": {
+            "type": "member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/noun_optimization_823952.png",
+              "title": "EXPERTISE",
+              "subheading": "Our sales and buying teams are uniquely qualified to appraise, list, show and negotiate the sale of your equipment.",
+              "link_title": ""
+            }
+          },
+          "team-sell-equipment-2": {
+            "type": "member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/noun_team_823940.png",
+              "title": "NETWORK",
+              "subheading": "Gain access to our extensive marketing network, including a wealth of direct industry contacts and an online sales platform with international viewership.",
+              "link_title": ""
+            }
+          },
+          "1600286813775": {
+            "type": "member",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/noun_growth_823947.png",
+              "title": "REACH",
+              "subheading": "Our marketing program spans all major online sales channels – so no matter where potential buyers are searching, your equipment is visible to them.",
+              "link_title": ""
+            }
+          },
+          "team-sell-equipment-3": {
+            "type": "promotion",
+            "settings": {
+              "title": "BUY-OUT PROGRAM",
+              "content": "<p>Get cash for your equipment, now! In most cases, we can get cash in your hand same-day.<\/p>",
+              "button_text": "Learn More",
+              "background": "#ffffff",
+              "text": "#424242"
+            }
+          },
+          "e18a41ad-94ad-4041-a35b-257bfe737490": {
+            "type": "separator",
+            "settings": {
+              "title": "How it works:"
+            }
+          }
+        },
+        "block_order": [
+          "team-sell-equipment-0",
+          "team-sell-equipment-1",
+          "team-sell-equipment-2",
+          "1600286813775",
+          "team-sell-equipment-3",
+          "e18a41ad-94ad-4041-a35b-257bfe737490"
+        ],
+        "settings": {
+          "image_edge_to_edge": false,
+          "show_image_overlay": false,
+          "color": "#ffffff",
+          "round_image": true
+        }
+      },
+      "map-contact-us": {
+        "type": "map-contact-us",
+        "settings": {
+          "title": "Our Locations",
+          "map_link_label": "Get directions",
+          "api_key": "AIzaSyCB2FdYKidkS3Hppwcq-Fw5oVnqQvgCHpo",
+          "zoom": 15,
+          "draggable_map": true,
+          "show_map_controls": true,
+          "map_style": "silver",
+          "image": ""
+        }
+      },
+      "rentals-featured-collection-1": {
+        "type": "rentals-featured-collection-1",
+        "settings": {
+          "collection": "telescopic-boom-lift-rentals",
+          "title": "Telescopic Boom Lifts",
+          "products_count": 4,
+          "layout": "vertical",
+          "stack_desktop": false,
+          "show_quick_buy": false,
+          "link_title": "",
+          "link_url": ""
+        }
+      },
+      "rentals-featured-collection-2": {
+        "type": "rentals-featured-collection-2",
+        "settings": {
+          "collection": "articulating-boom-lift-rentals",
+          "title": "Articulating Boom Lifts",
+          "products_count": 4,
+          "layout": "vertical",
+          "stack_desktop": false,
+          "show_quick_buy": false,
+          "link_title": "",
+          "link_url": ""
+        }
+      },
+      "rentals-featured-collection-3": {
+        "type": "rentals-featured-collection-3",
+        "settings": {
+          "collection": "forklift-rentals",
+          "title": "Forklifts",
+          "products_count": 4,
+          "layout": "vertical",
+          "stack_desktop": false,
+          "show_quick_buy": false,
+          "link_title": "",
+          "link_url": ""
+        }
+      },
+      "rentals-featured-collection-4": {
+        "type": "rentals-featured-collection-4",
+        "settings": {
+          "collection": "material-handling-rentals",
+          "title": "Telehandlers",
+          "products_count": 4,
+          "layout": "vertical",
+          "stack_desktop": false,
+          "show_quick_buy": false,
+          "link_title": "",
+          "link_url": ""
+        }
+      },
+      "collection-rentals-template": {
+        "type": "collection-rentals-template",
+        "settings": {
+          "show_collection_image": true,
+          "collapse_collection_description": false,
+          "collection_image_size": "small",
+          "products_per_row": "4",
+          "default_products_per_page": 24,
+          "default_view_layout": "grid",
+          "show_quick_buy": "list",
+          "show_quick_view": "list",
+          "quick_links": "",
+          "quick_links_show_products_count": true,
+          "show_filters": true,
+          "show_filter_color_swatch": true,
+          "filter_type": "tag",
+          "open_group_filters_mode": "all_closed",
+          "filter_group_order": ""
+        }
+      },
+      "map": {
+        "type": "map",
+        "blocks": {
+          "1602198629195": {
+            "type": "store",
+            "settings": {
+              "title": "Langley, BC",
+              "address": "<p>27576 51A ave<br\/>Langley, British Columbia, V4W 4A9<\/p>",
+              "hours": "",
+              "map_address": "27576 51A ave, Langley BC"
+            }
+          },
+          "1602198697627": {
+            "type": "store",
+            "settings": {
+              "title": "Leduc, AB",
+              "address": "<p>6226 41 St<br\/>Leduc, Alberta, T9E 0V7<\/p>",
+              "hours": "",
+              "map_address": "6226 41 St Leduc, AB"
+            }
+          },
+          "1602198736059": {
+            "type": "store",
+            "settings": {
+              "title": "Vernon, BC",
+              "address": "<p>4401 25 Ave<br\/>Vernon, British Columbia, V1T 1P5<\/p>",
+              "hours": "",
+              "map_address": "4401 25 Ave Vernon, BC"
+            }
+          }
+        },
+        "block_order": [
+          "1602198629195",
+          "1602198697627",
+          "1602198736059"
+        ],
+        "settings": {
+          "title": "Get Directions",
+          "map_link_label": "Get directions",
+          "api_key": "AIzaSyCB2FdYKidkS3Hppwcq-Fw5oVnqQvgCHpo",
+          "zoom": 14,
+          "draggable_map": false,
+          "show_map_controls": true,
+          "map_style": "standard"
+        }
+      },
+      "secondary-nav-bar": {
+        "type": "secondary-nav-bar",
+        "settings": {
+          "show_announcement": true,
+          "background": "#3a3a3a",
+          "text_color": "#ffffff",
+          "navigation_menu": ""
+        }
+      },
+      "product-template-rental": {
+        "type": "product-template-rental",
+        "settings": {
+          "show_vendor": true,
+          "show_sku": false,
+          "show_share_buttons": false,
+          "show_taxes_included": false,
+          "selector_mode": "block",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_payment_button": false,
+          "image_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false,
+          "zoom_effect": "inside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 0,
+          "content_display_mode": "show_all_and_expand_description",
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "tab_page_3_handle": "",
+          "enable_reviews": false,
+          "show_reviews_badge": false,
+          "trust_title": "Payment & Security",
+          "show_payment_icons": true,
+          "show_shipping_estimator": false,
+          "shipping_estimator_default_country": "United States",
+          "show_refunds_policy": true
+        }
+      },
+      "team-locations": {
+        "type": "team-locations",
+        "blocks": {
+          "team-locations-0": {
+            "type": "separator",
+            "settings": {
+              "title": "Our Locations"
+            }
+          },
+          "team-locations-3": {
+            "type": "promotion",
+            "settings": {
+              "title": "Langley, BC",
+              "content": "<p>604-449-1880<\/p><p>27576 51A ave<br\/>Langley, BC, V4W 4A9<\/p><p>Monday - Friday: 8 AM - 5 PM<br\/>Weekends: by appointment<\/p>",
+              "button_text": "",
+              "background": "#ffffff",
+              "text": "#494949"
+            }
+          },
+          "4bd28fac-b129-464a-9835-452b036cd109": {
+            "type": "promotion",
+            "settings": {
+              "title": "Leduc, AB",
+              "content": "<p>780-980-1968<\/p><p>6226 41 st<br\/>Leduc, AB T9E 0V7<\/p><p>Monday - Friday: 8 AM - 5 PM<br\/>Weekends: by appointment<\/p>",
+              "button_text": "",
+              "background": "#ffffff",
+              "text": "#494949"
+            }
+          },
+          "3edd0aff-8a58-4edf-9be6-6da5a9b7edf6": {
+            "type": "promotion",
+            "settings": {
+              "title": "Vernon, BC",
+              "content": "<p>250-309-3337<\/p><p>4401 25 ave<br\/>Vernon, BC V1T 1P5<\/p><p>Monday - Friday: 8 AM - 5 PM<br\/>Weekends: by appointment<\/p>",
+              "button_text": "",
+              "background": "#ffffff",
+              "text": "#494949"
+            }
+          }
+        },
+        "block_order": [
+          "team-locations-0",
+          "team-locations-3",
+          "4bd28fac-b129-464a-9835-452b036cd109",
+          "3edd0aff-8a58-4edf-9be6-6da5a9b7edf6"
+        ],
+        "settings": {
+          "image_edge_to_edge": false,
+          "show_image_overlay": false,
+          "color": "#ffffff",
+          "round_image": true
+        }
+      },
+      "page-team-template": {
+        "type": "page-team-template",
+        "blocks": {
+          "page-team-template-0": {
+            "type": "separator",
+            "settings": {
+              "title": "Our team"
+            }
+          },
+          "page-team-template-1": {
+            "type": "member",
+            "settings": {
+              "title": "John D.",
+              "subheading": "CEO",
+              "link": "mailto:john@test.com",
+              "link_title": "Your link"
+            }
+          },
+          "page-team-template-2": {
+            "type": "member",
+            "settings": {
+              "title": "Emily H.",
+              "subheading": "CTO",
+              "link": "mailto:emily@test.com",
+              "link_title": "Your link"
+            }
+          },
+          "page-team-template-3": {
+            "type": "promotion",
+            "settings": {
+              "title": "Join our team",
+              "content": "<p>A short sentence describing your job offer<\/p>",
+              "button_text": "",
+              "background": "#1e2d7d",
+              "text": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "page-team-template-0",
+          "page-team-template-1",
+          "page-team-template-2",
+          "page-team-template-3"
+        ],
+        "settings": {
+          "image_edge_to_edge": false,
+          "show_image_overlay": false,
+          "color": "#ffffff",
+          "round_image": true
+        }
+      },
+      "sell-equipment-partners-logo": {
+        "type": "sell-equipment-partners-logo",
+        "blocks": {
+          "c76a2254-f1de-47a4-a6df-e2676a17985a": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "partner_logo": "shopify:\/\/shop_images\/CNCRL.png",
+              "partner_logo_link": "https:\/\/www.cnrl.com\/"
+            }
+          },
+          "492d638e-6d7a-42a0-ad91-dbfc0aa53b3c": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "partner_logo": "shopify:\/\/shop_images\/Clearview_Demolition.png",
+              "partner_logo_link": "https:\/\/clearviewdemo.ca\/"
+            }
+          },
+          "9df42afa-db66-4246-bdd7-be316255d2ed": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "partner_logo": "shopify:\/\/shop_images\/DynamicAttractions_757961f8-8874-49f4-8ee9-836a3021e1d4.png",
+              "partner_logo_link": "http:\/\/dynamicattractions.com\/"
+            }
+          },
+          "fb779793-65a3-49db-8581-f7e8a2f592ad": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "partner_logo": "shopify:\/\/shop_images\/Flexiforce_ed9bf69b-a890-44fe-a76c-185e57ec764c.png",
+              "partner_logo_link": "https:\/\/www.flexiforce.com\/us-en\/"
+            }
+          },
+          "591ff846-2583-4401-9a5a-274a7e501c83": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "partner_logo": "shopify:\/\/shop_images\/Clearly.jpg",
+              "partner_logo_link": "https:\/\/www.clearly.ca\/"
+            }
+          },
+          "28c39e78-28ec-4dee-8075-77936be98b3c": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "partner_logo": "shopify:\/\/shop_images\/Grizzly3.jpg",
+              "partner_logo_link": "https:\/\/www.grizzly.com\/"
+            }
+          },
+          "76e53c91-bd22-45ea-a4bb-ab3c5e5b8de7": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "partner_logo": "shopify:\/\/shop_images\/oldcastle-logo.png",
+              "partner_logo_link": "https:\/\/obe.com\/"
+            }
+          },
+          "036dafb2-8419-4eea-a85f-06106df74f19": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "partner_logo": "shopify:\/\/shop_images\/Advantec_logo.png",
+              "partner_logo_link": "https:\/\/www.advantecglobal.com\/"
+            }
+          },
+          "7a92c533-9492-40a6-b671-15b50659bdc1": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "partner_logo": "shopify:\/\/shop_images\/Dynamic_Art.png",
+              "partner_logo_link": "https:\/\/www.dynamicwindows.com\/"
+            }
+          },
+          "16a8b744-b6a2-4e3b-81fd-07a20c6c3ba2": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "partner_logo": "shopify:\/\/shop_images\/Metric_Modular.png",
+              "partner_logo_link": "https:\/\/metricmodular.com\/"
+            }
+          },
+          "4d8c526f-ed39-4b9b-a797-386a9ee2e916": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "partner_logo": "shopify:\/\/shop_images\/Assertive_Demo_100h.png",
+              "partner_logo_link": "https:\/\/www.assertivedemo.com\/"
+            }
+          },
+          "026d1721-4044-42a7-99d0-4bc23760295c": {
+            "type": "block",
+            "disabled": true,
+            "settings": {
+              "partner_logo": "shopify:\/\/shop_images\/Columbia_cabinets2.png",
+              "partner_logo_link": "https:\/\/www.columbiacabinets.com\/"
+            }
+          }
+        },
+        "block_order": [
+          "c76a2254-f1de-47a4-a6df-e2676a17985a",
+          "492d638e-6d7a-42a0-ad91-dbfc0aa53b3c",
+          "9df42afa-db66-4246-bdd7-be316255d2ed",
+          "fb779793-65a3-49db-8581-f7e8a2f592ad",
+          "591ff846-2583-4401-9a5a-274a7e501c83",
+          "28c39e78-28ec-4dee-8075-77936be98b3c",
+          "76e53c91-bd22-45ea-a4bb-ab3c5e5b8de7",
+          "036dafb2-8419-4eea-a85f-06106df74f19",
+          "7a92c533-9492-40a6-b671-15b50659bdc1",
+          "16a8b744-b6a2-4e3b-81fd-07a20c6c3ba2",
+          "4d8c526f-ed39-4b9b-a797-386a9ee2e916",
+          "026d1721-4044-42a7-99d0-4bc23760295c"
+        ],
+        "settings": {
+        }
+      },
+      "sell-equipment-process-terms": {
+        "type": "sell-equipment-process-terms",
+        "blocks": {
+          "7894696f-853f-46b3-9aab-4a67ddd0ffd7": {
+            "type": "Block",
+            "settings": {
+              "process-banner": "shopify:\/\/shop_images\/appraisal_medium_1c9c5be8-4639-495e-855e-2e1afa0385ba.png",
+              "process-terms-heading": "APPRAISAL",
+              "process-terms-content": "<b>• TAILORED APPRAISAL<\/b><br>\n<span>Every asset is unique, which is why we do a tailored appraisal to determine the value of your specific equipment.<\/span>\n\n<b>• FAIR EQUIPMENT VALUE<\/b><br>\n<span>We have dedicated staff ensuring the value of your equipment is brought to market fairly.<\/span>\n\n<b>• MARKET RESEARCH<\/b><br>\n<span>Industry-leading market research and comparables of similar equipment.<\/span>\n\n<b>• YOU SET THE PRICE<\/b><br>\n<span>Pricing happens with YOU in control.<\/span>",
+              "content-right": false
+            }
+          },
+          "9911d691-0e31-4912-bd8b-4f5e232d3f8f": {
+            "type": "Block",
+            "settings": {
+              "process-banner": "shopify:\/\/shop_images\/transport_medium_07b885f4-f708-4d19-9c16-9c8423ead15d.png",
+              "process-terms-heading": "TRANSPORT & STORE",
+              "process-terms-content": "<b>• DEDICATED LOGISTICS TEAM<\/b><br>\n<span>We move large assets every day with a dedicated in-house team, removing the headache of you having to plan yourself.<\/span>\n\n<b>• PARTNERED WITH FREIGHT COMPANIES<\/b><br>\n<span>We partner with freight companies who are experts with heavy equipment, allowing you to move with confidence!<\/span>\n\n<b>• WE CAN STORE YOUR EQUIPMENT<\/b><br>\n<span>If you need the floor space, we can purchase your assets and store them at our facility<\/span>",
+              "content-right": true
+            }
+          },
+          "43b24ac1-0151-4f4c-bd96-65f6568da4d8": {
+            "type": "Block",
+            "settings": {
+              "process-banner": "shopify:\/\/shop_images\/marketing_medium_abb046f5-e3ee-442c-998c-ab691e93e2cb.png",
+              "process-terms-heading": "MARKETING",
+              "process-terms-content": "<b>• WORLDWIDE EXPOSURE<\/b><br>\n<span>Our proprietary platform gives your equipment worldwide exposure.<\/span>\n\n<b>• GOES TO MARKET QUICKLY<\/b><br>\n<span>In-house subject matter experts make sure that your equipment is represented accurately and posted quickly.<\/span>\n\n<b>• MARKETING EFFORTS<\/b><br>\n<span>We invest thousands into digital marketing every month, ensuring your equipment is at the top of every search result.<\/span>",
+              "content-right": false
+            }
+          },
+          "ad01a60c-aa57-4114-9991-c6503c482c8e": {
+            "type": "Block",
+            "settings": {
+              "process-banner": "shopify:\/\/shop_images\/negotiation_medium_5118db2c-8e51-4dd8-8336-64226ca9a7eb.png",
+              "process-terms-heading": "NEGOTIATION",
+              "process-terms-content": "<b>• HIGHEST EQUIPMENT VALUE<\/b><br>\n<span>We have a dedicated sales team to represent your equipment, ensuring top value for you.<\/span>\n\n<b>• WE HANDLE THE SALE<\/b><br>\n<span>We handle the negotiation, pricing, logistics &amp; questions on your behalf.<\/span>\n\n<b>• YOU DECIDE ON THE PRICE<\/b><br>\n<span>You set your bottom line. We negotiate to bring you the top line.<\/span>",
+              "content-right": true
+            }
+          },
+          "c1ca8ce6-37d3-437c-92a5-47a547fafc14": {
+            "type": "Block",
+            "settings": {
+              "process-banner": "shopify:\/\/shop_images\/payment_medium_aa744988-e9d7-4cf5-821e-0699b2803e04.png",
+              "process-terms-heading": "PAYMENT",
+              "process-terms-content": "<b>• WE HANDLE THE PAYMENT<\/b><br>\n<span>We take care of ensuring the payment is made and that there is no “funny business”.<\/span>\n\n<b>• WE CAN PROCESS ANY TRANSACTION<\/b><br>\n<span>Local sales, national sales, or worldwide sales, we have the capacity and experience to complete all parts of the transaction – even if it is cross-border.<\/span>",
+              "content-right": false
+            }
+          }
+        },
+        "block_order": [
+          "7894696f-853f-46b3-9aab-4a67ddd0ffd7",
+          "9911d691-0e31-4912-bd8b-4f5e232d3f8f",
+          "43b24ac1-0151-4f4c-bd96-65f6568da4d8",
+          "ad01a60c-aa57-4114-9991-c6503c482c8e",
+          "c1ca8ce6-37d3-437c-92a5-47a547fafc14"
+        ],
+        "settings": {
+        }
+      },
+      "sell-equipment-advantage": {
+        "type": "sell-equipment-advantage",
+        "settings": {
+        }
+      },
+      "sell-equipment-why-lenmark-form": {
+        "type": "sell-equipment-why-lenmark-form",
+        "settings": {
+        }
+      },
+      "sell-equipment-popup-form": {
+        "type": "sell-equipment-popup-form",
+        "settings": {
+        }
+      },
+      "16255020013f747346": {
+        "type": "collection-list",
+        "blocks": {
+          "16255020013f747346-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "transformers",
+              "image": "shopify:\/\/shop_images\/7_a9b80d24-736a-404b-bc22-c7f37f8e5e4d.jpg"
+            }
+          },
+          "16255020013f747346-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "steel",
+              "image": "shopify:\/\/shop_images\/Add_a_heading_1080_x_1080_px_1.jpg"
+            }
+          },
+          "16255020013f747346-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "compressors",
+              "image": "shopify:\/\/shop_images\/9_0b45113a-5d79-48ab-bd32-49bd0138e9ca.jpg"
+            }
+          },
+          "16255020013f747346-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "oil-gas",
+              "image": "shopify:\/\/shop_images\/10_17a469cc-7155-40c1-96a1-8a8f7b786c3a.jpg"
+            }
+          },
+          "16255020013f747346-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "breakers",
+              "image": "shopify:\/\/shop_images\/11_cea96ae1-f8b8-4fd5-91bd-c649a7ab2124.jpg"
+            }
+          },
+          "e4a52649-80e5-463a-a232-32a5c987d0b1": {
+            "type": "collection",
+            "settings": {
+              "collection": "miscellaneous-mro",
+              "image": "shopify:\/\/shop_images\/12_8c06a96b-931a-4b81-b470-6a2bd43a3fed.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "16255020013f747346-0",
+          "16255020013f747346-1",
+          "16255020013f747346-2",
+          "16255020013f747346-3",
+          "16255020013f747346-4",
+          "e4a52649-80e5-463a-a232-32a5c987d0b1"
+        ],
+        "settings": {
+          "title": "",
+          "link_title": "",
+          "link": "shopify:\/\/collections",
+          "round_images": false,
+          "show_collection_title": false
+        }
+      },
+      "finance-banner": {
+        "type": "finance-banner",
+        "blocks": {
+          "ed6e2dbd-688e-46ec-ad29-8741c207aeb3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Slider.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/Slider_sp.jpg",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "Finance equipment on your terms",
+              "content": "Lenmark Finance offers hassle-free payment plans \nto let you start using your equipment right away and pay later\n\n<button onclick=\"location.href='contact-us.html'\" class=\"button button--primary\">Contact Us <\/button>",
+              "content_position": "middle_left",
+              "button1_background": "#ffffff",
+              "button1_text_color": "#000000",
+              "button1_text": "Button",
+              "link1": "",
+              "button2_background": "#ffffff",
+              "button2_text_color": "#000000",
+              "button2_text": "Button",
+              "link2": ""
+            }
+          }
+        },
+        "block_order": [
+          "ed6e2dbd-688e-46ec-ad29-8741c207aeb3"
+        ],
+        "settings": {
+          "edge_to_edge": true,
+          "section_size": "large",
+          "carousel_effect": "slide",
+          "autoplay": true,
+          "cycle_speed": 5
+        }
+      },
+      "finance-section-2": {
+        "type": "finance-section-2",
+        "blocks": {
+          "0a0633cf-3392-49e4-9224-6fd69349e4f5": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/working-desk-with-project-gantt-chart-U4HZGY8_5f026b99-aad3-412b-9f07-f7e1d74c16c1.jpg",
+              "title": "Long-term Financing",
+              "description": "Secure long-term financing for your equipment and  get to work right away"
+            }
+          },
+          "a053ff5a-2a90-428d-813d-974d638de7b3": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/handshake-PEDHUTN.jpg",
+              "title": "Skip The Hassle",
+              "description": "Borrowing from lenders can be frustrating and  time-consuming. At Lenmark, financing service is fast"
+            }
+          },
+          "33a7c039-83c2-4d30-8da0-36075e232a6a": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/real-estate-agency-young-couple-signing-financing--EJH3W6Q.jpg",
+              "title": "Solutions For Every Business",
+              "description": "Large or small, Lenmark Finance has a solution  for your company"
+            }
+          }
+        },
+        "block_order": [
+          "0a0633cf-3392-49e4-9224-6fd69349e4f5",
+          "a053ff5a-2a90-428d-813d-974d638de7b3",
+          "33a7c039-83c2-4d30-8da0-36075e232a6a"
+        ],
+        "settings": {
+          "section_heading": "FINANCIAL SOLUTIONS FOR EVERY BUSINESS",
+          "section_sub_heading": "<p>Lenmark Finance offers an easy way to get personalized financing<\/p><p>backed by our team of Certified Commercial Finance Managers.<\/p>"
+        }
+      },
+      "finance-section-3": {
+        "type": "finance-section-3",
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/Facts.jpg"
+        }
+      },
+      "finance-section-4": {
+        "type": "finance-section-4",
+        "settings": {
+          "section_image": "shopify:\/\/shop_images\/personal-advice.jpg",
+          "section_heading": "Professional Advice",
+          "description": "<p>At Lenmark, we take customer service seriously. And that includes<br\/>helping you get the financing you need. That’s why we have Certified<br\/>Commercial Finance Mangers to give you the best advice on what<br\/>solution is right for your business.<\/p>",
+          "button_text": "CONTACT US TODAY",
+          "button_link": "shopify:\/\/pages\/contact-us"
+        }
+      },
+      "finance-section-5": {
+        "type": "finance-section-5",
+        "blocks": {
+          "b18933ff-f91a-4e25-838a-86d6a8379ffc": {
+            "type": "text",
+            "settings": {
+              "title": "FINANCING FOR ALL<br>TYPES OF EQUIPMENT",
+              "svg_icon": "<svg id=\"Outline\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 48 48\">\n  <title>bank-capital-building<\/title>\n  <g id=\"bank-capital-building\">\n    <g>\n      <polygon points=\"5 14 24 7 43 14 43 18 5 18 5 14\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/polygon>\n      <circle cx=\"24\" cy=\"13\" r=\"2\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/circle>\n      <rect x=\"9\" y=\"18\" width=\"4\" height=\"15\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/rect>\n      <rect x=\"22\" y=\"18\" width=\"4\" height=\"15\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/rect>\n      <rect x=\"35\" y=\"18\" width=\"4\" height=\"15\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/rect>\n      <rect x=\"7\" y=\"33\" width=\"34\" height=\"4\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/rect>\n      <rect x=\"5\" y=\"37\" width=\"38\" height=\"4\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/rect>\n    <\/g>\n  <\/g>\n<\/svg>"
+            }
+          },
+          "0b23cece-3831-46b6-ab68-368046c997d0": {
+            "type": "text",
+            "settings": {
+              "title": "Flexible rates",
+              "svg_icon": "<svg id=\"Outline\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 48 48\">\n  <title>house-mortgage-pen-signature-lease<\/title>\n  <g id=\"house-mortgage-pen-signature-lease\">\n    <g>\n      <line x1=\"26\" y1=\"17\" x2=\"18\" y2=\"17\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <line x1=\"26\" y1=\"21\" x2=\"18\" y2=\"21\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <line x1=\"30\" y1=\"25\" x2=\"22\" y2=\"25\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <line x1=\"18\" y1=\"13\" x2=\"26\" y2=\"13\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <path d=\"M13,17V8a2,2,0,0,1,2-2H25\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M24,33c3,0,3,4,3,4s1-4,3-4,3,4,3,4a4.37,4.37,0,0,1,3-4\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M33,6H31a2,2,0,0,0-2,2V19l1,1\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M36,4a3,3,0,0,0-3,3V27h6V7A3,3,0,0,0,36,4Z\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <polygon points=\"33 27 36 33 39 27 33 27\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/polygon>\n      <line x1=\"33\" y1=\"17\" x2=\"39\" y2=\"17\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <rect x=\"11\" y=\"33\" width=\"4\" height=\"6\" stroke-width=\"2\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/rect>\n      <path d=\"M15,29a2,2,0,0,0-4,0\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <polygon points=\"6 28 13 21 20 28 20 39 6 39 6 28\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/polygon>\n      <path d=\"M43,8V42a2,2,0,0,1-2,2H14a1,1,0,0,1-1-1V42\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <\/g>\n  <\/g>\n<\/svg>"
+            }
+          },
+          "512160f4-b3b1-4276-b534-ee2ab4029151": {
+            "type": "text",
+            "settings": {
+              "title": "simple process",
+              "svg_icon": "<svg id=\"Outline\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 48 48\">\n  <title>hand-cash-money-payment-donate-gift-give-minority<\/title>\n  <g id=\"hand-cash-money-payment-donate-gift-give-minority\">\n    <g>\n      <g>\n        <path d=\"M19,33H30.43L38,29.2c1.69-.85,4.24-1.42,6,.23L30.43,38.71,19.71,43H5\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n        <path d=\"M37.21,29.43,39,25.86h0a7.4,7.4,0,0,0-5.8,2.79L29.71,33\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n        <path d=\"M5,33l7-5H27a5,5,0,0,1-5,5H19\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <\/g>\n      <rect x=\"10\" y=\"5\" width=\"28\" height=\"18\" rx=\"2\" stroke-width=\"2\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" fill=\"none\"><\/rect>\n      <ellipse cx=\"24\" cy=\"14\" rx=\"5\" ry=\"6\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/ellipse>\n      <path d=\"M20,17a5,5,0,0,1,8,0\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M15,8a2,2,0,0,1-2,2\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M33,8a2,2,0,0,0,2,2\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M15,20a2,2,0,0,0-2-2\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M33,20a2,2,0,0,1,2-2\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M25.5,13.5a1.5,1.5,0,0,1-3,0v-1a1.5,1.5,0,0,1,3,0Z\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <\/g>\n  <\/g>\n<\/svg>"
+            }
+          },
+          "37c5d7e6-df35-4225-9df7-1b508cd9e812": {
+            "type": "text",
+            "settings": {
+              "title": "Financial Consulting",
+              "svg_icon": "<svg id=\"Outline\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 48 48\">\n  <title>people-group-chat-money-finances<\/title>\n  <g id=\"people-group-chat-money-finances\">\n    <g>\n      <path d=\"M34.5,27a6.5,6.5,0,0,1,5,0\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M41,28V26.5c0-1.5,0-3-4-3s-4,1.5-4,3V28\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M32.5,30h0a1.63,1.63,0,0,0,1,1.5V32c0,1.66,1.84,3,3.5,3h0c1.66,0,3.5-1.34,3.5-3v-.5a1.63,1.63,0,0,0,1-1.5h0\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M44,41h0a3,3,0,0,0-3-3H33a3,3,0,0,0-3,3h0\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M19,41h0a3,3,0,0,0-3-3H8a3,3,0,0,0-3,3H5\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M32,44h0a3,3,0,0,0-3-3H21a3,3,0,0,0-3,3h0\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M12,7V19a2,2,0,0,0,2,2h5v5l5-5h6a2,2,0,0,0,2-2V7a2,2,0,0,0-2-2H14A2,2,0,0,0,12,7Z\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M16.85,37.68a4.72,4.72,0,0,0,1.63-1.86,2.17,2.17,0,0,1-1-2v-3a5.5,5.5,0,0,0-5.5-5.5h0a5.5,5.5,0,0,0-5.5,5.5v3a2.17,2.17,0,0,1-1,2,4.74,4.74,0,0,0,1.64,1.86\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M15,33.32a3,3,0,0,1-6,0v-1.5a2.92,2.92,0,0,1,.5-2,9.7,9.7,0,0,0,5.5,1.5Z\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M29,31.23v-1.5c0-1.5-1.5-3-4-3s-4,1.5-4,3v1.5\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M22.45,31.23l.5-1.5a6.57,6.57,0,0,0,4.5,1.5\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M20.45,33.23h0a1.63,1.63,0,0,0,1,1.5v.5c0,1.65,1.85,3,3.5,3h0c1.66,0,3.5-1.35,3.5-3v-.5a1.61,1.61,0,0,0,1-1.5h0\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <\/g>\n    <line x1=\"22\" y1=\"8\" x2=\"22\" y2=\"18\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n    <path d=\"M25,10c-1.44-1.49-6.17-1.68-6,1,.19,2.88,7,.91,7,4,0,2.12-4.45,3.1-7,1\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n  <\/g>\n<\/svg>"
+            }
+          },
+          "41017651-22bc-45b6-8557-35204732cc04": {
+            "type": "text",
+            "settings": {
+              "title": "extensive industry  experience",
+              "svg_icon": "<svg id=\"Outline\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 48 48\">\n  <title>agreement-contract-handshake-approval<\/title>\n  <g id=\"agreement-contract-handshake-approval\">\n    <path d=\"M24,4a6,6,0,1,0,6,6A6,6,0,0,0,24,4Z\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <polyline points=\"21 9 23 11 26 8\" fill=\"none\" stroke=\"#333\" stroke-miterlimit=\"10\" stroke-width=\"2\"><\/polyline>\n    <line x1=\"36.24\" y1=\"32.54\" x2=\"37.23\" y2=\"28.96\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n    <polygon points=\"38.46 31.09 31.84 19.66 36 17.26 42.62 28.71 38.46 31.09\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/polygon>\n    <path d=\"M24.59,26l12.59,7.29a1.8,1.8,0,0,1,.66,2.46h0a1.79,1.79,0,0,1-2.46.66L28.24,32\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <path d=\"M25.78,35l7.4,4.32a1.81,1.81,0,0,0,2.46-.66h0A1.8,1.8,0,0,0,35,36.18L28.24,32\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <path d=\"M24,38.1l6.32,3.69a1.8,1.8,0,0,0,2.46-.66h0a1.8,1.8,0,0,0-.66-2.46L25.78,35\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <polyline points=\"11.22 33.17 10.67 31.12 9.12 30.22\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/polyline>\n    <path d=\"M24,38.1l4.53,2.5a1.8,1.8,0,0,1,.66,2.46h0a1.8,1.8,0,0,1-2.46.66l-3.22-1.65\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <polygon points=\"8.75 30.84 15.37 19.4 11.21 17 4.59 28.46 8.75 30.84\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/polygon>\n    <path d=\"M12.12,32.57l-1.85,1.11a1.88,1.88,0,0,0-.79,2.37,1.8,1.8,0,0,0,2.56.77L14,35.65a1.8,1.8,0,0,0,.61-2.47h0A1.8,1.8,0,0,0,12.12,32.57Z\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <path d=\"M15,35.06,12,36.84a1.87,1.87,0,0,0-.79,2.36,1.8,1.8,0,0,0,2.56.77l3-1.82a1.81,1.81,0,0,0,.61-2.48h0A1.81,1.81,0,0,0,15,35.06Z\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <path d=\"M17.35,37.82l-1.83,1.11a1.87,1.87,0,0,0-.79,2.36,1.8,1.8,0,0,0,2.56.77l1.92-1.16a1.8,1.8,0,0,0,.62-2.47h0A1.82,1.82,0,0,0,17.35,37.82Z\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <path d=\"M20,40.29a1.88,1.88,0,0,0-.79,2.4,1.8,1.8,0,0,0,2.55.75l.45-.28a1.8,1.8,0,0,0,.64-2.38h0a1.8,1.8,0,0,0-2.5-.7Z\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n    <path d=\"M21.86,24.24l-.27,1a4,4,0,0,1-4.89,3l1.75-6.56,4-1.55,7.12,1.47\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n  <\/g>\n<\/svg>"
+            }
+          },
+          "86966f3a-fd74-4ce3-8cfe-70b01dd45d37": {
+            "type": "text",
+            "settings": {
+              "title": "Quick turnaround",
+              "svg_icon": "<svg id=\"Outline\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 48 48\">\n  <title>time-money-clock-cash<\/title>\n  <g id=\"time-money-clock-cash\">\n    <g>\n      <path d=\"M17,20.5A7.26,7.26,0,0,1,24,13a7.26,7.26,0,0,1,7,7.5\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.88\"><\/path>\n      <path d=\"M37,36h4a2,2,0,0,0,2-2V7a2,2,0,0,0-2-2H7A2,2,0,0,0,5,7V34a2,2,0,0,0,2,2h4\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <path d=\"M11.83,29.18A4,4,0,0,0,9,28V13a4,4,0,0,0,4-4H35a4,4,0,0,0,4,4V28a4,4,0,0,0-2.82,1.17\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/path>\n      <circle cx=\"24\" cy=\"33\" r=\"9\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/circle>\n      <line x1=\"24\" y1=\"24\" x2=\"24\" y2=\"21\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <line x1=\"22\" y1=\"21\" x2=\"26\" y2=\"21\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <line x1=\"30.36\" y1=\"26.64\" x2=\"32.49\" y2=\"24.51\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <line x1=\"31.07\" y1=\"23.1\" x2=\"33.9\" y2=\"25.93\" fill=\"none\" stroke=\"#333\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <line x1=\"24\" y1=\"33\" x2=\"28\" y2=\"29\" fill=\"none\" stroke=\"#333\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><\/line>\n      <circle cx=\"24\" cy=\"27\" r=\"1\" fill=\"#333\"><\/circle>\n      <circle cx=\"19.76\" cy=\"28.76\" r=\"1\" fill=\"#333\"><\/circle>\n      <circle cx=\"18\" cy=\"33\" r=\"1\" fill=\"#333\"><\/circle>\n      <circle cx=\"19.76\" cy=\"37.24\" r=\"1\" fill=\"#333\"><\/circle>\n      <circle cx=\"24\" cy=\"39\" r=\"1\" fill=\"#333\"><\/circle>\n      <circle cx=\"28.24\" cy=\"37.24\" r=\"1\" fill=\"#333\"><\/circle>\n      <circle cx=\"30\" cy=\"33\" r=\"1\" fill=\"#333\"><\/circle>\n    <\/g>\n  <\/g>\n<\/svg>"
+            }
+          }
+        },
+        "block_order": [
+          "b18933ff-f91a-4e25-838a-86d6a8379ffc",
+          "0b23cece-3831-46b6-ab68-368046c997d0",
+          "512160f4-b3b1-4276-b534-ee2ab4029151",
+          "37c5d7e6-df35-4225-9df7-1b508cd9e812",
+          "41017651-22bc-45b6-8557-35204732cc04",
+          "86966f3a-fd74-4ce3-8cfe-70b01dd45d37"
+        ],
+        "settings": {
+          "heading": "WHY CHOOSE LENMARK FINANCE?"
+        }
+      },
+      "finance-section-6": {
+        "type": "finance-section-6",
+        "settings": {
+          "section_image": "shopify:\/\/shop_images\/industrial-worker-assembles-agricultural-equipment-3V47MHJ.jpg",
+          "section_heading": "Request For a Call Back",
+          "description": "<p>Please complete this form, our expert advisor will be in touch with you.<br\/><\/p>",
+          "button_text": "",
+          "button_link": ""
+        }
+      },
+      "about-section-1": {
+        "type": "about-section-1",
+        "settings": {
+          "banner_image": "shopify:\/\/shop_images\/About_us_banner.png",
+          "sub-heading-text": "Industry Solutions - Your hub for buying, selling, and renting equipment."
+        }
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "1598295863852",
+      "16255020013f747346",
+      "1598296006630",
+      "1542984811767",
+      "featured-product",
+      "1542984882560",
+      "1598296364416",
+      "1598296390959",
+      "1598296417391",
+      "1542984842027",
+      "1598296461292"
+    ]
+  },
+  "presets": {
+    "Metal": {
+      "heading_color": "#1e2d7d",
+      "text_color": "#677279",
+      "accent_color": "#00badb",
+      "link_color": "#00badb",
+      "border_color": "#e1e3e4",
+      "background": "#f3f5f6",
+      "secondary_background": "#ffffff",
+      "error_color": "#ff0000",
+      "success_color": "#00aa00",
+      "primary_button_background": "#00badb",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#1e2d7d",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#1e2d7d",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#a3afef",
+      "header_accent_color": "#00badb",
+      "product_on_sale_accent": "#ee0000",
+      "product_in_stock_color": "#008a00",
+      "product_low_stock_color": "#ee0000",
+      "product_sold_out_color": "#8a9297",
+      "product_label_1_background": "#008a00",
+      "product_label_2_background": "#00a500",
+      "product_star_color": "#ffbd00",
+      "base_text_font_size": 16,
+      "heading_font": "din_next_n5",
+      "text_font": "din_next_n4",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "search_mode": "product,article",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "product_price_position": "after_title",
+      "product_image_size": "natural",
+      "show_discount": true,
+      "discount_mode": "saving",
+      "show_color_swatch": false,
+      "show_inventory_quantity": false,
+      "low_inventory_threshold": 0,
+      "show_reviews_badge": false,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "share_image": "",
+      "social_facebook": "",
+      "social_twitter": "",
+      "social_google_plus": "",
+      "social_pinterest": "",
+      "social_instagram": "",
+      "social_vimeo": "",
+      "social_tumblr": "",
+      "social_youtube": "",
+      "social_linkedin": "",
+      "social_snapchat": "",
+      "social_fancy": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#00badb",
+      "checkout_button_color": "#00badb",
+      "checkout_error_color": "#ff0000",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "product": "",
+            "title": "Featured product",
+            "selector_mode": "block",
+            "color_mode": "color",
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "low_inventory_threshold": 0
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_buy": "list",
+            "show_quick_view": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "low_inventory_threshold": 0,
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#1e2d7d",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "secondary-navigation-bar": {
+          "type": "secondary-navigation-bar",
+          "settings": {
+            "background": "#1e2d7d",
+            "text_color": "#ffffff"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1542984842027": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "collection-list",
+        "1542984842027",
+        "featured-product",
+        "1542984882560"
+      ]
+    },
+    "Wood": {
+      "heading_color": "#3a2a2f",
+      "text_color": "#3a2a2f",
+      "accent_color": "#ff6128",
+      "link_color": "#ff6128",
+      "border_color": "#e7e2de",
+      "background": "#f7f4f2",
+      "secondary_background": "#ffffff",
+      "error_color": "#f71b1b",
+      "success_color": "#48b448",
+      "primary_button_background": "#ff6128",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#3a2a2f",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#3a2a2f",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#e9e2dd",
+      "header_accent_color": "#ff6128",
+      "product_on_sale_accent": "#ee0000",
+      "product_in_stock_color": "#008a00",
+      "product_low_stock_color": "#ee0000",
+      "product_sold_out_color": "#d1d1d4",
+      "product_label_1_background": "#ff6128",
+      "product_label_2_background": "#a95ebe",
+      "product_star_color": "#ffb647",
+      "base_text_font_size": 15,
+      "heading_font": "itc_avant_garde_gothic_n5",
+      "text_font": "basic_commercial_n4",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "search_mode": "product,article,page",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "show_discount": true,
+      "discount_mode": "percentage",
+      "product_price_position": "after_title",
+      "product_image_size": "square",
+      "show_color_swatch": false,
+      "show_inventory_quantity": true,
+      "low_inventory_threshold": 1,
+      "show_reviews_badge": false,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_free_shipping_threshold": true,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#f7f4f2",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#ff6128",
+      "checkout_button_color": "#ff6128",
+      "checkout_error_color": "#f71b1b",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "collection-new-template": {
+          "type": "collection-new-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#3a2a2f",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1550833441117": {
+          "type": "collection-with-image",
+          "settings": {
+            "collection": "",
+            "products_count": 12,
+            "image": "",
+            "background": "#3a2a2f",
+            "text_color": "#ffffff",
+            "title": "Our best sellers",
+            "content": "Shop our most popular products for this season.",
+            "button_background": "#e95d2b",
+            "button_text_color": "#ffffff",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "1555314133560": {
+          "type": "promotion-list",
+          "blocks": {
+            "1555314133560-0": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#6f42ef",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#6f42ef",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            },
+            "1555314133560-1": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#fc2a68",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#fc2a68",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            },
+            "1555314133560-2": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#26c1ce",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#26c1ce",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1555314133560-0",
+            "1555314133560-1",
+            "1555314133560-2"
+          ],
+          "settings": {
+            "expand_items": false,
+            "section_size": "medium",
+            "stack_mobile": false
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "1555314133560",
+        "collection-list",
+        "1550833441117",
+        "1542984882560"
+      ]
+    }
+  }
+}
