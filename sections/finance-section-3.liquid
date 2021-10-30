@@ -1,0 +1,17 @@
+<div class="">
+	<img class="services-list-image w-full" src="{{ section.settings.banner_image | img_url: 'master' }}">
+</div>
+
+{% schema %}
+  {
+    "name": "Facts Banner",
+	"tag": "section",
+    "settings": [
+		{
+			"type": "image_picker",
+      		"id": "banner_image",
+			"label": "Banner"
+		}
+	]
+  }
+{% endschema %}

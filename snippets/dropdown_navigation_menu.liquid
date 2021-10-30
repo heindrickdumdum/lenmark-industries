@@ -1,0 +1,99 @@
+<ul class="nav-bar__linklist list--unstyled dropdown_navigation_menu" data-type="menu">
+  {%- comment %}<locksmith:662c>{% endcomment -%}
+    {%- assign locksmith_85fb_forloop__size = 0 %}{%- for link in navigation_menu.links -%}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: navigation_menu, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_85fb_forloop__size = locksmith_85fb_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_85fb_forloop__index = nil -%}
+  {%- comment %}</locksmith:662c>{% endcomment -%}
+  {%- for link in navigation_menu.links -%}
+
+  {%- comment %}<locksmith:062f>{% endcomment -%}
+    {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: navigation_menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_85fb_forloop__index == nil %}{% assign locksmith_85fb_forloop__index = 1 %}{% assign locksmith_85fb_forloop__index0 = 0 %}{% else %}{% assign locksmith_85fb_forloop__index = locksmith_85fb_forloop__index | plus: 1 %}{% assign locksmith_85fb_forloop__index0 = locksmith_85fb_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_85fb_forloop__index == 1 %}{% assign locksmith_85fb_forloop__first = true %}{% else %}{% assign locksmith_85fb_forloop__first = false %}{% endif %}{% if locksmith_85fb_forloop__index == locksmith_85fb_forloop__size %}{% assign locksmith_85fb_forloop__last = true %}{% else %}{% assign locksmith_85fb_forloop__last = false %}{% endif %}{% assign locksmith_85fb_forloop__rindex = locksmith_85fb_forloop__size | minus: locksmith_85fb_forloop__index | minus: 1 %}{% assign locksmith_85fb_forloop__rindex0 = locksmith_85fb_forloop__size | minus: locksmith_85fb_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+  {%- comment %}</locksmith:062f>{% endcomment -%}
+
+  {% assign link_handle = link.handle | append:" "  | strip %}
+  {% assign dropDownLinksMenu = linklists[link_handle] %}
+ 
+  <li class="nav-bar__item {% if dropDownLinksMenu.links.size > 0 %} hasMenuItem {% endif %} ">
+
+    
+    {%- if dropDownLinksMenu.links.size == 0 -%}
+    <a href="{{ link.url }}" class="nav-bar__link link" data-type="menuitem">{{ link.title }}</a>
+    {%- else -%}
+    <a href="{{ link.url }}" class="nav-bar__link link openLevelLink"  aria-expanded="false" data-type="menuitem" aria-haspopup="true">
+      {{- link.title -}}
+      {%- render 'icon', icon: 'arrow-bottom' -%}
+    </a>
+    {%- capture index -%}desktop-menu-0-{{ locksmith_85fb_forloop__index }}{%- endcapture -%}
+    <ul id="dropdown-{{ index }}" class="nav-dropdown nav-dropdown--floating"  data-type="menu" aria-hidden="true">
+   
+      {%- for link in dropDownLinksMenu.links -%}
+       
+      {%- comment %}<locksmith:f449>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: dropDownLinksMenu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+      {%- comment %}</locksmith:f449>{% endcomment -%}
+       
+      {% if link.type == "collection_link" %}
+      {% if link.object.all_products_count == 0 %}
+      {% continue %}
+      {% endif %}
+      {% endif %}
+  
+      
+      {%- assign downcase_title = link.title | downcase | strip -%}
+
+      <li class="nav-dropdown__item {% if link.links.size > 0 %} hasMenuItem {% endif %} ">
+        {%- if link.links.size == 0 -%}
+        <a href="{{ link.url }}" class="nav-dropdown__link link" data-type="menuitem">{{ link.title }}</a>
+        {%- else -%}
+        <a href="{{ link.url }}" class="nav-dropdown__link link openLevelLink" data-type="menuitem" aria-expanded="false" aria-haspopup="true">
+          {{- link.title -}} {%- render 'icon', icon: 'arrow-right' -%}
+        </a>
+        <ul id="dropdown-{% increment nav_dropdown %}" class="nav-dropdown nav-dropdown--floatin"  aria-hidden="true" data-type="menu">
+          {%- for sub_link in link.links -%}
+          
+          {%- comment %}<locksmith:ac4e>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:ac4e>{% endcomment -%}
+          
+          {% if sub_link.type == "collection_link" %}
+          {% if sub_link.object.all_products_count == 0 %}
+          {% continue %}
+          {% endif %}
+          {% endif %}
+          
+          <li class="nav-dropdown__item {% if sub_link.links.size > 0 %} hasMenuItem {% endif %} ">
+            {%- if sub_link.links.size == 0 -%}
+            <a href="{{ sub_link.url }}" class="nav-dropdown__link link" data-type="menuitem">{{ sub_link.title }}</a>
+            {%- else -%}
+            <a href="{{ sub_link.url }}" class="nav-dropdown__link link openLevelLink" data-type="menuitem" aria-expanded="false" aria-haspopup="true">
+              {{- sub_link.title -}} {%- render 'icon', icon: 'arrow-right' -%}
+            </a>
+
+            <ul id="dropdown-{% increment nav_dropdown %}" class="nav-dropdown nav-dropdown--floatin"  aria-hidden="true" data-type="menu">
+              {%- for sub_sub_link in sub_link.links -%}
+              
+              {%- comment %}<locksmith:44df>{% endcomment -%}
+                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: sub_sub_link, subject_parent: sub_link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+              {%- comment %}</locksmith:44df>{% endcomment -%}
+              
+              {% if sub_sub_link.type == "collection_link" %}
+              {% if sub_sub_link.object.all_products_count == 0 %}
+              {% continue %}
+              {% endif %}
+              {% endif %}
+              
+              <li class="nav-dropdown__item">
+                <a href="{{ sub_sub_link.url }}" class="nav-dropdown__link link" data-type="menuitem">{{ sub_sub_link.title }}</a>
+              </li>
+              {%- endfor -%}
+            </ul>
+            {%- endif -%}
+          </li>
+          {%- endfor -%}
+        </ul>        
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+    {%- endif -%}
+  </li>
+  {%- endfor -%}
+</ul>

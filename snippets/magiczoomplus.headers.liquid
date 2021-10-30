@@ -1,0 +1,68 @@
+
+    {% if template contains 'product' %}
+    {% assign MagicToolboxUseMagicScroll = 'Yes' %}
+    {% assign MagicToolboxMagicScrollLicenseKey = 'MSC-4A017490' %}
+    {{ 'magiczoomplus.js' | asset_url | script_tag }}
+	{{ 'https://code.jquery.com/jquery-2.2.4.min.js' | script_tag }}
+<script>jQuery.noConflict();</script>
+    {{ 'magiczoomplus.css' | asset_url | stylesheet_tag }}
+    {% if MagicToolboxUseMagicScroll == 'Yes' %}
+    {{ 'magicscroll.js' | asset_url | script_tag }}
+    {{ 'magicscroll.css' | asset_url | stylesheet_tag }}
+    {% endif %}
+    {{ 'magiczoomplus.additional.css' | asset_url | stylesheet_tag }}
+    <script type="text/javascript">
+    mzOptions = {
+		'zoomWidth':'auto',
+		'zoomHeight':'auto',
+		'zoomPosition':'inner',
+		'zoomDistance':20,
+		'selectorTrigger':'click',
+		'transitionEffect':true,
+		'zoomMode':'zoom',
+		'zoomOn':'hover',
+		'zoomCaption':'off',
+		'upscale':true,
+		'variableZoom':true,
+		'smoothing':true,
+		'expand':'window',
+		'expandZoomMode':'zoom',
+		'expandZoomOn':'click',
+		'expandCaption':true,
+		'closeOnClickOutside':true,
+		'hint':'once',
+		'textHoverZoomHint':'Hover to zoom',
+		'textClickZoomHint':'Click to zoom',
+		'textExpandHint':'Click to expand',
+		'textBtnClose':'Close',
+		'textBtnNext':'Next',
+		'textBtnPrev':'Previous',
+		'lazyZoom':true,
+		'rightClick':false
+    }
+    mzMobileOptions = {
+		'zoomMode':'magnifier',
+		'textHoverZoomHint':'Touch to zoom',
+		'textClickZoomHint':'Double tap to zoom',
+		'textExpandHint':'Tap to expand'
+    }
+    {% if MagicToolboxUseMagicScroll == 'Yes' %}
+    MagicScrollOptions = {
+		'width':'auto',
+		'height':'auto',
+		'mode':'scroll',
+		'items':'7',
+		'speed':400,
+		'autoplay':0,
+		'loop':'off',
+		'step':'auto',
+		'arrows':'outside',
+		'pagination':true,
+		'easing':'cubic-bezier(.8, 0, .5, 1)',
+		'scrollOnWheel':'auto',
+		'lazy-load':false
+    }
+    {% endif %}
+    </script>
+    {{ 'magiczoomplus.sirv.js' | asset_url | script_tag }}
+    {% endif %}

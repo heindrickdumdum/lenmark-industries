@@ -1,0 +1,176 @@
+<style>
+.clearfix {overflow: auto;}
+.clearfix::after {content: "";clear: both; display: table;}
+.sec-process-terms {/*background-color: #fff;*/padding-bottom: 40px;}
+.sec-process-terms .heading  {
+  text-align: center;
+  padding: 30px;
+  padding-top: 60px;
+/*   font-size: 2.5rem; */
+  text-transform: uppercase;
+}
+.process-terms-wrapper-item .process-terms-wrapper-item-img {width: 100%;}
+.process-terms-wrapper-item {position: relative;
+  /* Set a specific height */
+  /*min-height: 400px;*/
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  overflow: auto;
+  max-width: none;
+
+}
+  
+  
+.process-terms-wrapper-item .process-terms-overlay {
+    background-color: rgb(255 255 255 / 80%);
+    width: 50%;
+    padding: 40px;
+}
+  
+.process-terms-wrapper-item .process-terms-overlay .process-terms-wrapper-item-heading {
+/*   font-size: 45px; */
+  margin: 0;
+  border-bottom: 1px solid;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 0;
+}
+
+.process-terms-wrapper-item .process-terms-overlay .process-terms-wrapper-item-content {padding: 10px;font-size: 16px;}
+.process-terms-wrapper-item .process-terms-overlay .process-terms-wrapper-item-content b {font-size: 18px;}
+.process-terms-wrapper-item .process-terms-overlay .process-terms-wrapper-item-content span {padding-left: 20px;display: block;margin-bottom: 10px;font-size: var(--base-text-font-size);}
+.process-terms-wrapper-item.content-right-true .process-terms-overlay {float: right; }
+  
+.sec-process-terms .sell-btn-wrapper {text-align: center;}
+.sec-process-terms .sell-btn-wrapper .process-terms-btn-link {
+/*     background-color: #ffbd00; */
+    padding: 10px 40px;
+    font-weight: bold;
+}
+  
+  .process-terms-wrapper-item {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+ 
+  .process-terms-wrapper-item.scrolled {
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 799px) {
+    .process-terms-wrapper-item .process-terms-overlay .process-terms-wrapper-item-heading {font-size: 22px;}
+  	.process-terms-wrapper-item {padding: 10px;margin-bottom: 20px;}
+	.process-terms-wrapper-item .process-terms-overlay {width: 100%;padding: 20px;}
+    .process-terms-wrapper-item .process-terms-overlay .process-terms-wrapper-item-content {font-size: 12px;}
+    .process-terms-wrapper-item .process-terms-overlay .process-terms-wrapper-item-content b {font-size: 16px;}
+    .process-terms-wrapper-item .process-terms-overlay .process-terms-wrapper-item-content span {padding-left: 0;}
+  }
+  
+</style>
+
+<section class="sec-process-terms">
+	<h2 class="section-title heading h3">Our Process, Your Terms</h2>
+  	{% for block in section.blocks %}
+  
+      <div class="clearfix process-terms-wrapper-item container content-right-{{ block.settings.content-right }}" style="background-image: url('{{ block.settings.process-banner | img_url: 'master'  }}')" >
+        <div class="container">
+        	<div class="process-terms-overlay">
+          <h2 class="process-terms-wrapper-item-heading heading h3">{{ block.settings.process-terms-heading}}</h2>
+          <p class="process-terms-wrapper-item-content">
+              {{ block.settings.process-terms-content}}
+          </p>
+        </div>
+      	</div>
+      </div>
+  	{% endfor %}
+    <div class="sell-btn-wrapper">
+
+       <button class="list-btn" data-action="open-modal" aria-controls="sell-forms-modal" onclick="$('.modal__form-slide').slick('slickGoTo', 0);">LIST WITH LENMARK</button>
+    </div>
+</section>
+
+
+
+{% schema %}
+{
+  "settings": [],
+  "blocks": [
+    {
+	  "type": "Block",
+      "name": "Process Items",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "process-banner",
+          "label": "Process Banner"
+        },
+        {
+          "type": "text",
+          "id": "process-terms-heading",
+          "placeholder": "Heading",
+		  "label": "Heading"
+        },
+        {
+          "type": "html",
+          "id": "process-terms-content",
+		  "label": "Content"
+        },
+		{
+		  "type": "checkbox",
+          "id": "content-right",
+          "label": "Content Right"
+ 		}
+      ]	
+    }
+  ]
+}
+{% endschema %}
+
+
+<script>
+const scrollElements = document.querySelectorAll(".process-terms-wrapper-item");
+
+const elementInView = (el, dividend = 1) => {
+  const elementTop = el.getBoundingClientRect().top;
+
+  return (
+    elementTop <=
+    (window.innerHeight || document.documentElement.clientHeight) / dividend
+  );
+};
+
+const elementOutofView = (el) => {
+  const elementTop = el.getBoundingClientRect().top;
+
+  return (
+    elementTop > (window.innerHeight || document.documentElement.clientHeight)
+  );
+};
+
+const displayScrollElement = (element) => {
+  element.classList.add("scrolled");
+};
+
+const hideScrollElement = (element) => {
+  element.classList.remove("scrolled");
+};
+
+const handleScrollAnimation = () => {
+  scrollElements.forEach((el) => {
+    if (elementInView(el, 1.25)) {
+      displayScrollElement(el);
+    } else if (elementOutofView(el)) {
+      hideScrollElement(el)
+    }
+  })
+}
+
+window.addEventListener("scroll", () => { 
+  handleScrollAnimation();
+});
+</script>

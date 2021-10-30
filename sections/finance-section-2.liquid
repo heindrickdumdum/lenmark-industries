@@ -1,0 +1,91 @@
+<style>
+  .{{ section.id }}	{ padding-top: 60px; padding-bottom: 60px; }
+  .{{ section.id }} .section_heading { font-size: 36px; }
+  .{{ section.id }} .section_sub_heading { font-size: 24px; margin-bottom: 45px; }
+  .{{ section.id }} .section_sub_heading p { margin: 0; }
+  .{{ section.id }} .yellow-line { max-width: 90px; height: 5px; background-color: #febe20; border: none; margin-top: 40px; margin-bottom: 40px; }
+  .{{ section.id }} .services-list .services-list-image { margin-bottom: 30px; }
+  
+  
+  @media screen and (max-width: 999px) {
+    .{{ section.id }} { padding-top: 40px; padding-bottom: 40px; }
+    .{{ section.id }} .services-list { display: block; }
+    .{{ section.id }} .services-list .services-list-item:not(:last-child) { margin-bottom: 40px; }
+    .{{ section.id }} .services-list .services-list-image { margin-bottom: 20px; }
+  }
+</style>
+<div class="container {{ section.id }}">
+  	{% if section.settings.section_heading %}
+		<h2 class="section-title heading h2 text-center section_heading font-normal leading-none">{{ section.settings.section_heading }}</h2>
+  	{% endif %}
+  
+  	<hr class="yellow-line mx-auto">
+  
+ 	{% if section.settings.section_sub_heading %}
+		<h3 class="section-title heading h3 text-center section_sub_heading font-normal text-grey-lm">{{ section.settings.section_sub_heading }}</h2>
+  	{% endif %}
+  
+  	<ul class="services-list flex list-reset justify-between">
+  		{%- for block in section.blocks -%}
+      		<li class="services-list-item w-full-sp w-1-3 px-30 text-base leading-loose">
+              {% if block.settings.image != null %}
+      		  <img class="services-list-image w-full" src="{{ block.settings.image | img_url: 'large' }}">
+              {% endif %}
+              {% if block.settings.title != null %}
+              <p class="m-0 text-black-lm">{{ block.settings.title }}</p>
+              {% endif %}
+              {% if block.settings.description != null %}
+              <p class="m-0 text-grey-lm">{{ block.settings.description }}</p>
+              {% endif %}
+      		</li>
+        {%- endfor -%}
+  	</ul>	
+</div>
+
+{% schema %}
+  {
+    "name": "Business Solutions",
+	"tag": "section",
+    "settings": [
+		{
+			"type": "text",
+			"id": "section_heading",
+			"label": "Heading"
+		},
+		{
+			"type": "richtext",
+			"id": "section_sub_heading",
+			"label": "Sub Heading"
+		}
+	],
+    "blocks": [
+      {
+      "name": "Solutions",
+      "type": "text",
+      "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+				"type": "text",
+				"id": "title",
+				"label": "Title"
+            },
+            {
+				"type": "text",
+				"id": "description",
+				"label": "Description"
+            }
+        ]
+      }
+   	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

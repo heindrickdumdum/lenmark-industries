@@ -1,0 +1,1149 @@
+{%- capture section_settings -%}
+{
+  "showShippingEstimator": {% if template == 'product.quick-view' or product.available == false %}false{% else %}{{ section.settings.show_shipping_estimator | json }}{% endif %},
+  "showQuantitySelector": {{ section.settings.show_quantity_selector | json }},
+  "showPaymentButton": {{ section.settings.show_payment_button | json }},
+  "showInventoryQuantity": {% if product.template_suffix != 'pre-order' %}{{ section.settings.show_inventory_quantity | json }}{% else %}false{% endif %},
+  "lowInventoryThreshold": {{ section.settings.low_inventory_threshold | json }},
+  "galleryTransitionEffect": {{ section.settings.carousel_effect | json }},
+  "enableImageZoom": {% if template == 'product.quick-view' %}false{% else %}{{ section.settings.enable_image_zoom | json }}{% endif %},
+  "zoomEffect": {{ section.settings.zoom_effect | json }},
+  "enableVideoLooping": {{ section.settings.enable_video_looping | json }},
+  "productOptions": {{ product.options | json | escape }},
+  "enableHistoryState": {% if template == 'product.quick-view' %}false{% else %}true{% endif %},
+  "infoOverflowScroll": {% if template == 'product.quick-view' %}false{% else %}true{% endif %},
+  "isQuickView": {% if template == 'product.quick-view' %}true{% else %}false{% endif %}
+}
+{%- endcapture -%}
+
+<section data-section-id="{{ section.id }}" data-section-type="product" data-section-settings='{{ section_settings }}'>
+  {%- if template != 'product.quick-view' -%}
+    <div class="container container--flush">
+      <div class="page__sub-header">
+        <nav aria-label="{{ 'general.breadcrumb.title' | t }}" class="breadcrumb"> 
+          <ol class="breadcrumb__list">
+            <li class="breadcrumb__item">
+              <a class="breadcrumb__link link" href="{{ routes.root_url }}">{{ 'general.breadcrumb.home' | t }}</a> {%- render 'icon', icon: 'arrow-right' -%}
+            </li>
+
+            <li class="breadcrumb__item">
+              {%- if collection -%}
+                <a class="breadcrumb__link link" href="{{ collection.url }}">{{ collection.title }}</a> {%- render 'icon', icon: 'arrow-right' -%}
+              {%- else -%}
+                <a class="breadcrumb__link link" href="{{ routes.all_products_collection_url }}">{{- 'collection.general.all_products' | t -}}</a> {%- render 'icon', icon: 'arrow-right' -%}
+              {%- endif -%}
+            </li>
+
+            <li class="breadcrumb__item">
+              <span class="breadcrumb__link" aria-current="page">{{ product.title | truncate: 40 }}</span>
+            </li>
+          </ol>
+        </nav>
+
+        {%- if collection.previous_product or collection.next_product -%}
+          <div class="page__navigation">
+            {%- if collection.previous_product -%}
+              <span class="page__navigation-item page__navigation-item--prev">
+                <a href="{{ collection.previous_product.url }}" class="link" rel="prev">{%- render 'icon', icon: 'arrow-left' -%} {{- 'product.general.previous_product' | t -}}</a>
+              </span>
+            {%- endif -%}
+
+            {%- if collection.next_product -%}
+              <span class="page__navigation-item page__navigation-item--next">
+                <a href="{{ collection.next_product.url }}" class="link" rel="next">{{- 'product.general.next_product' | t -}} {%- render 'icon', icon: 'arrow-right' -%}</a>
+              </span>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+      </div>
+
+      <div class="product-block-list product-block-list--{{ section.settings.image_size }}">
+        <div class="product-block-list__wrapper">
+          {%- if product.media.size > 0 -%}
+            <div class="product-block-list__item product-block-list__item--gallery">
+              <div class="card">
+                <div class="card__section card__section--tight">
+              
+{% capture mzp %}{% include 'magiczoomplus' %}{% endcapture %}
+{% if mzp contains "Liquid error" %}
+
+                  {% render 'product-gallery' %}'
+                  
+{% else %}
+	{{ mzp }}
+{% endif %}
+                  
+                  </div>
+                </div>
+                
+            </div>
+          {%- endif -%}
+
+          <div class="product-block-list__item product-block-list__item--info">
+            {% render 'product-info' %}
+          </div>
+
+          {%- if product.description != blank -%}
+            <div class="product-block-list__item product-block-list__item--description">
+              <div class="card">
+                {%- if section.settings.content_display_mode == 'collapse_all' -%}
+                  <button class="card__collapsible-button" data-action="toggle-collapsible" aria-expanded="false" aria-controls="product-description">
+                    <span class="card__title heading h3">{{ 'product.general.description' | t }}</span>
+                    <span class="plus-button plus-button--large"></span>
+                  </button>
+
+                  <div id="product-description" class="card__collapsible">
+                    <div class="card__collapsible-content">
+                      <div class="rte text--pull">
+                        {{ product.description | remove: 'data-section-type="product"' }}
+                      </div>
+                    </div>
+                  </div>
+                {%- else -%}
+                  <div class="card__header">
+                    <h2 class="card__title heading h3">{{ 'product.general.description' | t }}</h2>
+                  </div>
+
+                  {%- if section.settings.content_display_mode == 'show_all_and_expand_description' -%}
+                    <div class="card__section">
+                      <div class="rte text--pull">
+                        {{ product.description | remove: 'data-section-type="product"' }}
+                      </div>
+                    </div>
+                  {%- else -%}
+                    <div class="card__section expandable-content" aria-expanded="false">
+                      <div class="rte text--pull">
+                        {{ product.description | remove: 'data-section-type="product"' }}
+                      </div>
+
+                      <button class="expandable-content__toggle">
+                        <span class="expandable-content__toggle-icon"></span>
+                        <span class="expandable-content__toggle-text" data-view-more="{{ 'product.general.view_more' | t | escape }}" data-view-less="{{ 'product.general.view_less' | t | escape }}">{{- 'product.general.view_more' | t -}}</span>
+                      </button>
+                    </div>
+                  {%- endif -%}
+                {%- endif -%}
+              </div>
+            </div>
+          {%- endif -%}
+
+          {%- comment -%}
+          --------------------------------------------------------------------------------------
+          TABS
+          --------------------------------------------------------------------------------------
+          {%- endcomment -%}
+
+          {%- for i in (1..5) -%}
+            {%- assign unique_tab_title = '' -%}
+            {%- assign unique_tab_content = '' -%}
+
+            {%- comment -%}First check for metafields{%- endcomment -%}
+
+            {%- assign metafield_tab_title_option = 'tab_' | append: i | append: '_title' -%}
+            {%- assign metafield_tab_content_option = 'tab_' | append: i | append: '_content' -%}
+
+            {%- if product.metafields.sf_product_tabs[metafield_tab_title_option] != blank and product.metafields.sf_product_tabs[metafield_tab_content_option] != blank -%}
+              {%- assign unique_tab_title = product.metafields.sf_product_tabs[metafield_tab_title_option] -%}
+              {%- assign unique_tab_content = product.metafields.sf_product_tabs[metafield_tab_content_option] -%}
+            {%- else -%}
+              {%- assign tab_to_look = '__tab' | append: i | append: ':' -%}
+
+              {%- for tag in product.tags -%}
+                {%- if tag contains tab_to_look -%}
+                  {%- assign unique_tab_handle = tag | split: tab_to_look | last -%}
+                  {%- assign unique_tab_page = pages[unique_tab_handle] -%}
+
+                  {%- unless unique_tab_page.empty? -%}
+                    {%- assign unique_tab_title = unique_tab_page.title -%}
+                    {%- assign unique_tab_content = unique_tab_page.content -%}
+                    {%- break -%}
+                  {%- endunless -%}
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endif -%}
+
+            {%- if unique_tab_title != blank and unique_tab_content != blank -%}
+              <div class="product-block-list__item product-block-list__item--content">
+                <div class="card">
+                  {%- if section.settings.content_display_mode == 'collapse_all_except_description' or section.settings.content_display_mode == 'collapse_all' -%}
+                    <button class="card__collapsible-button" data-action="toggle-collapsible" aria-expanded="false" aria-controls="unique-tab-{{ i }}">
+                      <span class="card__title heading h3">{{ unique_tab_title }}</span>
+                      <span class="plus-button plus-button--large"></span>
+                    </button>
+
+                    <div id="unique-tab-{{ i }}" class="card__collapsible">
+                      <div class="card__collapsible-content">
+                        <div class="rte text--pull">
+                          {{ unique_tab_content }}
+                        </div>
+                      </div>
+                    </div>
+                  {%- else -%}
+                    <div class="card__header">
+                      <h2 class="card__title heading h3">{{ unique_tab_title }}</h2>
+                    </div>
+
+                    <div class="card__section expandable-content" aria-expanded="false">
+                      <div class="rte text--pull">
+                        {{ unique_tab_content }}
+                      </div>
+
+                      <button class="expandable-content__toggle">
+                        <span class="expandable-content__toggle-icon"></span>
+                        <span class="expandable-content__toggle-text" data-view-more="{{ 'product.general.view_more' | t | escape }}" data-view-less="{{ 'product.general.view_less' | t | escape }}">{{- 'product.general.view_more' | t -}}</span>
+                      </button>
+                    </div>
+                  {%- endif -%}
+                </div>
+              </div>
+            {%- endif -%}
+          {%- endfor -%}
+
+          {%- for i in (1..3) -%}
+            {%- assign global_tab_option = 'tab_page_' | append: i | append: '_handle' -%}
+            {%- assign global_tab_page = pages[section.settings[global_tab_option]] -%}
+
+            {%- unless global_tab_page.empty? -%}
+              <div class="product-block-list__item product-block-list__item--content">
+                <div class="card">
+                  {%- if section.settings.content_display_mode == 'collapse_all_except_description' or section.settings.content_display_mode == 'collapse_all' -%}
+                    <button class="card__collapsible-button" data-action="toggle-collapsible" aria-expanded="false" aria-controls="global-tab-{{ i }}">
+                      <span class="card__title heading h3">{{ global_tab_page.title }}</span>
+                      <span class="plus-button plus-button--large"></span>
+                    </button>
+
+                    <div id="global-tab-{{ i }}" class="card__collapsible">
+                      <div class="card__collapsible-content">
+                        <div class="rte text--pull">
+                          {{ global_tab_page.content }}
+                        </div>
+                      </div>
+                    </div>
+                  {%- else -%}
+                    <div class="card__header">
+                      <h2 class="card__title heading h3">{{ global_tab_page.title }}</h2>
+                    </div>
+
+                    <div class="card__section expandable-content" aria-expanded="false">
+                      <div class="rte text--pull">
+                        {{ global_tab_page.content }}
+                      </div>
+
+                      <button class="expandable-content__toggle">
+                        <span class="expandable-content__toggle-icon"></span>
+                        <span class="expandable-content__toggle-text" data-view-more="{{ 'product.general.view_more' | t | escape }}" data-view-less="{{ 'product.general.view_less' | t | escape }}">{{- 'product.general.view_more' | t -}}</span>
+                      </button>
+                    </div>
+                  {%- endif -%}
+                </div>
+              </div>
+            {%- endunless -%}
+          {%- endfor -%}
+
+          {%- comment -%}
+          --------------------------------------------------------------------------------------
+          REVIEWS
+          --------------------------------------------------------------------------------------
+          {%- endcomment -%}
+
+          {%- if section.settings.enable_reviews -%}
+            <div class="product-block-list__item product-block-list__item--reviews">
+              <span id="product-reviews" class="anchor"></span>
+
+              <div class="card">
+                <div class="card__section">
+                  {%- assign reviews_count = product.metafields.spr.reviews | split: '<meta itemprop="reviewCount" content="' | last | split: '">' | first | times: 1 -%}
+                  <div id="shopify-product-reviews" class="spr-reviews {% if reviews_count > 0 %}spr-reviews--has-reviews{% endif %}" data-id="{{ product.id }}">{{ product.metafields.spr.reviews }}</div>
+                </div>
+              </div>
+            </div>
+          {%- endif -%}
+
+          {%- comment -%}
+          --------------------------------------------------------------------------------------
+          ESTIMATE SHIPPING
+          --------------------------------------------------------------------------------------
+          {%- endcomment -%}
+
+          {%- if section.settings.show_shipping_estimator and product.available -%}
+            <div class="product-block-list__item product-block-list__item--shipping">
+              <div class="card">
+                <div class="card__header">
+                  <h2 class="card__title heading h3">{{ 'product.general.estimate_shipping' | t }}</h2>
+                </div>
+
+                <div class="card__section">
+                  <div class="shipping-estimator form">
+                    <div class="form__input-row">
+                      <div class="form__input-wrapper">
+                        <label for="shipping-estimator-country" class="form__label">{{ 'cart.shipping_estimator.country' | t }}</label>
+
+                        <div class="select-wrapper select-wrapper--primary">
+                          {%- render 'icon', icon: 'arrow-bottom' -%}
+
+                          <select name="country" id="shipping-estimator-country" data-default="{{ customer.default_address.country | default: section.settings.shipping_estimator_default_country }}" required>
+                            {{- country_option_tags -}}
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="form__input-wrapper" style="display: none">
+                        <label for="shipping-estimator-province" class="form__label">{{ 'cart.shipping_estimator.province' | t }}</label>
+
+                        <div class="select-wrapper select-wrapper--primary">
+                          {%- render 'icon', icon: 'arrow-bottom' -%}
+
+                          <select name="province" id="shipping-estimator-province" data-default="{{ customer.default_address.province }}"></select>
+                        </div>
+                      </div>
+
+                      <div class="form__input-wrapper" style="max-width: 155px">
+                        <label for="shipping-estimator-zip" class="form__label">{{ 'cart.shipping_estimator.zip_code' | t }}</label>
+                        <input type="text" name="zip" id="shipping-estimator-zip" class="form__field form__field--text" value="{{ customer.default.address.zip }}" required>
+                      </div>
+                    </div>
+
+                    <button type="button" class="form__submit button button--primary" data-action="estimate-shipping">{{ 'cart.shipping_estimator.estimate' | t }}</button>
+
+                    <div class="shipping-estimator__results rte" style="display: none;"></div>
+                  </div>
+                </div>
+
+                {%- if section.settings.show_refunds_policy and shop.refund_policy != blank -%}
+                  <div class="card__section card__section--tight">
+                    <button class="product__refund-policy-link link link--accented" data-action="open-modal" aria-controls="modal-refunds-policy">{{ 'product.general.refund_policy' | t }} {%- render 'icon', icon: 'arrow-right' -%}</button>
+                  </div>
+                {%- endif -%}
+              </div>
+            </div>
+          {%- endif -%}
+          
+           {%- comment -%}
+          --------------------------------------------------------------------------------------
+          SECURITY BADGES
+          --------------------------------------------------------------------------------------
+          {%- endcomment -%}
+
+          {%- if section.settings.show_payment_icons and shop.enabled_payment_types.size > 0 -%}
+            {%- assign show_payment_icons = true -%}
+          {%- else -%}
+            {%- assign show_payment_icons = false -%}
+          {%- endif -%}
+
+          {%- if section.settings.custom_security_badge or show_payment_icons -%}
+            <div class="product-block-list__item product-block-list__item--trust">
+              <div class="card">
+                <div class="card__header card__header--flex">
+                  <h2 class="card__title heading h3">{{ section.settings.trust_title | escape }}</h2>
+
+                  {%- render 'icon', icon: 'lock', width: 22, height: 24 -%}
+                </div>
+
+                <div class="card__section">
+                  {%- if show_payment_icons -%}
+                    {%- if section.settings.custom_security_badge -%}
+                      <p class="card__subtitle heading h6">{{ 'product.general.payment' | t }}</p>
+                    {%- endif -%}
+
+                    <div class="payment-list">
+                      {% for type in shop.enabled_payment_types %}
+                        {{ type | payment_type_svg_tag: class: 'payment-list__item' }}
+                      {% endfor %}
+                    </div>
+
+                    <p class="payment-list__notice">{{ 'product.general.payment_notice' | t }}</p>
+                  {%- endif -%}
+
+                  {%- if show_payment_icons and section.settings.custom_security_badge -%}
+                    <hr class="card__separator">
+                  {%- endif -%}
+
+                  {%- if section.settings.custom_security_badge -%}
+                    {%- if show_payment_icons -%}
+                      <p class="card__subtitle heading h6">{{ 'product.general.security' | t }}</p>
+                    {%- endif -%}
+
+                    {%- assign badge_width = section.settings.custom_security_badge.width | at_most: 450 | append: 'x' -%}
+                    <img class="product__trust-badge" src="{{ section.settings.custom_security_badge | img_url: badge_width }}" srcset="{{ section.settings.custom_security_badge | img_url: badge_width }} 1x, {{ section.settings.custom_security_badge | img_url: badge_width, scale: 2 }} 2x" alt="{{ section.settings.custom_security_badge.alt | escape }}">
+                  {%- endif -%}
+                </div>
+              </div>
+            </div>
+          {%- endif -%}
+
+          
+        </div>
+      </div>
+    </div>
+  
+<div id="modal-make-an-offer" class="modal" aria-hidden="true">
+        <div class="modal__dialog" role="dialog">
+          <header class="modal__header">
+            <h3 class="modal__title heading h2">Make an Offer</h3>
+            <button class="modal__close link" data-action="close-modal">{%- render 'icon', icon: 'close' -%}</button>
+          </header>
+
+          <div class="modal__content">
+            <div class="rte">
+              {% assign current_variant = product.selected_or_first_available_variant %}
+  <form method="POST" action="https://lenmark4361.activehosted.com/proc.php" id="_form_13_" class="_form _form_13 _inline-form  _dark" novalidate>
+  <input type="hidden" name="u" value="13" />
+  <input type="hidden" name="f" value="13" />
+  <input type="hidden" name="s" />
+  <input type="hidden" name="c" value="0" />
+  <input type="hidden" name="m" value="0" />
+  <input type="hidden" name="act" value="sub" />
+  <input type="hidden" name="v" value="2" />
+  <div class="_form-content">
+    <div class="_form_element _field35 _full_width " >
+      <div class="_field-wrapper">
+        <input type="hidden" name="field[35]" value="{{ product.title }}" placeholder="" required/>
+      </div>
+    </div>
+    <div class="_form_element _field29 _full_width " >
+      <div class="_field-wrapper">
+        <input type="hidden" name="field[29]" value="{{ current_variant.sku }} " placeholder="" required/>
+      </div>
+    </div>
+<div class="_form_element _x72573911 _full_width " >
+      <label for="mao-firstname" class="form__label">First Name
+      </label>
+      <div class="_field-wrapper">
+        <input type="text" name="firstname" id="mao-firstname" class="form__field form__field--text" required/>
+      </div>
+    </div>
+    <div class="_form_element _x46441769 _full_width " >
+      <label for="mao-lastname" class="_form-label">Last Name
+      </label>
+      <div class="_field-wrapper">
+        <input type="text" name="lastname" id="mao-lastname" class="form__field form__field--text" required/>
+      </div>
+    </div>
+    <div class="_form_element _x02168603 _full_width " >
+      <label for="mao-account" class="_form-label">Company
+      </label>
+      <div class="_field-wrapper">
+        <input type="text" name="customer_account" id="mao-account" class="form__field form__field--text" />
+      </div>
+    </div>
+    <div class="_form_element _x63914529 _full_width " >
+      <label for="mao-email" class="_form-label">Email
+      </label>
+      <div class="_field-wrapper">
+        <input type="text" name="email" id="mao-email" class="form__field form__field--text" required/>
+      </div>
+    </div>
+    <div class="_form_element _x09615474 _full_width " >
+      <label for="mao-phone" class="_form-label">Phone
+      </label>
+      <div class="_field-wrapper">
+        <input type="text" name="phone" id="mao-phone" class="form__field form__field--text" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;" required/>
+      </div>
+    </div>
+    <div class="_form_element _field28 _full_width " >
+      <label for="mao-offer" class="_form-label">Offer (CAD)
+      </label>
+      <div class="_field-wrapper">
+        <input type="text" name="field[28]" id="mao-offer" class="form__field form__field--text" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;" value="" required/>  
+      </div>
+    </div>
+    <div class="_form_element _field6 _full_width " >
+      <label for="mao-notes" class="_form-label">Notes
+      </label>
+      <div class="_field-wrapper">
+        <textarea name="field[6]" id="mao-notes" class="form__field form__field--text" style="height: 70px;" ></textarea>
+      </div>
+    </div>
+    <br>
+    <div class="_form_element _x06366441 _full_width " >
+<!--       <label for="ls" class="_form-label">
+        Please verify your request*
+      </label> -->
+      <div class="g-recaptcha" data-sitekey="6LcwIw8TAAAAACP1ysM08EhCgzd6q5JAOUR1a0Go">
+      </div>
+    </div>
+    <div class="_form_element _field32 _full_width " >
+      <input type="hidden" name="field[32]" value="" />
+    </div>
+    <div class="_button-wrapper _full_width">
+      <button id="_form_13_submit" class="form__submit button button--primary" type="submit">
+        SUBMIT
+      </button>
+    </div>
+    <div class="_clear-element">
+    </div>
+  </div>
+  <div class="_form-thank-you" style="display:none;">
+  </div>
+</form>
+  </div>
+  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    {%- if section.settings.show_refunds_policy and shop.refund_policy != blank -%}
+      <div id="modal-refunds-policy" class="modal" aria-hidden="true">
+        <div class="modal__dialog" role="dialog">
+          <header class="modal__header">
+            <h3 class="modal__title heading h2">{{ 'product.general.refund_policy' | t }}</h3>
+            <button class="modal__close link" data-action="close-modal">{%- render 'icon', icon: 'close' -%}</button>
+          </header>
+
+          <div class="modal__content">
+            <div class="rte">
+              {{ shop.refund_policy }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {%- endif -%}
+  {%- else -%}
+    {%- comment -%}We display the quick view within the product template so we can re-use the same settings{%- endcomment -%}
+    <div class="featured-product">
+      {%- render 'product-gallery' -%}
+      {%- render 'product-info' -%}
+    </div>
+  {%- endif -%}
+</section>
+
+
+<script type="text/javascript">
+// ActiveCampaign Java
+window.cfields = {"35":"product_name","29":"sku","28":"offer","6":"notes","32":"honeypot"};
+window._show_thank_you = function(id, message, trackcmp_url) {
+  var form = document.getElementById('_form_' + id + '_'), thank_you = form.querySelector('._form-thank-you');
+  form.querySelector('._form-content').style.display = 'none';
+  thank_you.innerHTML = message;
+  thank_you.style.display = 'block';
+  if (typeof(trackcmp_url) != 'undefined' && trackcmp_url) {
+    // Site tracking URL to use after inline form submission.
+    _load_script(trackcmp_url);
+  }
+  if (typeof window._form_callback !== 'undefined') window._form_callback(id);
+};
+window._show_error = function(id, message, html) {
+  var form = document.getElementById('_form_' + id + '_'), err = document.createElement('div'), button = form.querySelector('button'), old_error = form.querySelector('._form_error');
+  if (old_error) old_error.parentNode.removeChild(old_error);
+  err.innerHTML = message;
+  err.className = '_error-inner _form_error _no_arrow';
+  var wrapper = document.createElement('div');
+  wrapper.className = '_form-inner';
+  wrapper.appendChild(err);
+  button.parentNode.insertBefore(wrapper, button);
+  document.querySelector('[id^="_form"][id$="_submit"]').disabled = false;
+  if (html) {
+    var div = document.createElement('div');
+    div.className = '_error-html';
+    div.innerHTML = html;
+    err.appendChild(div);
+  }
+};
+window._load_script = function(url, callback) {
+  var head = document.querySelector('head'), script = document.createElement('script'), r = false;
+  script.type = 'text/javascript';
+  script.charset = 'utf-8';
+  script.src = url;
+  if (callback) {
+    script.onload = script.onreadystatechange = function() {
+      if (!r && (!this.readyState || this.readyState == 'complete')) {
+        r = true;
+        callback();
+      }
+    };
+  }
+  head.appendChild(script);
+};
+(function() {
+  if (window.location.search.search("excludeform") !== -1) return false;
+  var getCookie = function(name) {
+    var match = document.cookie.match(new RegExp('(^|; )' + name + '=([^;]+)'));
+    return match ? match[2] : null;
+  }
+  var setCookie = function(name, value) {
+    var now = new Date();
+    var time = now.getTime();
+    var expireTime = time + 1000 * 60 * 60 * 24 * 365;
+    now.setTime(expireTime);
+    document.cookie = name + '=' + value + '; expires=' + now + ';path=/';
+  }
+      var addEvent = function(element, event, func) {
+    if (element.addEventListener) {
+      element.addEventListener(event, func);
+    } else {
+      var oldFunc = element['on' + event];
+      element['on' + event] = function() {
+        oldFunc.apply(this, arguments);
+        func.apply(this, arguments);
+      };
+    }
+  }
+  var _removed = false;
+  var form_to_submit = document.getElementById('_form_13_');
+  var allInputs = form_to_submit.querySelectorAll('input, select, textarea'), tooltips = [], submitted = false;
+
+  var getUrlParam = function(name) {
+    var regexStr = '[\?&]' + name + '=([^&#]*)';
+    var results = new RegExp(regexStr, 'i').exec(window.location.href);
+    return results != undefined ? decodeURIComponent(results[1]) : false;
+  };
+
+  for (var i = 0; i < allInputs.length; i++) {
+    var regexStr = "field\\[(\\d+)\\]";
+    var results = new RegExp(regexStr).exec(allInputs[i].name);
+    if (results != undefined) {
+      allInputs[i].dataset.name = window.cfields[results[1]];
+    } else {
+      allInputs[i].dataset.name = allInputs[i].name;
+    }
+    var fieldVal = getUrlParam(allInputs[i].dataset.name);
+
+    if (fieldVal) {
+      if (allInputs[i].dataset.autofill === "false") {
+        continue;
+      }
+      if (allInputs[i].type == "radio" || allInputs[i].type == "checkbox") {
+        if (allInputs[i].value == fieldVal) {
+          allInputs[i].checked = true;
+        }
+      } else {
+        allInputs[i].value = fieldVal;
+      }
+    }
+  }
+
+  var remove_tooltips = function() {
+    for (var i = 0; i < tooltips.length; i++) {
+      tooltips[i].tip.parentNode.removeChild(tooltips[i].tip);
+    }
+    tooltips = [];
+  };
+  var remove_tooltip = function(elem) {
+    for (var i = 0; i < tooltips.length; i++) {
+      if (tooltips[i].elem === elem) {
+        tooltips[i].tip.parentNode.removeChild(tooltips[i].tip);
+        tooltips.splice(i, 1);
+        return;
+      }
+    }
+  };
+  var create_tooltip = function(elem, text) {
+    var tooltip = document.createElement('div'), arrow = document.createElement('div'), inner = document.createElement('div'), new_tooltip = {};
+    if (elem.type != 'radio' && elem.type != 'checkbox') {
+      tooltip.className = '_error';
+      arrow.className = '_error-arrow';
+      inner.className = '_error-inner';
+      inner.innerHTML = text;
+      tooltip.appendChild(arrow);
+      tooltip.appendChild(inner);
+      elem.parentNode.appendChild(tooltip);
+    } else {
+      tooltip.className = '_error-inner _no_arrow';
+      tooltip.innerHTML = text;
+      elem.parentNode.insertBefore(tooltip, elem);
+      new_tooltip.no_arrow = true;
+    }
+    new_tooltip.tip = tooltip;
+    new_tooltip.elem = elem;
+    tooltips.push(new_tooltip);
+    return new_tooltip;
+  };
+  var resize_tooltip = function(tooltip) {
+    var rect = tooltip.elem.getBoundingClientRect();
+    var doc = document.documentElement, scrollPosition = rect.top - ((window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0));
+    if (scrollPosition < 40) {
+      tooltip.tip.className = tooltip.tip.className.replace(/ ?(_above|_below) ?/g, '') + ' _below';
+    } else {
+      tooltip.tip.className = tooltip.tip.className.replace(/ ?(_above|_below) ?/g, '') + ' _above';
+    }
+  };
+  var resize_tooltips = function() {
+    if (_removed) return;
+    for (var i = 0; i < tooltips.length; i++) {
+      if (!tooltips[i].no_arrow) resize_tooltip(tooltips[i]);
+    }
+  };
+  var validate_field = function(elem, remove) {
+    var tooltip = null, value = elem.value, no_error = true;
+    remove ? remove_tooltip(elem) : false;
+    if (elem.type != 'checkbox') elem.className = elem.className.replace(/ ?_has_error ?/g, '');
+    if (elem.getAttribute('required') !== null) {
+      if (elem.type == 'radio' || (elem.type == 'checkbox' && /any/.test(elem.className))) {
+        var elems = form_to_submit.elements[elem.name];
+        if (!(elems instanceof NodeList || elems instanceof HTMLCollection) || elems.length <= 1) {
+          no_error = elem.checked;
+        }
+        else {
+          no_error = false;
+          for (var i = 0; i < elems.length; i++) {
+            if (elems[i].checked) no_error = true;
+          }
+        }
+        if (!no_error) {
+          tooltip = create_tooltip(elem, "Please select an option.");
+        }
+      } else if (elem.type =='checkbox') {
+        var elems = form_to_submit.elements[elem.name], found = false, err = [];
+        no_error = true;
+        for (var i = 0; i < elems.length; i++) {
+          if (elems[i].getAttribute('required') === null) continue;
+          if (!found && elems[i] !== elem) return true;
+          found = true;
+          elems[i].className = elems[i].className.replace(/ ?_has_error ?/g, '');
+          if (!elems[i].checked) {
+            no_error = false;
+            elems[i].className = elems[i].className + ' _has_error';
+            err.push("Checking %s is required".replace("%s", elems[i].value));
+          }
+        }
+        if (!no_error) {
+          tooltip = create_tooltip(elem, err.join('<br/>'));
+        }
+      } else if (elem.tagName == 'SELECT') {
+        var selected = true;
+        if (elem.multiple) {
+          selected = false;
+          for (var i = 0; i < elem.options.length; i++) {
+            if (elem.options[i].selected) {
+              selected = true;
+              break;
+            }
+          }
+        } else {
+          for (var i = 0; i < elem.options.length; i++) {
+            if (elem.options[i].selected && !elem.options[i].value) {
+              selected = false;
+            }
+          }
+        }
+        if (!selected) {
+          elem.className = elem.className + ' _has_error';
+          no_error = false;
+          tooltip = create_tooltip(elem, "Please select an option.");
+        }
+      } else if (value === undefined || value === null || value === '') {
+        elem.className = elem.className + ' _has_error';
+        no_error = false;
+        tooltip = create_tooltip(elem, "This field is required.");
+      }
+    }
+    if (no_error && elem.name == 'email') {
+      if (!value.match(/^[\+_a-z0-9-'&=]+(\.[\+_a-z0-9-']+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$/i)) {
+        elem.className = elem.className + ' _has_error';
+        no_error = false;
+        tooltip = create_tooltip(elem, "Enter a valid email address.");
+      }
+    }
+    if (no_error && elem.name == 'field[28]') {
+      if (!value.match(/^[0-9]+$/)) {
+        elem.value = 0;
+      }
+    }
+    if (no_error && /date_field/.test(elem.className)) {
+      if (!value.match(/^\d\d\d\d-\d\d-\d\d$/)) {
+        elem.className = elem.className + ' _has_error';
+        no_error = false;
+        tooltip = create_tooltip(elem, "Enter a valid date.");
+      }
+    }
+    tooltip ? resize_tooltip(tooltip) : false;
+    return no_error;
+  };
+  var needs_validate = function(el) {
+        if(el.getAttribute('required') !== null){
+            return true
+        }
+        if(el.name === 'email' && el.value !== ""){
+            return true
+        }
+        return false
+  };
+  var validate_form = function(e) {
+    var err = form_to_submit.querySelector('._form_error'), no_error = true;
+    if (!submitted) {
+      submitted = true;
+      for (var i = 0, len = allInputs.length; i < len; i++) {
+        var input = allInputs[i];
+        if (needs_validate(input)) {
+          if (input.type == 'text') {
+            addEvent(input, 'blur', function() {
+              this.value = this.value.trim();
+              validate_field(this, true);
+            });
+            addEvent(input, 'input', function() {
+              validate_field(this, true);
+            });
+          } else if (input.type == 'radio' || input.type == 'checkbox') {
+            (function(el) {
+              var radios = form_to_submit.elements[el.name];
+              for (var i = 0; i < radios.length; i++) {
+                addEvent(radios[i], 'click', function() {
+                  validate_field(el, true);
+                });
+              }
+            })(input);
+          } else if (input.tagName == 'SELECT') {
+            addEvent(input, 'change', function() {
+              validate_field(this, true);
+            });
+          } else if (input.type == 'textarea'){
+            addEvent(input, 'input', function() {
+              validate_field(this, true);
+            });
+          }
+        }
+      }
+    }
+    remove_tooltips();
+    for (var i = 0, len = allInputs.length; i < len; i++) {
+      var elem = allInputs[i];
+      if (needs_validate(elem)) {
+        if (elem.tagName.toLowerCase() !== "select") {
+          elem.value = elem.value.trim();
+        }
+        validate_field(elem) ? true : no_error = false;
+      }
+    }
+    if (!no_error && e) {
+      e.preventDefault();
+    }
+    resize_tooltips();
+    return no_error;
+  };
+  addEvent(window, 'resize', resize_tooltips);
+  addEvent(window, 'scroll', resize_tooltips);
+  window['recaptcha_callback'] = function() {
+  // Get all recaptchas in the DOM (there may be more than one form on the page).
+  var recaptchas = document.getElementsByClassName("g-recaptcha");
+  for (var i in recaptchas) {
+    // Set the recaptcha element ID, so the recaptcha can be applied to each element.
+    var recaptcha_id = "recaptcha_" + i;
+    recaptchas[i].id = recaptcha_id;
+    var el = document.getElementById(recaptcha_id);
+    if (el != null) {
+      var sitekey = el.getAttribute("data-sitekey");
+      var stoken = el.getAttribute("data-stoken");
+      grecaptcha.render(recaptcha_id, {"sitekey":sitekey,"stoken":stoken});
+    }
+  }
+};  _load_script("//www.google.com/recaptcha/api.js?onload=recaptcha_callback&render=explicit");
+  window._old_serialize = null;
+  if (typeof serialize !== 'undefined') window._old_serialize = window.serialize;
+  _load_script("//d3rxaij56vjege.cloudfront.net/form-serialize/0.3/serialize.min.js", function() {
+    window._form_serialize = window.serialize;
+    if (window._old_serialize) window.serialize = window._old_serialize;
+  });
+  var form_submit = function(e) {
+    e.preventDefault();
+    if (validate_form()) {
+      // use this trick to get the submit button & disable it using plain javascript
+      document.querySelector('#_form_13_submit').disabled = true;
+            var serialized = _form_serialize(document.getElementById('_form_13_')).replace(/%0A/g, '\\n');
+      var err = form_to_submit.querySelector('._form_error');
+      err ? err.parentNode.removeChild(err) : false;
+      _load_script('https://lenmark4361.activehosted.com/proc.php?' + serialized + '&jsonp=true');
+    }
+    return false;
+  };
+  addEvent(form_to_submit, 'submit', form_submit);
+})();
+</script>
+
+
+{% schema %}
+{
+  "name": "Product page",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "label": "Show vendor",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_sku",
+      "label": "Show SKU",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_share_buttons",
+      "label": "Show share buttons",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_taxes_included",
+      "label": "Show price taxes notice",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "selector_mode",
+      "label": "Selector type",
+      "options": [
+        {
+          "value": "block",
+          "label": "Block"
+        },
+        {
+          "value": "dropdown",
+          "label": "Dropdown"
+        }
+      ],
+      "default": "block"
+    },
+    {
+      "type": "select",
+      "id": "color_mode",
+      "label": "Color selector type",
+      "info": "Variant image mode requires that all variant has an associated image. [Learn more](https://help.shopify.com/en/manual/products/product-variant-images#add-images-to-existing-variants)",
+      "options": [
+        {
+          "value": "block",
+          "label": "Block"
+        },
+        {
+          "value": "dropdown",
+          "label": "Dropdown"
+        },
+        {
+          "value": "color",
+          "label": "Color swatch"
+        },
+        {
+          "value": "variant_image",
+          "label": "Variant image"
+        }
+      ],
+      "default": "color"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_quantity_selector",
+      "label": "Show quantity selector",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_payment_button",
+      "label": "Show dynamic checkout button",
+      "info": "Each customer will see their preferred payment method from those available on your store, such as PayPal or Apple Pay. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Media"
+    },
+    {
+      "type": "paragraph",
+      "content": "Learn more about [media types](https://help.shopify.com/en/manual/products/product-media)"
+    },
+    {
+      "type": "select",
+      "id": "image_size",
+      "label": "Size",
+      "info": "Only applicable on desktop screens",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "small"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_image_zoom",
+      "label": "Enable image zoom",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_video_looping",
+      "label": "Enable video looping",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "zoom_effect",
+      "label": "Zoom effect",
+      "options": [
+        {
+          "value": "inside",
+          "label": "Inside"
+        },
+        {
+          "value": "outside",
+          "label": "Outside"
+        }
+      ],
+      "default": "outside"
+    },
+    {
+      "type": "select",
+      "id": "carousel_effect",
+      "label": "Transition effect",
+      "options": [
+        {
+          "value": "fade",
+          "label": "Fade"
+        },
+        {
+          "value": "slide",
+          "label": "Slide"
+        }
+      ],
+      "default": "fade"
+    },
+    {
+      "type": "header",
+      "content": "Inventory"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can also add a stock countdown. [Learn more](https://support.maestrooo.com/article/177-product-show-an-stock-countdown-bar)."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_inventory_quantity",
+      "label": "Show inventory quantity",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "low_inventory_threshold",
+      "label": "Low inventory threshold",
+      "info": "Use low stock color when quantity is below the threshold. Choose 0 to always show in stock.",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can also add per-product tabs. [Learn more](http://support.maestrooo.com/article/83-product-adding-different-tabs-per-product)."
+    },
+    {
+      "type": "select",
+      "id": "content_display_mode",
+      "label": "Display mode",
+      "options": [
+        {
+          "value": "show_all",
+          "label": "Show all"
+        },
+        {
+          "value": "show_all_and_expand_description",
+          "label": "Show all and expand description"
+        },
+        {
+          "value": "collapse_all",
+          "label": "Collapse all"
+        },
+        {
+          "value": "collapse_all_except_description",
+          "label": "Collapse all except description"
+        }
+      ],
+      "default": "show_all_and_expand_description"
+    },
+    {
+      "type": "page",
+      "id": "tab_page_1_handle",
+      "label": "First page"
+    },
+    {
+      "type": "page",
+      "id": "tab_page_2_handle",
+      "label": "Second page"
+    },
+    {
+      "type": "page",
+      "id": "tab_page_3_handle",
+      "label": "Third page"
+    },
+    {
+      "type": "header",
+      "content": "Reviews"
+    },
+    {
+      "type": "paragraph",
+      "content": "You need to install [Shopify's free Product Reviews](https://apps.shopify.com/product-reviews) app before enabling those options."
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_reviews",
+      "label": "Enable",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_reviews_badge",
+      "label": "Show badge",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Trust"
+    },
+    {
+      "type": "text",
+      "id": "trust_title",
+      "label": "Heading",
+      "default": "Payment & Security"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_payment_icons",
+      "label": "Show payment icons",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "custom_security_badge",
+      "label": "Security badge",
+      "info": "800 x 200px .jpg recommended"
+    },
+    {
+      "type": "header",
+      "content": "Shipping estimator"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_shipping_estimator",
+      "label": "Show shipping estimator",
+      "info": "Only show if product is available.",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "shipping_estimator_default_country",
+      "label": "Default country",
+      "info": "If the customer is logged in, the country of their shipping address will be used.",
+      "default": "United States"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_refunds_policy",
+      "label": "Show refunds policy",
+      "info": "Refund policy must be added into your store policies. [Learn more](https://help.shopify.com/manual/sell-online/checkout-settings/refund-privacy-tos).",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

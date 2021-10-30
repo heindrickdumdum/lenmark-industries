@@ -1,0 +1,328 @@
+{%- capture page_header -%}
+  {%- assign header_classes = 'page__header page__header--stack page__header--centered' -%}
+
+  {%- if section.settings.image -%}
+    {%- assign header_classes = header_classes | append: ' page__header--image' -%}
+  {%- endif -%}
+
+  {%- if section.settings.image_edge_to_edge -%}
+    {%- assign header_classes = header_classes | append: ' page__header--edge2edge' -%}
+  {%- endif -%}
+
+  {%- if section.settings.show_image_overlay -%}
+    {%- assign header_classes = header_classes | append: ' page__header--overlay' -%}
+  {%- endif -%}
+
+  <header class="{{ header_classes }}" {% if section.settings.image %}style="background-image: url({{ section.settings.image | img_url: '1400x' }})"{% endif %}>
+    {%- if page.content != blank -%}
+      <div class="container--narrow">
+        <div class="page__description rte">
+          {{ page.content }}
+        </div>
+      </div>
+    {%- endif -%}
+  </header>
+{%- endcapture -%}
+
+{%- if section.settings.image and section.settings.image_edge_to_edge -%}
+  {{- page_header -}}
+{%- endif -%}
+
+<div class="container">
+  {%- unless section.settings.image and section.settings.image_edge_to_edge -%}
+    {{- page_header -}}
+  {%- endunless -%}
+
+  <div class="team">
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'separator' and forloop.first != true -%}
+        </div>
+      {%- endif -%}
+
+      {%- case block.type -%}
+        {%- when 'separator' -%}
+          <h2 class="team__section-title heading h3" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}</h2>
+
+        {%- when 'member' -%}
+          <div class="team__block-item team__member" {{ block.shopify_attributes }}>
+            {%- if block.settings.image -%}
+              <img src="{{ block.settings.image | img_url: '250x250', crop: 'center' }}" alt="{{ block.settings.image.alt | escape }}" class="team__member-pic {% if section.settings.round_image %}team__member-pic--rounded{% endif %}">
+            {%- endif -%}
+
+            {%- if block.settings.title != blank -%}
+              <p class="team__member-title heading h4">{{ block.settings.title | escape }}</p>
+            {%- endif -%}
+
+            {%- if block.settings.subheading != blank -%}
+              <p class="team__member-subheading">{{ block.settings.subheading | escape }}</p>
+            {%- endif -%}
+
+            {%- if block.settings.link != blank and block.settings.link_title != blank -%}
+              <a href="{{ block.settings.link }}" class="team__member-link link link--accented">{{ block.settings.link_title }}</a>
+            {%- endif -%}
+          </div>
+
+        {%- when 'promotion' -%}
+          <div id="block-{{ block.id }}" class="team__block-item team__promotion" {{ block.shopify_attributes }}>
+            <style>
+              #block-{{ block.id }} {
+                background: {{ block.settings.background }};
+                color: {{ block.settings.text }};
+              }
+            </style>
+
+            {%- if block.settings.title != blank -%}
+              <h2 class="heading h4">{{ block.settings.title | escape }}</h2>
+            {%- endif -%}
+
+            {%- if block.settings.content != blank -%}
+              <div class="rte">
+                {{ block.settings.content }}
+              </div>
+            {%- endif -%}
+
+            {%- if block.settings.button_text != blank -%}
+           
+            <button class="product-form__add-button button button--primary" data-action="open-modal" aria-controls="modal-buy-out-program">Learn More</button>
+            
+            
+            {%- endif -%}
+          </div>
+      {%- endcase -%}
+  
+  
+  <div id="modal-buy-out-program" class="modal" aria-hidden="true">
+        <div class="modal__dialog" role="dialog">
+          <header class="modal__header">
+            <h3 class="modal__title heading h2">Buy-Out Program</h3>
+            <button class="modal__close link" data-action="close-modal">{%- render 'icon', icon: 'close' -%}</button>
+          </header>
+
+          <div class="modal__content">
+            <div class="rte" style="text-align:left !important;">
+              <h5 class="h5">1) Request a Buy-Out</h5>
+Let us know you’re looking for a buy-out, and we’ll fast-track you. Not sure which option is right for you? Give us a call or request a consultation online, and we can recommend your next steps.
+              <h5 class="h5">2) Receive an Offer</h5>
+We’ll assess your equipment and get back to you with an offer that gets cash in your hands, as quickly as possible. We usually make an offer within one business day.
+              <h5 class="h5">3) Get cash fast</h5>
+In most cases, we can pay cash or wire funds to you same-day.
+              <h3 class="h3">GET AN OFFER:</h3>
+
+              <input type="hidden" name="contact[tags]" value="newsletter">
+
+              <div class="form__input-row">
+              <div class="form__input-wrapper form__input-wrapper--labelled">
+                <input type="firstname" id="newsletter[contact][email]" name="contact[email]" class="form__field form__field--text" required>
+                <label for="newsletter[contact][email]" class="form__floating-label">First Name</label>
+                </div>
+                <div class="form__input-wrapper form__input-wrapper--labelled">
+                <input type="lastname" id="newsletter[contact][email]" name="contact[email]" class="form__field form__field--text" required>
+                <label for="newsletter[contact][email]" class="form__floating-label">Last Name</label>
+              </div>
+                </div>
+        <div class="form__input-row">
+              <div class="form__input-wrapper form__input-wrapper--labelled">
+                <input type="email" id="newsletter[contact][email]" name="contact[email]" class="form__field form__field--texts" required>
+                <label for="newsletter[contact][email]" class="form__floating-label">Email</label>
+                </div>
+                <div class="form__input-wrapper form__input-wrapper--labelled">
+                <input type="phone" id="newsletter[contact][email]" name="contact[email]" class="form__field form__field--text" required>
+                <label for="newsletter[contact][email]" class="form__floating-label">Phone</label>
+              </div>
+                </div>
+        
+                    <div class="form__input-row">
+              <div class="form__input-wrapper form__input-wrapper--labelled">
+                <input type="email" id="newsletter[contact][email]" name="contact[email]" class="form__field form__field--text" required>
+                <label for="newsletter[contact][email]" class="form__floating-label">Description of Items</label>
+              </div>
+        </div>
+
+              <button type="submit" class="form__submit button button--primary">{{ 'home_page.newsletter.submit' | t }}</button>
+            </div>
+          </div>
+    </div>
+    </div>
+
+      {%- comment -%}If current block is a separator and is not the last one, we open a new div{%- endcomment -%}
+
+      {%- if block.type == 'separator' and forloop.last == false -%}
+        <div class="team__block-list">
+      {%- endif -%}
+
+      {%- comment -%}If current block is last one and is not a separator, we close the div{%- endcomment -%}
+
+      {%- if forloop.last and block.type != 'separator' -%}
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+{%- if section.settings.image -%}
+  <style>
+    .page__header--image,
+    .page__header--image .heading {
+      color: {{ section.settings.color }};
+    }
+  </style>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Benefits",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Header image",
+      "info": "1400 x 450px .jpg recommended"
+    },
+    {
+      "type": "checkbox",
+      "id": "image_edge_to_edge",
+      "label": "Expand image edge to edge",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image_overlay",
+      "label": "Show image overlay",
+      "info": "Increase text readability on busy images.",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "color",
+      "label": "Text",
+      "info": "Only applicable if image is used.",
+      "default": "#ffffff"
+    },
+    {
+      "type": "checkbox",
+      "id": "round_image",
+      "label": "Round profile images",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "separator",
+      "name": "Section separator",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Section title"
+        }
+      ]
+    },
+    {
+      "type": "member",
+      "name": "Member",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "400 x 400px .jpg recommended"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Name"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Role"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "link_title",
+          "label": "Link title",
+          "default": "Your link"
+        }
+      ]
+    },
+    {
+      "type": "promotion",
+      "name": "Promotion",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Join our team"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Text",
+          "default": "<p>A short sentence describing your job offer</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button text"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "default": "#1e2d7d"
+        },
+        {
+          "type": "color",
+          "id": "text",
+          "label": "Text",
+          "default": "#ffffff"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "separator",
+        "settings": {
+          "title": "Our team"
+        }
+      },
+      {
+        "type": "member",
+        "settings": {
+          "title": "John D.",
+          "subheading": "CEO",
+          "link": "mailto:john@test.com"
+        }
+      },
+      {
+        "type": "member",
+        "settings": {
+          "title": "Emily H.",
+          "subheading": "CTO",
+          "link": "mailto:emily@test.com"
+        }
+      },
+      {
+        "type": "promotion",
+        "settings": {}
+      }
+    ]
+  }
+}
+{% endschema %}

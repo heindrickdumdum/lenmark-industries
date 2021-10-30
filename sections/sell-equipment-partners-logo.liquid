@@ -1,0 +1,106 @@
+<style>
+	.sell-partners-logo {background-color: #ffffff;text-align: center;padding-bottom: 50px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--border-color);
+    }
+  
+  	.sell-partners-logo .section-title {
+      padding: 30px;
+      padding-top: 60px;
+/*       font-size: 2.5rem; */
+      text-transform: uppercase;
+	}
+	.sell-partners-logo .partners-logo-list {display: flex;list-style: none;flex-wrap: wrap;max-width: 900px;margin: auto;align-items: center;}
+	.sell-partners-logo .partners-logo-list .partners-logo-item {width: 25%;padding: 25px;}
+	.sell-partners-logo .partners-logo-item img {}
+  
+  	
+  
+    .sec-wide-exposure {text-align: center;padding-bottom: 20px;background-color: #F3F4F6;}
+    .sec-wide-exposure .section-title {background-color: #fff;padding: 30px;}
+    .sec-wide-exposure .wide-exposure-wrapper {display: flex;width: 100%;justify-content: center;max-width: 1570px;}
+    .sec-wide-exposure .wide-exposure-item_icon {margin-bottom: 10px;max-width: 60px;}
+    .sec-wide-exposure .wide-exposure-item {width: 25%;background-color: #fff;margin: 40px 20px;padding: 20px;border-radius: 3px;border: 1px solid #ddd;}
+    .sec-wide-exposure .wide-exposure-item_heading {color: #edbb40;font-size: 22px;    line-height: 1;    font-weight: 400;    margin-bottom: 0;    font-family: 'erbaum';}
+    .sec-wide-exposure .wide-exposure-item_heading-sub {color: #000;}
+    .sec-wide-exposure .wide-exposure-btn-link {background-color: #fcbc2f;width: 100%;    max-width: 370px; color: #3A3A3A  !Important;} 
+  
+  @media screen and (min-width: 1440px) {
+  	max-width: 1400px;
+  }
+  
+  @media screen and (max-width: 799px) {
+  	.sell-partners-logo .partners-logo-list .partners-logo-item {width: 50%;}
+    .sec-wide-exposure .wide-exposure-wrapper {display: block;}
+	.sec-wide-exposure .wide-exposure-item {width: 100%;margin: 20px 0;}
+  }
+</style>
+
+<section class="sell-partners-logo">
+  <div class="container partners-logo-wrapper">
+    <h2 class="section-title heading h3">Partners That Have Sold With Us:</h2>
+    <ul class="partners-logo-list">
+      {% for block in section.blocks %}
+        <li class="partners-logo-item">
+          {% if block.settings.partner_logo_link != blank %}
+            <a href="{{ block.settings.partner_logo_link }}" target="_blank">
+              <img src="{{ block.settings.partner_logo | img_url: "large" }}">
+            </a>
+          {% else %}
+          	<img src="{{ block.settings.partner_logo | img_url: "large" }}">
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sec-wide-exposure">
+	
+  	<div class="container wide-exposure-wrapper">
+      <div class="wide-exposure-item">
+      	<img src="{{ 'sell-equip-north-america.png' | asset_img_url }}" class="wide-exposure-item_icon">
+        <p class="wide-exposure-item_heading">US &amp; CAN<br>WIDE EXPOSURE</p>
+        <p class="wide-exposure-item_heading-sub">on all listings</p>
+      </div>
+      <div class="wide-exposure-item">
+      	<img src="{{ 'sell-equip-clock.png' | asset_img_url }}" class="wide-exposure-item_icon">
+        <p class="wide-exposure-item_heading">10<br>MINUTES</p>
+        <p class="wide-exposure-item_heading-sub">to sign up your assets</p>
+      </div>
+      <div class="wide-exposure-item">
+      	<img src="{{ 'sell-equip-coin.png' | asset_img_url }}" class="wide-exposure-item_icon">
+        <p class="wide-exposure-item_heading">HIGHER<br>VALUE AND RETURN</p>
+        <p class="wide-exposure-item_heading-sub">than auction companies</p>
+      </div>
+    </div>
+    
+    <button class="wide-exposure-btn-link list-btn" data-action="open-modal" aria-controls="sell-forms-modal" onclick="$('.modal__form-slide').slick('slickGoTo', 0);">LIST WITH LENMARK</button>
+</section>
+
+
+
+{% schema %}
+{
+  "blocks": [
+    {
+      "type": "block",
+      "name": "Partners Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "partner_logo",
+		  "label": "Partners Logo"
+        },
+		{
+          "type": "url",
+          "id": "partner_logo_link",
+		  "label": "Partners Logo Link"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

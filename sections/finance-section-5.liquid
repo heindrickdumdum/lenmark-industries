@@ -1,0 +1,53 @@
+<style>
+  	.{{ section.id }} { padding-top: 100px; padding-bottom: 80px; }
+	.{{ section.id }} .icon-wrapper { border: 5px solid #fff; border-radius: 100%; width: 80px; height: 80px; padding: 10px; }
+</style>
+
+<div class="container text-center {{ section.id }}">
+  <h2 class="section-title heading h2 section_heading bold leading-none uppercase">{{ section.settings.heading }}</h2>
+  <hr class="yellow-line mx-auto my-50">
+  <ul class="list-reset flex flex-wrap uppercase bold text-left justify-between ">
+  	{% for block in section.blocks %}
+    <li class="w-1-3 mb-50">
+      <div class="icon-wrapper inline-block w-full align-middle">{{ block.settings.svg_icon }}</div>
+      <p class="title-wrapper inline-block align-middle">{{ block.settings.title }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% schema %}
+  {
+    "name": "Why Choose",
+    "settings": [
+		{
+			"type": "text",
+			"id": "heading",
+			"label": "Heading"
+		}
+	],
+	"blocks": [
+		{
+			"name": "Finance Benefits",
+			"type": "text",
+			"settings": [
+				{
+					"type": "html",
+					"id": "title",
+					"label": "Title"
+				},
+				{
+					"type": "html",
+					"id": "svg_icon",
+					"label": "SVG Icon"
+				}
+			]
+		}
+	]
+  }
+{% endschema %}
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

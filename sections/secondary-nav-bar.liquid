@@ -1,0 +1,75 @@
+{%- if section.settings.show_announcement -%}
+      
+    <div class="secondary-nav-bar hidden-pocket">
+      {%- assign menu = linklists[section.settings.navigation_menu] -%}
+                  <div class="container">
+                    <div class="header__secondary_nav">
+                      <div class="nav-bar__inner" style="margin-left:auto;">
+                        <ul class="nav-bar__linklist list--unstyled">
+                          {%- for link in menu.links -%}
+                            {%- comment %}<locksmith:c64d>{% endcomment -%}
+                              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: menu, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                            {%- comment %}</locksmith:c64d>{% endcomment -%}
+                            <li class="secondary_nav-bar__item" style="float:left; ">
+                              <a href="{{ link.url }}">{{ link.title }}</a>
+                            </li>
+                          {%- endfor -%}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+    </div>
+
+  <style>
+    .secondary-nav-bar {
+      background: {{ section.settings.background }};
+      color: {{ section.settings.text_color }};
+    }
+  </style>
+
+  <script>
+    {%- if section.settings.show_newsletter -%}
+      document.documentElement.style.setProperty('--announcement-bar-button-width', document.querySelector('.announcement-bar__button').clientWidth + 'px');
+    {%- else -%}
+      document.documentElement.style.removeProperty('--announcement-bar-button-width');
+    {%- endif -%}
+
+    document.documentElement.style.setProperty('--announcement-bar-height', document.getElementById('shopify-section-{{ section.id }}').clientHeight + 'px');
+  </script>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Secondary Navigation Bar",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_announcement",
+      "label": "Show announcement",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background",
+      "default": "#1e2d7d"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Navigation"
+    },
+    {
+      "type": "link_list",
+      "id": "navigation_menu",
+      "label": "Menu",
+      "default": "main-menu"
+    }
+  ]
+}
+{% endschema %} 

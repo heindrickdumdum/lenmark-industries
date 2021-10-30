@@ -1,0 +1,69 @@
+<style>
+.sec-advantage {background-color: #3D3D3D;color: #fff;text-align: center;padding: 40px 0;padding-top: 0;}
+.sec-advantage .advantage-wrapper { max-width: 1040px; margin: auto; }
+.sec-advantage .section-title {color: #fff;padding: 30px;
+    padding-top: 60px;
+ 	font-size: 2.5rem;
+    text-transform: uppercase;}
+.sec-advantage .section-sub-title {color: #fff;font-size: 16px;}
+.sec-advantage .sec-advantage-list {display: flex;flex-wrap: wrap;}
+.sec-advantage .sec-advantage-list-item { padding: 20px;}
+.sec-advantage .sec-advantage-list-item img {/* margin-bottom: 20px; */ margin-right: 30px; }
+.sec-advantage .sec-advantage-list-item .advantage-heading {font-size: 25px;/*color: #fcbc30;*/margin-bottom: 0;}
+.sec-advantage .sec-advantage-list-item .advantage-desc {font-size: var(--base-text-font-size);}
+
+.sec-advantage .bottom-desc { font-size: 1.5rem; max-width: 650px; margin: auto; margin-bottom: 20px; }
+.sec-advantage .buttons-wrapper button { font-size: 1.5rem; padding: 0 40px; }
+@media screen and (max-width: 799px) {
+  .sec-advantage .section-sub-title {margin-bottom: 50px}
+  .sec-advantage .sec-advantage-list-item {width: 100%;padding: 0;margin-bottom: 50px; display: block; }
+  .sec-advantage .sec-advantage-list-item .item-desc-wrap { text-align: center;  }
+  .sec-advantage .buttons-wrapper { display: block; }
+  .sec-advantage .buttons-wrapper button { width: 100%; margin-bottom: 20px; }
+  .sec-advantage .sec-advantage-list-item img { margin-right: 0; }
+  .sec-advantage .section-title {font-size: 2rem; }
+}
+</style>
+
+<section class="sec-advantage">
+  	<div class="container advantage-wrapper">
+  	  <h2 class="section-title heading h3">THE LENMARK ADVANTAGE</h2>
+      <p class="section-sub-title heading h3 hidden">Our best-in-class marketing program ensures your equipment is sold as quickly as possible, for the best price possible.</p>
+      <div class="sec-advantage-list">
+        <div class="sec-advantage-list-item flex">
+        	<img class="advantage-icon" src="{{ 'advantage-1.png' | asset_img_url }}">
+          	<div class="item-desc-wrap text-left">
+            	<p class="advantage-heading">PROPRIETARY SOFTWARE</p>
+          		<p class="advantage-desc">We have developed our own software that enables us to gather and compile data from different pieces of equipment and then store that information in one place. Once we are content with our research, we post that equipment through our software system to over 10 marketing channels – getting your equipment to market faster than the competitors.</p>
+          	</div>
+        </div>
+        <div class="sec-advantage-list-item flex">
+        	<img class="advantage-icon" src="{{ 'advantage-2.png' | asset_img_url }}">
+            <div class="item-desc-wrap text-left">
+              <p class="advantage-heading">EXPANSIVE REACH</p>
+              <p class="advantage-desc">Once our equipment gets posted, it goes live on our website as well as Craigslist, Kijiji, Facebook Marketplace, eBay, Google Shopping, and others! No matter where potential buyers are searching, they are sure to land on our site. Maximum exposure means maximum sales potential.</p>
+            </div>
+        </div>
+        <div class="sec-advantage-list-item flex">
+        	<img class="advantage-icon" src="{{ 'advantage-3.png' | asset_img_url }}">
+          <div class="item-desc-wrap text-left">
+            <p class="advantage-heading">DIRECT MARKETING</p>
+          	<p class="advantage-desc">When you partner with Lenmark, you gain access to our extensive marketing network, including a wealth of direct industry contacts and an email campaign engagement rate well above industry standard. We get your equipment in front of the right eyes, facilitating a quicker sale.</p>
+          </div>
+        </div>
+        <div class="sec-advantage-list-item flex">
+        	<img class="advantage-icon" src="{{ 'advantage-4.png' | asset_img_url }}">
+          <div class="item-desc-wrap text-left">
+            <p class="advantage-heading">INDUSTRY EXPERTS</p>
+          	<p class="advantage-desc">With a combined 70 years of experience snapping all areas of industry, our sales and buying teams are uniquely qualified to appraise, list, show and negotiate the sale of your equipment.</p>
+          </div>
+        </div>
+      </div>
+      <hr width=40%, color=#FEBE20 noshade>
+      <p class="bottom-desc">Our best-in-class marketing program ensures your equipment is sold as quickly as possible, for the best price possible</p>
+      <div class="buttons-wrapper flex">
+        <button class="sell-options-link product-form__add-button button button--tertiary btn-sell mx-auto" data-action="open-modal" aria-controls="sell-forms-modal" onclick="$('.modal__form-slide').slick('slickGoTo', 1);">Sell to Lenmark</button>
+      	<button class="sell-options-link product-form__add-button button button--primary btn-list mx-auto" data-action="open-modal" aria-controls="sell-forms-modal" onclick="$('.modal__form-slide').slick('slickGoTo', 0);">List with Lenmark</button>
+      </div>
+  	</div>
+</section>

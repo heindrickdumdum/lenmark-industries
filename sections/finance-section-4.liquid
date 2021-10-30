@@ -1,0 +1,62 @@
+<style>
+  .{{ section.id }} { padding-top: 100px; padding-bottom: 80px; border-bottom: 1px solid #bdc4c7; }
+  .{{ section.id }} .yellow-line { max-width: 90px; height: 5px; background-color: #febe20; border: none; margin: 0; }
+  
+  @media screen and (max-width: 999px) {
+  	.{{ section.id }} { padding-top: 40px; padding-bottom: 40px; flex-direction: column-reverse; }
+  }
+</style>
+
+<div class="container">
+  <div class="flex items-center {{ section.id }}">
+    <div class="w-1-2 w-full-sp">
+      <h2 class="section-title heading h2 section_heading font-normal leading-none uppercase">{{ section.settings.section_heading }}</h2>
+      <hr class="yellow-line">
+      <p>
+      	{{ section.settings.description }}
+      </p>
+      <a href="{{ section.settings.button_link }}" class="button button--tertiary">{{ section.settings.button_text | escape }}</a>
+    </div>
+    <div class="w-1-2 w-full-sp mb-20">
+    	<img class="w-full" src="{{ section.settings.section_image | img_url: 'master' }}">
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Personal Advice",
+    "settings": [
+		{
+			"type": "image_picker",
+			"id": "section_image",
+			"label": "Section Image"
+		},
+		{
+			"type": "text",
+			"id": "section_heading",
+			"label": "Section Heading"
+		},
+		{
+			"type": "richtext",
+			"id": "description",
+			"label": "Description"
+		},
+		{
+			"type": "text",
+			"id": "button_text",
+			"label": "Button Text"
+		},
+     	{
+            "type": "url",
+            "id": "button_link",
+            "label": "Button Link"
+        }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
