@@ -1,25 +1,9 @@
 <style>
-  .section-{{ section.id }} {
-    background: url({{ section.settings.banner_image | img_url: 'master' }});
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 50px 0;
-    position: relative;
-    height: 490px;
-  }
-
-  .section-{{ section.id }} .page__header {
-    position: absolute;
-    top: 40%;
-    right: 0;
-    left: 0;
-    transform: translateY(-50%);
-    flex-wrap: wrap;
-  }
+  .section-{{ section.id }} { background: url({{ section.settings.banner_image | img_url: 'master' }}); background-repeat: no-repeat; background-size: cover; padding: 50px 0; position: relative;height: 490px; }
+  .section-{{ section.id }} .page__header { position: absolute; top: 40%; right: 0; left: 0; transform: translateY(-50%); flex-wrap: wrap; }
   .section-{{ section.id }} .page__title { color: {{ section.settings.heading_color}}; font-size: 80px; text-transform: none;}
   .section-{{ section.id }} .page__sub-title { color: {{ section.settings.heading_color}}; font-size: 25px; }
 </style>
-
 
 <div class="section-{{ section.id }}">
   <div class="container">
@@ -29,8 +13,6 @@
     </header>
   </div>
 </div>
-
-
 
 {% schema %}
 {
