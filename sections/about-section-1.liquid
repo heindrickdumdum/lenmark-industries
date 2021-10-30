@@ -1,9 +1,20 @@
-<div class="container container--narrow" style="background: url({{ section.settings.banner_image | img_url }});">
+<style>
+  .section-{{ section.id }} {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+  }
+</style>
 
-  <header class="page__header page__header--centered sub-folder">
-    <h1 class="page__title heading h1">{{ page.title }}</h1>
-    <p class="page__sub-title">{{ section.settings.sub-heading-text }}</p>
-  </header>
+
+<div class="section-{{ section.id }}" style="background: url({{ section.settings.banner_image | img_url: 'master' }});">
+
+  <div class="container container--narrow">
+    <header class="page__header page__header--centered sub-folder">
+      <h1 class="page__title heading h1">{{ page.title }}</h1>
+      <p class="page__sub-title">{{ section.settings.sub-heading-text }}</p>
+    </header>
+  </div>
 </div>
 
 
