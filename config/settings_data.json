@@ -1807,6 +1807,17 @@
           "sub-heading-text": "Industry Solutions - Your hub for buying, selling, and renting equipment.",
           "heading_color": "#ffffff"
         }
+      },
+      "about-section-2": {
+        "type": "about-section-2",
+        "settings": {
+          "text_1": "<p>About Us<\/p>",
+          "text_2": "<p>Lenmark<\/p>",
+          "text_3": "<p>Revolutionizing The Way To Buy and Sell Used Equipment<\/p>",
+          "text_4": "<p>The Origins<\/p>",
+          "text_5": "<p>Leonard + Mark started buying and selling from auctions until they thought of a new and better way to buy and sell. From there, the development went forward and utilized the power of e-commerce and digitalization. They used a new strategy and built it to help give alternatives to the traditional auctions. <\/p>",
+          "banner_image": "shopify:\/\/shop_images\/A_NEW_WAY_TO_BUY_AND_SELL_USED_500_x_400_px.png"
+        }
       }
     },
     "content_for_index": [
