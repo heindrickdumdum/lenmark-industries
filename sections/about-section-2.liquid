@@ -2,7 +2,11 @@
   <div class="container">
     <div class="flex">
       <div class="col col-left">
-        {{ section.settings.about_description }}
+        <p class="p1">{{ section.settings.text_1 }}</p>
+        <p class="p2">{{ section.settings.text_2 }}</p>
+        <p class="p3">{{ section.settings.text_3 }}</p>
+        <p class="p4">{{ section.settings.text_4 }}</p>
+        <p class="p4">{{ section.settings.text_5 }}</p>
       </div>
       <div class="col col-right">
         <img src="{{ section.settings.banner_image | img_url: 'master' }}" alt="">
@@ -17,8 +21,28 @@
   "settings": [
     {
       "type": "richtext",
-      "id": "about_description",
-      "label": "About Description"
+      "id": "text_1",
+      "label": "Text 1"
+    },
+    {
+      "type": "richtext",
+      "id": "text_2",
+      "label": "Text 2"
+    },
+    {
+      "type": "richtext",
+      "id": "text_3",
+      "label": "Text 3"
+    },
+    {
+      "type": "richtext",
+      "id": "text_4",
+      "label": "Text 4"
+    },
+    {
+      "type": "richtext",
+      "id": "text_5",
+      "label": "Text 5"
     },
     {
       "type": "image_picker",
