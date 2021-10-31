@@ -1,0 +1,42 @@
+<style>
+  .section-{{ section.id }} { padding: 50px 0; }
+
+  @media screen and (max-width: 767px) {
+    .section-{{ section.id }} { /*padding: 30px 0; */}
+  }
+</style>
+
+<div class="section-{{ section.id }}">
+  <div class="container">
+    <div class="section-heading">
+      <p class="heading">{{ section.settings.heading_text }}</p>
+      <p class="sub-heading">{{ section.settings.sub_heading_text }}</p>
+    </div>
+    <div class="flex items-center flex-wrap">
+      
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "About Section 2",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "sub_heading_text",
+      "label": "Sub Heading"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "Banner Image"
+    }
+  ]
+}
+{% endschema %}
