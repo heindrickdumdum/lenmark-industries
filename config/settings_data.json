@@ -159,7 +159,6 @@
           "slide-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/AdobeStock_319539009.jpg",
               "show_overlay": true,
               "overlay_opacity": 75,
               "text_color": "#ffffff",
@@ -176,7 +175,6 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Homepage_Banner_Forklifts_c0ccff4a-e5cf-4f21-b4fd-77f4b3e1180d.jpg",
               "show_overlay": true,
               "overlay_opacity": 0,
               "text_color": "#ffffff",
@@ -193,7 +191,6 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/industrial-worker-assembles-agricultural-equipment-3V47MHJ.jpg",
               "show_overlay": true,
               "overlay_opacity": 84,
               "text_color": "#ffffff",
@@ -210,7 +207,6 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/Homepage_Banner_SellYourEquipment_625e6a58-88f6-474e-858e-ab01af65e721.jpg",
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
@@ -227,7 +223,6 @@
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/About_us_header_3.png",
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
@@ -580,43 +575,37 @@
           "1598295863852-4": {
             "type": "collection",
             "settings": {
-              "collection": "forklifts",
-              "image": "shopify:\/\/shop_images\/2_b1048559-6083-4bde-b77a-8fec3c34593a.jpg"
+              "collection": "forklifts"
             }
           },
           "1598295863852-0": {
             "type": "collection",
             "settings": {
-              "collection": "metalworking",
-              "image": "shopify:\/\/shop_images\/3_227c616d-bc43-472b-8134-21480d88a930.jpg"
+              "collection": "metalworking"
             }
           },
           "1598295863852-1": {
             "type": "collection",
             "settings": {
-              "collection": "woodworking",
-              "image": "shopify:\/\/shop_images\/1.jpg"
+              "collection": "woodworking"
             }
           },
           "1598295863852-2": {
             "type": "collection",
             "settings": {
-              "collection": "shipping-containers",
-              "image": "shopify:\/\/shop_images\/4_1859ce65-fbc0-4cc8-a9c5-154f53a432f7.jpg"
+              "collection": "shipping-containers"
             }
           },
           "1598295863852-3": {
             "type": "collection",
             "settings": {
-              "collection": "bearings",
-              "image": "shopify:\/\/shop_images\/5_2f663d1b-0e25-4bd3-b606-67ca472c6648.jpg"
+              "collection": "bearings"
             }
           },
           "1598296670846": {
             "type": "collection",
             "settings": {
-              "collection": "electrical",
-              "image": "shopify:\/\/shop_images\/6_e1e75133-4ff4-43f9-9ccc-6a8c8c1b5bbb.jpg"
+              "collection": "electrical"
             }
           }
         },
@@ -642,7 +631,6 @@
           "1598296006630-2": {
             "type": "item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/pexels-karolina-grabowska-4968653.jpg",
               "show_overlay": true,
               "overlay_opacity": 92,
               "background": "#f3f4f4",
@@ -659,7 +647,6 @@
           "1598296006630-0": {
             "type": "item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/AdobeStock_197917405.jpg",
               "show_overlay": true,
               "overlay_opacity": 86,
               "background": "#f3f4f4",
@@ -707,42 +694,36 @@
           "1598296417391-1": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/King-Canada.png",
               "link": "shopify:\/\/collections\/king-canada"
             }
           },
           "1598296417391-0": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Edwards.png",
               "link": "http:\/\/www.edwardsironworkers.com\/"
             }
           },
           "1598301222329": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/rex-power-magnetics.png",
               "link": "https:\/\/beaverelectrical.com\/"
             }
           },
           "1598301206083": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/HACO.png",
               "link": "https:\/\/www.haco.com\/en"
             }
           },
           "1598296417391-2": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Multicam.png",
               "link": "https:\/\/www.multicam.com\/"
             }
           },
           "1598296417391-3": {
             "type": "logo",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Powermatic.png",
               "link": "http:\/\/www.powermatic.com\/us\/en\/home\/"
             }
           }
@@ -1586,43 +1567,37 @@
           "16255020013f747346-0": {
             "type": "collection",
             "settings": {
-              "collection": "transformers",
-              "image": "shopify:\/\/shop_images\/7_a9b80d24-736a-404b-bc22-c7f37f8e5e4d.jpg"
+              "collection": "transformers"
             }
           },
           "16255020013f747346-1": {
             "type": "collection",
             "settings": {
-              "collection": "steel",
-              "image": "shopify:\/\/shop_images\/Add_a_heading_1080_x_1080_px_1.jpg"
+              "collection": "steel"
             }
           },
           "16255020013f747346-2": {
             "type": "collection",
             "settings": {
-              "collection": "compressors",
-              "image": "shopify:\/\/shop_images\/9_0b45113a-5d79-48ab-bd32-49bd0138e9ca.jpg"
+              "collection": "compressors"
             }
           },
           "16255020013f747346-3": {
             "type": "collection",
             "settings": {
-              "collection": "oil-gas",
-              "image": "shopify:\/\/shop_images\/10_17a469cc-7155-40c1-96a1-8a8f7b786c3a.jpg"
+              "collection": "oil-gas"
             }
           },
           "16255020013f747346-4": {
             "type": "collection",
             "settings": {
-              "collection": "breakers",
-              "image": "shopify:\/\/shop_images\/11_cea96ae1-f8b8-4fd5-91bd-c649a7ab2124.jpg"
+              "collection": "breakers"
             }
           },
           "e4a52649-80e5-463a-a232-32a5c987d0b1": {
             "type": "collection",
             "settings": {
-              "collection": "miscellaneous-mro",
-              "image": "shopify:\/\/shop_images\/12_8c06a96b-931a-4b81-b470-6a2bd43a3fed.jpg"
+              "collection": "miscellaneous-mro"
             }
           }
         },
@@ -1817,6 +1792,13 @@
           "text_4": "<p>The Origins<\/p>",
           "text_5": "<p>Leonard + Mark started buying and selling from auctions until they thought of a new and better way to buy and sell. From there, the development went forward and utilized the power of e-commerce and digitalization. They used a new strategy and built it to help give alternatives to the traditional auctions. <\/p>",
           "banner_image": "shopify:\/\/shop_images\/A_NEW_WAY_TO_BUY_AND_SELL_USED_500_x_400_px.png"
+        }
+      },
+      "about-section-3": {
+        "type": "about-section-3",
+        "settings": {
+          "heading_text": "Lenmark Offers More Than Just A  Platform To Sell Your Equipment",
+          "sub_heading_text": "We Stand Out By Not Standing By"
         }
       }
     },
