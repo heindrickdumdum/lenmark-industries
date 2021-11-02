@@ -18,7 +18,15 @@
       <p class="sub-heading">{{ section.settings.sub_heading_text }}</p>
     </div>
     <div class="flex items-center flex-wrap">
-      
+      {%- for block in section.blocks -%}
+        <div class="item_offer">
+          <div class="item_offer-img"></div>
+          <div class="item_offer-details">
+            <p class="item_offer-title">{{ block.settings.offer_title }}</p>
+            <p class="item_offer-desc">{{ block.settings.offer_desc }}</p>
+          </div>
+        </div>
+      {%- endfor-%}
     </div>
   </div>
 </div>
@@ -42,6 +50,25 @@
       "id": "banner_image",
       "label": "Banner Image"
     }
+  ],
+  "blocks": [
+    {
+      "type": "offers",
+      "name": "Offers",
+      "settings": [
+        {
+          "type": "text",
+          "id": "offer_title",
+          "label": "Offer Title"
+        },
+        {
+          "type": "text",
+          "id": "offer_desc",
+          "label": "Offer Description"
+        }
+      ]
+    },
   ]
+  
 }
 {% endschema %}
