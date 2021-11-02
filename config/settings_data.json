@@ -1796,6 +1796,42 @@
       },
       "about-section-3": {
         "type": "about-section-3",
+        "blocks": {
+          "f7156e6d-e08b-41c1-8c42-147369690889": {
+            "type": "offers",
+            "settings": {
+              "offer_title": "Great Value",
+              "offer_desc": "List your items at the best price  possible based on industry demand"
+            }
+          },
+          "ad8eb0f7-293b-460c-be11-022fa343a9f7": {
+            "type": "offers",
+            "settings": {
+              "offer_title": "Logistic Specialsit",
+              "offer_desc": "Lenmark helps solve  logistics problems"
+            }
+          },
+          "3a6f783f-a6bb-427c-982a-3028e624dc7d": {
+            "type": "offers",
+            "settings": {
+              "offer_title": "Find The Right Buyers",
+              "offer_desc": "Lenmark helps you market your  products through its network of buyers"
+            }
+          },
+          "b772fc0a-0561-47ae-81c4-54d067549d9c": {
+            "type": "offers",
+            "settings": {
+              "offer_title": "Ai Powered Platform",
+              "offer_desc": "Sophisticated data base to manage  and publish inventory with ai"
+            }
+          }
+        },
+        "block_order": [
+          "f7156e6d-e08b-41c1-8c42-147369690889",
+          "ad8eb0f7-293b-460c-be11-022fa343a9f7",
+          "3a6f783f-a6bb-427c-982a-3028e624dc7d",
+          "b772fc0a-0561-47ae-81c4-54d067549d9c"
+        ],
         "settings": {
           "heading_text": "Lenmark Offers More Than Just A<br>Platform To Sell Your Equipment",
           "sub_heading_text": "We Stand Out By Not Standing By",
