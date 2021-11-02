@@ -5,10 +5,7 @@
     background: url("{{ section.settings.banner_image | img_url: 'master' }}") no-repeat;
     background-size: cover;
   }
-  .section-{{ section.id }} .item_offer {color: #fff;width: 50%;margin-bottom: 20px;}
-  .section-{{ section.id }} .item_offer .item_offer-details .item_offer-title { font-size: 30px; margin-bottom: 0; line-height: 1; }
-  .section-{{ section.id }} .item_offer .item_offer-details .item_offer-desc { font-size: 24px; line-height: 1; }
-  
+
   @media screen and (max-width: 767px) {
     .section-{{ section.id }} { /*padding: 30px 0; */}
   }
@@ -36,7 +33,7 @@
 
 {% schema %}
 {
-  "name": "About Section 3",
+  "name": "About Section 2",
   "settings": [
     {
       "type": "html",
@@ -59,9 +56,10 @@
       "type": "offers",
       "name": "Offers",
       "settings": [
-        {
+		{
           "type": "image_picker",
-          "id": "offer_image"
+          "id": "offer_image",
+		  "label": "Offer Image"
         },
         {
           "type": "text",
