@@ -1844,6 +1844,7 @@
           "6059640e-8b9f-4e5a-8834-d81be22220f2": {
             "type": "offers",
             "settings": {
+              "offer_image": "shopify:\/\/shop_images\/2.jpg",
               "offer_title": "Auctions Can’t Promise You The  Value You Want, Get Your Worth",
               "offer_sub_title": "Why We Are Better Than Auctions",
               "offer_desc": "<p>Auctions do not guarantee getting your equipment's value.<br\/>• Don’t wait until the final minute to find out how much your equipment will sell for<br\/>• Lenmark has a team of sales representatives, <br\/>• Logistics specialists to transport equipment all sizes<br\/>• A dedicated inventory team to get your product in front of 100k+ people<\/p>"
@@ -1852,6 +1853,7 @@
           "f78022d1-839c-483c-a637-7369c3b1ceae": {
             "type": "offers",
             "settings": {
+              "offer_image": "shopify:\/\/shop_images\/3.jpg",
               "offer_title": "Industry Leaders Make Buying,  Selling, And Listing Easy",
               "offer_sub_title": "Influenced By Amazon",
               "offer_desc": "<p>Brick + Mortar was the early startup, and then there was <br\/>a transition to a big picture of e-commerce.<br\/>• Idea is modelled off of Amazon<br\/>• Surplus inventory allowed Lenmark to transition out of niche markets<br\/>• Giving sellings a hub to sell while purchasing equipment with ease<br\/><\/p>"
@@ -1860,6 +1862,7 @@
           "4bac74dc-c680-4083-9eac-5d512eac4cbe": {
             "type": "offers",
             "settings": {
+              "offer_image": "shopify:\/\/shop_images\/4.jpg",
               "offer_title": "Large Industrial Equipment,Job Site Liquidation, And All Things Inbetween",
               "offer_sub_title": "Serving You In Every Way",
               "offer_desc": "<p>We serve:<br\/>• Purchasing officers <br\/>• Contractors <br\/>• Businesses shutting their doors<br\/>• Businesses in need of liquidating assets<\/p>"
