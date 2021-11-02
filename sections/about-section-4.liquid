@@ -21,6 +21,7 @@
           </div>
           <div class="item_offer-details">
             <p class="item_offer-title">{{ block.settings.offer_title }}</p>
+            <p class="item_offer-sub_title">{{ block.settings.offer_sub_title }}</p>
             <p class="item_offer-desc">{{ block.settings.offer_desc }}</p>
           </div>
         </div>
@@ -47,7 +48,7 @@
         {
           "type": "image_picker",
           "id": "offer_image",
-		  "label": "Offer Image"
+		      "label": "Offer Image"
         },
         {
           "type": "text",
@@ -56,6 +57,11 @@
         },
         {
           "type": "text",
+          "id": "offer_sub_title",
+          "label": "Offer Sub Title"
+        },
+        {
+          "type": "richtext",
           "id": "offer_desc",
           "label": "Offer Description"
         }
